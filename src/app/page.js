@@ -1,9 +1,11 @@
-import Image from 'next/image'
+import Home from "./Home"
+import About from "./About"
 
-export default function Home() {
+export default function Main() {
   return (
     <main>
-      
+      <Home />
+      <About />
     </main>
   )
 }
