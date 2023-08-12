@@ -1,10 +1,3 @@
-// import { Sacramento } from '@next/font/google';
-
-// const sacramento = Sacramento({
-//     subsets:['latin'],
-//     weight: '400',
-// })
-
 const Portfolio = () => {
   return (
     <div className="h-auto bg-[#FFECDD]">
