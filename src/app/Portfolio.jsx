@@ -1,15 +1,15 @@
-import { Sacramento } from '@next/font/google';
+// import { Sacramento } from '@next/font/google';
 
-const sacramento = Sacramento({
-    subsets:['latin'],
-    weight: ['400']
-})
+// const sacramento = Sacramento({
+//     subsets:['latin'],
+//     weight: '400',
+// })
 
 const Portfolio = () => {
   return (
     <div className="h-auto bg-[#FFECDD]">
         <div className="flex flex-col justify-center items-center gap-[2rem] pt-[4rem] lg:pt-[7rem] lg:gap-[4rem]">
-            <div className={sacramento.className}>
+            <div >
                 <h1 className="text-[3rem] tracking-[6px] text-[#3C1D06] lg:text-[4rem]">Portfolio.</h1>
             </div>
             <div className="flex flex-col gap-[3rem] mb-[4rem] lg:mb-[8rem] lg:flex-row lg:gap-[5rem]">
