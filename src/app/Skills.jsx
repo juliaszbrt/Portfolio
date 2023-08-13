@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Skills = () => {
   return (
     <div>
-        <div className='h-[3rem] bg-[#a3b9ca] flex items-center'>
+        <div className='h-[3rem] bg-[#a6bcda] flex items-center'>
             <Marquee>
                 <p className="text-[1.5rem] tracking-[6px] text-[#fdf8f4] whitespace-nowrap">
                     &nbsp;Python&nbsp;&nbsp;Java&nbsp;&nbsp;HTML&nbsp;&nbsp;CSS&nbsp;
@@ -15,7 +15,7 @@ const Skills = () => {
                 </p>
             </Marquee>
         </div>
-        <div className="relative h-[20rem]">
+        <div className="relative h-[25rem]">
             <Image fill src="/clouds.jpg" className="object-cover"/>
         </div>
     </div>
