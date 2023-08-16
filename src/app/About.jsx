@@ -14,7 +14,7 @@ const About = () => {
                         <p className="text-justify text-[0.8rem] tracking-[1.8px] leading-6 text-[#3C1D06] lg:text-[1rem] lg:leading-10">
                             I love to express my passion for the work 
                             that I do through my designs. Currently 
-                            a second year <b>computer science student</b> at 
+                            a second year <b>Computer Science</b> student at 
                             TMU, I am always looking for ways to improve 
                             my skills and gain new experiences by 
                             constantly challenging myself. 
