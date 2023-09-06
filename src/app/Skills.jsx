@@ -16,7 +16,7 @@ const Skills = () => {
             </Marquee>
         </div>
         <div className="relative h-[25rem]">
-            <Image fill src="/clouds.jpg" className="object-cover"/>
+            <Image alt="clouds" fill src="/clouds.jpg" className="object-cover"/>
         </div>
     </div>
   )

@@ -6,7 +6,7 @@ const About = () => {
         <div className="flex flex-col gap-[3rem] lg:flex lg:flex-row lg:justify-center">
             <div className="lg:flex gap-[4rem] lg:my-[4rem] lg:items-center lg:basis-2/3 lg:justify-center">
                 <div className="flex justify-center mt-[4rem] mb-[2rem] lg:my-0">
-                    <Image loading="lazy" width={1242} height={1242} src="/headshot.jpg" 
+                    <Image alt="profile photo" loading="lazy" width={1242} height={1242} src="/headshot.jpg" 
                     className="rounded-full h-[16rem] w-[16rem] border-[1.5rem]
                     border-[#FFDDC2] lg:h-[18rem] lg:w-[18rem]"></Image>
                 </div>
@@ -27,7 +27,7 @@ const About = () => {
                 </div>
             </div>
             <div className="relative h-[15rem] lg:h-[35rem] lg:basis-1/3">
-                <Image fill src="/sakura.jpg" className="object-cover"></Image>
+                <Image alt="sakura" fill src="/sakura.jpg" className="object-cover"></Image>
             </div>
         </div>
     </div>
