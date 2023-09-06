@@ -1,5 +1,6 @@
-import './globals.css'
 
+import './globals.css'
+import functions from './Carousel'
 
 export const metadata = {
   title: '',

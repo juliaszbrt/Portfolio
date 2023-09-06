@@ -1,3 +1,5 @@
+'use client'
+import functions from "./Carousel"
 
 const Portfolio = () => {
   return (
@@ -11,10 +13,9 @@ const Portfolio = () => {
                     <div className="m-[2rem] text-[#3C1D06]">
                         <h2 id="fullStack" className='text-[1.5rem] tracking-[2px] mb-[1rem] leading-[2.6rem] underline decoration-[15px] decoration-[#B1CAD9] underline-offset-[-8px] lg:no-underline'>Full Stack Development</h2>
                         <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem]">
-                            Lorem ipsum dolor sit amet, 
-                            consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua.
+                            Interactive programs written from start 
+                            to finish with flawlessly functioning 
+                            backends and pleasing frontends.
                         </p>
                     </div>
                 </div>
@@ -22,10 +23,9 @@ const Portfolio = () => {
                     <div className="m-[2rem] text-[#3C1D06]">
                         <h2 id="webDev" className='text-[1.5rem] tracking-[2px] mb-[1rem] leading-[2.6rem] underline decoration-[15px] decoration-[#FACE5D] underline-offset-[-8px]  lg:no-underline'>Web Development</h2>
                         <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem]">
-                            Lorem ipsum dolor sit amet, 
-                            consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua.
+                            Fully responsive webpages accompanied 
+                            by stunning visuals and a seamless 
+                            user experience.
                         </p>
                     </div>
                 </div>
@@ -33,10 +33,8 @@ const Portfolio = () => {
                     <div className="m-[2rem] text-[#3C1D06]">
                         <h2 id="design" className='text-[1.5rem] tracking-[2px] mb-[1rem] leading-[2.6rem] underline decoration-[15px] decoration-[#b9d193] underline-offset-[-8px]  lg:no-underline'>Graphic Design</h2>
                         <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem]">
-                            Lorem ipsum dolor sit amet, 
-                            consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua.
+                            Beautiful minimalistic designs created 
+                            through thoughtful planning and attention to detail.
                         </p>
                     </div>
                 </div>

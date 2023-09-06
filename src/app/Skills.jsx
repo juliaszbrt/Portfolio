@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <div>
         <div className='h-[3rem] bg-[#a6bcda] flex items-center'>
-            <Marquee>
+            <Marquee speed={80}>
                 <p className="text-[1.5rem] tracking-[6px] text-[#fdf8f4] whitespace-nowrap">
                     &nbsp;Python&nbsp;&nbsp;Java&nbsp;&nbsp;HTML&nbsp;&nbsp;CSS&nbsp;
                     JavaScript&nbsp;&nbsp;Tailwind&nbsp;&nbsp;React&nbsp;&nbsp;Next.js
