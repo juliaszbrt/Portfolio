@@ -14,8 +14,8 @@ const Portfolio = () => {
                         <h2 id="fullStack" className='text-[1.5rem] tracking-[2px] mb-[1rem] leading-[2.6rem] underline decoration-[15px] decoration-[#B1CAD9] underline-offset-[-8px] lg:no-underline'>Full Stack Development</h2>
                         <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem]">
                             Interactive programs written from start 
-                            to finish with both flawlessly functioning 
-                            front and backends.
+                            to finish with flawlessly functioning 
+                            front & backends.
                         </p>
                     </div>
                 </div>
