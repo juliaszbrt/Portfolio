@@ -1,4 +1,5 @@
 'use client'
+import './globals.css'
 import { Fragment, useState } from "react"
 import { Modal } from "@/components/Modal"
 import Image from "next/image"
@@ -58,8 +59,8 @@ const Portfolio = () => {
                             September 2023
                         </p>
                         <a target="_blank" href="https://sillygoose.vercel.app" className="mt-[1rem]">
-                            <div className='relative w-[15rem] h-[10rem]'>
-                                <Image fill src="/"></Image>
+                            <div className='relative w-[12rem] h-[12rem]'>
+                                <Image fill src="/goose.png" className="object-cover border-[2.5px] border-[#F8C39A]"></Image>
                             </div>
                         </a>
                     </div>
@@ -69,8 +70,8 @@ const Portfolio = () => {
                             February 2023
                         </p>
                         <a target="_blank" href="https://juliaszbrt.github.io/ToBeeContinued/" className="mt-[1rem]">
-                            <div className='relative w-[15rem] h-[10rem]'>
-                                <Image fill src="/"></Image>
+                            <div className='relative w-[12rem] h-[12rem]'>
+                                <Image fill src="/tbc.png" className="object-cover border-[2.5px] border-[#CEA024]"></Image>
                             </div>
                         </a>
                     </div>
