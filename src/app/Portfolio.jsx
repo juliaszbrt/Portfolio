@@ -1,6 +1,7 @@
 'use client'
 import { Fragment, useState } from "react"
 import { Modal } from "@/components/Modal"
+import Image from "next/image"
 
 const Portfolio = () => {
     const [showModal1,setShowModal1] = useState(false);
@@ -49,7 +50,32 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-            <Modal isVisible={showModal1} onClose={()=>setShowModal1(false)}></Modal>
+            <Modal isVisible={showModal1} onClose={()=>setShowModal1(false)}>
+                <div className="flex flex-col gap-[2rem] my-[2rem]">
+                    <div className="flex flex-col items-center">
+                        <h2 className="font-semibold text-[1.5rem] tracking-[4px] text-[#3C1D06]">GOOSE</h2>
+                        <p className="text-[15px] tracking-[2px]">
+                            September 2023
+                        </p>
+                        <a target="_blank" href="https://sillygoose.vercel.app" className="mt-[1rem]">
+                            <div className='relative w-[15rem] h-[10rem]'>
+                                <Image fill src="/"></Image>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="flex flex-col items-center">
+                        <h2 className="font-semibold text-[1.5rem] tracking-[3px] text-[#3C1D06]">To Bee Continued</h2>
+                        <p className="text-[15px] tracking-[2px]">
+                            February 2023
+                        </p>
+                        <a target="_blank" href="https://juliaszbrt.github.io/ToBeeContinued/" className="mt-[1rem]">
+                            <div className='relative w-[15rem] h-[10rem]'>
+                                <Image fill src="/"></Image>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </Modal>
             <Modal isVisible={showModal2} onClose={()=>setShowModal2(false)}></Modal>
             <Modal isVisible={showModal3} onClose={()=>setShowModal3(false)}></Modal>
         </Fragment>
