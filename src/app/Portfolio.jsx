@@ -65,6 +65,17 @@ const Portfolio = () => {
                         </a>
                     </div>
                     <div className="flex flex-col items-center">
+                        <h2 className="font-semibold text-[1.2rem] tracking-[4px] text-[#3C1D06] text-center">Custom To-Do List</h2>
+                        <p className="text-[15px] tracking-[2px]">
+                            July 2023
+                        </p>
+                        <a target="_blank" href="https://juliaszbrt.github.io/ToDoList/" className="mt-[1rem]">
+                            <div className='relative w-[12rem] h-[12rem]'>
+                                <Image fill src="/todo.png" className="object-cover border-[2.5px] border-[#CCDBE9]"></Image>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="flex flex-col items-center">
                         <h2 className="font-semibold text-[1.5rem] tracking-[3px] text-[#3C1D06]">To Bee Continued</h2>
                         <p className="text-[15px] tracking-[2px]">
                             February 2023
@@ -77,8 +88,24 @@ const Portfolio = () => {
                     </div>
                 </div>
             </Modal>
-            <Modal isVisible={showModal2} onClose={()=>setShowModal2(false)}></Modal>
-            <Modal isVisible={showModal3} onClose={()=>setShowModal3(false)}></Modal>
+            <Modal isVisible={showModal2} onClose={()=>setShowModal2(false)}>
+            <div className="flex flex-col gap-[2rem] my-[2rem]">
+                    <div className="flex flex-col items-center">
+                        <h2 className="font-semibold text-[1.5rem] tracking-[4px] text-[#3C1D06]">Happy Houseplant</h2>
+                        <p className="text-[15px] tracking-[2px]">
+                            August 2023
+                        </p>
+                        <a target="_blank" href="https://happy-houseplant.vercel.app" className="mt-[1rem]">
+                            <div className='relative w-[12rem] h-[12rem]'>
+                                <Image fill src="/happy.png" className="object-cover border-[2.5px] border-[#205118]"></Image>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </Modal>
+            <Modal isVisible={showModal3} onClose={()=>setShowModal3(false)}>
+                
+            </Modal>
         </Fragment>
     </div>
   )
