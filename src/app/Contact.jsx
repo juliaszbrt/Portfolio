@@ -2,11 +2,11 @@ import Image from "next/image"
 
 const Contact = () => {
   return (
-    <div>
+    <div className="h-auto">
       <div class="mtl" className="relative h-[15rem] lg:h-[30rem]">
         <Image alt="path" fill src="/mtl.jpg" className="object-cover"/>
       </div>
-      <div className="h-auto bg-[#486c34] flex justify-center items-center">
+      <div className="bg-[#486c34] flex justify-center items-center">
           <div className="flex flex-col gap-[1rem] my-[3rem]">
               <div className="mt-[-1rem]">
                   <Image alt="picture of two cats with a banner that says: let's connect!" width={2835} height={2835} src="/connect.png" className="w-[20rem] h-[20rem] lg:w-[27rem] lg:h-[27rem]" />
