@@ -1,8 +1,8 @@
 'use client'
 import Home from "./Home"
 import About from "./About"
-import Portfolio from "./Portfolio"
 import Skills from "./Skills"
+import Portfolio from "./Portfolio"
 import Contact from "./Contact"
 
 export default function Main() {
@@ -12,7 +12,7 @@ export default function Main() {
         <Home />
         <About />
         <Portfolio />
-        <Skills />
+        {/* <Skills /> */}
         <Contact />
       </main>
   )

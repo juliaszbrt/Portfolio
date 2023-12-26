@@ -7,7 +7,7 @@ const About = () => {
             <div className="lg:flex gap-[4rem] lg:my-[4rem] lg:items-center lg:basis-2/3 lg:justify-center">
                 <div className="flex justify-center mt-[4rem] mb-[2rem] lg:my-0">
                     <Image alt="profile photo" loading="lazy" width={1242} height={1242} src="/headshot.png" 
-                    className="rounded-full h-[16rem] w-[16rem] border-[1.5rem]
+                    className="object-cover rounded-full h-[16rem] w-[16rem] border-[1.5rem]
                     border-[#FFDDC2] lg:h-[18rem] lg:w-[18rem]"></Image>
                 </div>
                 <div className="flex justify-center ">

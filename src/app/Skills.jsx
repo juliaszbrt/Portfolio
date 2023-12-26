@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Skills = () => {
   return (
-    <div className='z-0'>
+    <div className="overflow-hidden z-10">
         <div className='h-[3rem] bg-[#a6bcda] flex items-center'>
             <Marquee speed={80}>
                 <p className="text-[1.5rem] tracking-[6px] text-[#fdf8f4] whitespace-nowrap">

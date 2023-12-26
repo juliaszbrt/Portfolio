@@ -6,9 +6,17 @@
   text-decoration-skip-ink: none;
 }
 
+#wrapper {
+  z-index: 1000;
+}
+
+.mtl {
+  z-index: 0;
+}
+
 @media only screen and (min-width: 1024px) {
   #box1 {
-    box-shadow: 12px 12px #B1CAD9;
+    box-shadow: 12px 12px #b9d193;
   }
 
   #box2 {
@@ -16,7 +24,7 @@
   }
 
   #box3 {
-    box-shadow: 12px 12px #b9d193;
+    box-shadow: 12px 12px #B1CAD9;
   }
 
   #box1:hover, #box2:hover, #box3:hover {
