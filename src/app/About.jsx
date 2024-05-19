@@ -1,4 +1,5 @@
 import Image from "next/image"
+import "./globals.css"
 
 const About = () => {
   return (
@@ -26,7 +27,10 @@ const About = () => {
                             in situations where I can learn vital skills and gain new experiences.
                             I love to express my <b>passion</b> for the work that I do through my
                             designs and personal projects. 
+                            <br/>
+                            <br/>  
                         </p>
+                        <p id="achievements" className="text-justify text-[0.8rem] tracking-[1.8px] underline decoration-[12px] decoration-[#FFDDC2] underline-offset-[-9.5px] leading-6 text-[#3C1D06] lg:text-[1rem] lg:leading-8">Check out my achievements here!</p> 
                     </div>
                 </div>
             </div>
