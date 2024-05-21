@@ -2,7 +2,7 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-#fullStack, #webDev, #design, #contact, #achievements {
+#fullStack, #photo, #design, #contact, #achievements {
   text-decoration-skip-ink: none;
 }
 
