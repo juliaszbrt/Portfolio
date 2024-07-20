@@ -12,9 +12,7 @@ const Home = () => {
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    if (typeof window !== 'undefined' && 'IntersectionObserver' in window) {
-      setIsClient(true);
-    }
+    setIsClient(true);
   }, []);
 
   return (
