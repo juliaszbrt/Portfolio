@@ -1,13 +1,22 @@
 'use client'
+import React, { useEffect, useState } from 'react';
 import Link from "next/link";
-import "./app.js"
-import Image from "next/image"
-import { Murecho } from 'next/font/google'
+import Image from "next/image";
+import { Murecho } from 'next/font/google';
 import { motion } from "framer-motion";
+import "./app.js";
 
-const murecho = Murecho({ subsets: ['latin'] })
+const murecho = Murecho({ subsets: ['latin'] });
 
 const Home = () => {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined' && 'IntersectionObserver' in window) {
+      setIsClient(true);
+    }
+  }, []);
+
   return (
     <div className="h-screen bg-[#FFECDD]">
       <div className="flex">
@@ -19,23 +28,39 @@ const Home = () => {
           </Link>
         </div>
         <div className="h-screen bg-[#FFECDD] lg:flex lg:basis-2/3">
-          <div className="absolute  lg:ml-[2.5rem] whitespace-nowrap top-1/2 transform -translate-y-1/2 left-1/2 -translate-x-1/2 lg:left-[62%]">
+          <div className="absolute lg:ml-[2.5rem] whitespace-nowrap top-1/2 transform -translate-y-1/2 left-1/2 -translate-x-1/2 lg:left-[62%]">
+            {isClient ? (
               <motion.div
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  viewport={{
-                      amount: "all",
-                      once: true,
-                  }}
-                  transition={{ duration: 1 }}>
-                <h1 className={`text-[#ffdf8f] text-center lg:text-left mt-[-2rem] text-[5rem] md:text-[11rem] 2xl:text-[16rem] font-black ${murecho.className}`}>ジュリア</h1>
-                <h2 className="text-[#f8c137] text-center lg:text-left mt-[-0.5rem] lg:mt-[-2rem] text-[2rem] md:text-[5rem] 2xl:text-[7rem] tracking-[5px] lg:tracking-[11px] font-bold">Julia Szubert</h2>
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{
+                  amount: "all",
+                  once: true,
+                }}
+                transition={{ duration: 1 }}
+              >
+                <h1 className={`text-[#ffdf8f] text-center lg:text-left mt-[-2rem] text-[5rem] md:text-[11rem] 2xl:text-[16rem] font-black ${murecho.className}`}>
+                  ジュリア
+                </h1>
+                <h2 className="text-[#f8c137] text-center lg:text-left mt-[-0.5rem] lg:mt-[-2rem] text-[2rem] md:text-[5rem] 2xl:text-[7rem] tracking-[5px] lg:tracking-[11px] font-bold">
+                  Julia Szubert
+                </h2>
               </motion.div>
+            ) : (
+              <div>
+                <h1 className={`text-[#ffdf8f] text-center lg:text-left mt-[-2rem] text-[5rem] md:text-[11rem] 2xl:text-[16rem] font-black ${murecho.className}`}>
+                  ジュリア
+                </h1>
+                <h2 className="text-[#f8c137] text-center lg:text-left mt-[-0.5rem] lg:mt-[-2rem] text-[2rem] md:text-[5rem] 2xl:text-[7rem] tracking-[5px] lg:tracking-[11px] font-bold">
+                  Julia Szubert
+                </h2>
+              </div>
+            )}
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
