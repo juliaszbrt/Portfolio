@@ -1,6 +1,5 @@
 'use client'
 import Link from "next/link";
-import "./app.js"
 import { Murecho } from 'next/font/google'
 import { motion } from "framer-motion";
 
