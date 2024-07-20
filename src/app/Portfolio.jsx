@@ -3,7 +3,6 @@ import './globals.css'
 import { Fragment, useState } from "react"
 import { Modal } from "@/components/Modal"
 import Image from "next/image"
-// import { useScroll } from 'framer-motion'
 
 const Portfolio = () => {
     const [showModal1,setShowModal1] = useState(false);

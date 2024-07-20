@@ -9,7 +9,14 @@ const About = () => {
     <div className="h-auto bg-[#F8C39A]">
         <div className="lg:flex lg:flex-row lg:justify-center">
             <div className="lg:flex lg:gap-[5rem] lg:my-[4rem] lg:items-center lg:basis-3/4 lg:mx-[4rem] lg:justify-center 2xl:gap-[9rem]">
-                <div
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  viewport={{
+                      amount: "all",
+                      once: true,
+                  }}
+                  transition={{ duration: 1.5 }}
                   className="flex items-center flex-col pt-[2rem] mb-[2rem] lg:my-0 lg:pl-[1rem]">
                     <div className="relative h-[16rem] w-[16rem] lg:h-[18rem] lg:w-[18rem] 2xl:h-[20rem] 2xl:w-[20rem] rounded-full border-[1.5rem] border-[#FFDDC2] overflow-hidden">
                         <Image alt="profile photo" loading="lazy" width={1242} height={1242} src="/headshot.png" 
@@ -22,7 +29,7 @@ const About = () => {
                         <br/>
                         Toronto Metropolitan University
                     </div>
-                </div>
+                </motion.div>
 
                 <div className="flex justify-self-center">
                     <div className="flex flex-col justify-center px-[3rem] mb-[2rem]">
