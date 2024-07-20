@@ -19,10 +19,10 @@ const Portfolio = () => {
                     </div>
                     <div className="flex flex-col gap-[3rem] mb-[4rem] lg:mb-[8rem] lg:flex-row lg:gap-[5rem]">
                         
-                        <div id='box1' className="hover:scale-[105%] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:duration-500 lg:ease-in-out " onClick={() => setShowModal1(true)}>
+                        <div id='box1' className="hover:scale-[105%] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[26rem] 2xl:w-[19rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:duration-500 lg:ease-in-out " onClick={() => setShowModal1(true)}>
                             <div className="m-[2rem] text-[#3C1D06]">
-                                <h2 id="fullStack" className='text-[1.6rem] tracking-[2px] mb-[1rem] leading-[2.6rem] underline decoration-[15px] decoration-[#b9d193] underline-offset-[-8px] lg:no-underline'>Development</h2>
-                                <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem]">
+                                <h2 id="fullStack" className='text-[1.6rem] tracking-[2px] mb-[1rem] 2xl:mb-[1.5rem] leading-[2.6rem] underline decoration-[15px] decoration-[#b9d193] underline-offset-[-8px] lg:no-underline 2xl:text-[2.2rem]'>Development</h2>
+                                <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem] 2xl:text-[1.2rem] 2xl:leading-[2.7rem]">
                                     Interactive programs written from start 
                                     to finish with flawlessly functioning 
                                     front & backends.
@@ -30,19 +30,19 @@ const Portfolio = () => {
                             </div>
                         </div>
 
-                        <div id='box2' className="hover:scale-[105%] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:duration-500 lg:ease-in-out" onClick={() => setShowModal2(true)}>
+                        <div id='box2' className="hover:scale-[105%] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[26rem] 2xl:w-[19rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:duration-500 lg:ease-in-out" onClick={() => setShowModal2(true)}>
                             <div className="m-[2rem] text-[#3C1D06]">
-                                <h2 id="design" className='text-[1.6rem] tracking-[2px] mb-[1rem] leading-[2.6rem] underline decoration-[15px] decoration-[#FACE5D] underline-offset-[-8px]  lg:no-underline'>Design</h2>
-                                <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem]">
+                                <h2 id="design" className='text-[1.6rem] tracking-[2px] mb-[1rem] 2xl:mb-[1.5rem] leading-[2.6rem] underline decoration-[15px] decoration-[#FACE5D] underline-offset-[-8px]  lg:no-underline 2xl:text-[2.2rem]'>Design</h2>
+                                <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem] 2xl:text-[1.2rem] 2xl:leading-[2.7rem]">
                                     Beautiful, diverse designs created 
                                     through thoughtful planning and detailed execution.
                                 </p>
                             </div>
                         </div>
-                        <div id='box3' className="hover:scale-[105%] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:duration-500 lg:ease-in-out" onClick={() => setShowModal3(true)}>
+                        <div id='box3' className="hover:scale-[105%] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[26rem] 2xl:w-[19rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:duration-500 lg:ease-in-out" onClick={() => setShowModal3(true)}>
                             <div className="m-[2rem] text-[#3C1D06]">
-                                <h2 id="photo" className='text-[1.6rem] tracking-[2px] mb-[1rem] leading-[2.6rem] underline decoration-[15px] decoration-[#B1CAD9] underline-offset-[-8px]  lg:no-underline'>Photography</h2>
-                                <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem]">
+                                <h2 id="photo" className='text-[1.6rem] tracking-[2px] mb-[1rem] 2xl:mb-[1.5rem] leading-[2.6rem] underline decoration-[15px] decoration-[#B1CAD9] underline-offset-[-8px]  lg:no-underline 2xl:text-[2.2rem]'>Photography</h2>
+                                <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem] 2xl:text-[1.2rem] 2xl:leading-[2.7rem]">
                                     Fleeting moments, creatively captured and meticulously edited to produce 
                                     timeless visual stories.  
                                 </p>

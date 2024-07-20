@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image"
 import "./globals.css"
 import "./app.js"
@@ -7,7 +8,7 @@ const About = () => {
   return (
     <div className="h-auto bg-[#F8C39A]">
         <div className="lg:flex lg:flex-row lg:justify-center">
-            <div className="lg:flex lg:gap-[5rem] lg:my-[4rem] lg:items-center lg:basis-3/4 lg:mx-[4rem] lg:justify-center">
+            <div className="lg:flex lg:gap-[5rem] lg:my-[4rem] lg:items-center lg:basis-3/4 lg:mx-[4rem] lg:justify-center 2xl:gap-[9rem]">
                 <motion.div
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
@@ -21,7 +22,7 @@ const About = () => {
                         <Image alt="profile photo" loading="lazy" width={1242} height={1242} src="/headshot.png" 
                         className="object-cover rounded-full"></Image>
                     </div>
-                    <div className="py-[2rem] text-[0.8rem] text-center tracking-[1.8px] leading-6 text-[#3C1D06] lg:text-[1rem] lg:leading-8 lg:pb-0 2xl:text-[1.3rem]">
+                    <div className="py-[2rem] text-[0.8rem] text-center tracking-[1.8px] leading-6 text-[#c17942] lg:text-[1rem] lg:leading-8 lg:pb-0 2xl:text-[1.3rem] 2xl:leading-10">
                         Bachelor of Science (BS)
                         <br/>
                         <b>Computer Science, CO-OP</b>
