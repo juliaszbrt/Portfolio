@@ -1,10 +1,19 @@
 'use client'
-import Image from "next/image"
-import "./globals.css"
-import "./app.js"
+import React, { useEffect, useState } from 'react';
+import Image from "next/image";
+import "./globals.css";
+import "./app.js";
 import { motion } from "framer-motion";
 
 const About = () => {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined' && 'IntersectionObserver' in window) {
+      setIsClient(true);
+    }
+  }, []);
+    
   return (
     <div className="h-auto bg-[#F8C39A]">
         <div className="lg:flex lg:flex-row lg:justify-center">
