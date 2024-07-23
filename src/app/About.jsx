@@ -2,18 +2,20 @@
 import Image from "next/image"
 import "./globals.css"
 import { motion } from "framer-motion";
+import { useMediaQuery } from 'react-responsive';
 
 const About = () => {
+  const isMobile = useMediaQuery({ query: '(max-width: 640px)' });
   return (
     <div className="h-auto bg-[#F8C39A]">
         <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{
-                amount: "all",
+                amount: isMobile ? 'some' : 'all',
                 once: true,
             }}
-            transition={{ duration: 3 }}
+            transition={{ duration: 2 }}
             className="lg:flex lg:flex-row lg:justify-center">
             <div className="lg:flex lg:gap-[5rem] lg:my-[4rem] lg:items-center lg:basis-3/4 lg:mx-[4rem] lg:justify-center 2xl:gap-[9rem]">
                 <div

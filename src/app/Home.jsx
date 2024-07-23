@@ -10,11 +10,28 @@ const Home = () => {
     <div className="h-screen bg-[#FFECDD]">
       <div className="flex">
         <div className="h-screen bg-[#FFDDC2] lg:flex lg:basis-1/3">
-          <Link href="./contact">
-            <button className="p-[3rem] absolute top-0 right-0 text-[20px] tracking-[2.5px] text-[#3C1D06] md:text-[30px]">
-              Contact
-            </button>
-          </Link>
+          <div className="flex flex-row p-[3rem] invisible text-[#cb9e2e] absolute top-0 right-0 lg:visible lg:text-[20px] lg:gap-[3.5rem] 2xl:gap-[6rem] 2xl:text-[30px] ">
+            <Link href="./contact">
+                <button className="tracking-[3px]">
+                  About
+                </button>
+            </Link>
+            <Link href="./contact">
+                <button className="tracking-[3px]">
+                  Experience
+                </button>
+            </Link>
+            <Link href="./contact">
+                <button className="tracking-[3px]">
+                  Portfolio
+                </button>
+            </Link>
+            <Link href="./contact">
+                <button className="tracking-[3px]">
+                  Contact
+                </button>
+            </Link>
+          </div>
         </div>
         <div className="h-screen bg-[#FFECDD] lg:flex lg:basis-2/3">
           <div className="absolute  lg:ml-[2.5rem] whitespace-nowrap top-1/2 transform -translate-y-1/2 left-1/2 -translate-x-1/2 lg:left-[62%]">
