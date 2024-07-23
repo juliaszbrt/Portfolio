@@ -2,17 +2,14 @@
 import Image from "next/image"
 import "./globals.css"
 import { motion } from "framer-motion";
-import { useMediaQuery } from 'react-responsive';
 
 const About = () => {
-  const isMobile = useMediaQuery({ query: '(max-width: 640px)' });
   return (
     <div className="h-auto bg-[#F8C39A]">
         <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{
-                amount: isMobile ? 'some' : 'all',
                 once: true,
             }}
             transition={{ duration: 1 }}

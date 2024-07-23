@@ -9,7 +9,7 @@ const Contact = () => {
               <motion.div
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
-                transition={{ duration: 2 }}
+                transition={{ duration: 1 }}
                 className="mt-[-1rem]">
                   <Image alt="picture of two cats with a banner that says: let's connect!" width={2835} height={2835} src="/connect.png" className="w-[20rem] h-[20rem] lg:w-[27rem] lg:h-[27rem] 2xl:w-[32rem] 2xl:h-[32rem]" />
               </motion.div>
