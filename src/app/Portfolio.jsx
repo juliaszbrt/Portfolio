@@ -3,6 +3,7 @@ import './globals.css'
 import { Fragment, useState } from "react"
 import { Modal } from "@/components/Modal"
 import Image from "next/image"
+import { motion } from "framer-motion";
 
 const Portfolio = () => {
     const [showModal1,setShowModal1] = useState(false);
@@ -16,7 +17,14 @@ const Portfolio = () => {
                     <div >
                         <h1 className="text-[3rem] tracking-[6px] text-[#3C1D06] lg:text-[4rem]">Portfolio.</h1>
                     </div>
-                    <div className="flex flex-col gap-[3rem] mb-[4rem] lg:mb-[8rem] lg:flex-row lg:gap-[5rem]">
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        viewport={{
+                            once: true,
+                        }}
+                        transition={{ duration: 1 }} 
+                        className="flex flex-col gap-[3rem] mb-[4rem] lg:mb-[8rem] lg:flex-row lg:gap-[5rem]">
                         
                         <div id='box1' className="hover:scale-[105%] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[26rem] 2xl:w-[19rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:duration-500 lg:ease-in-out " onClick={() => setShowModal1(true)}>
                             <div className="m-[2rem] text-[#3C1D06]">
@@ -37,6 +45,7 @@ const Portfolio = () => {
                                 </p>
                             </div>
                         </div>
+                          
                         <div id='box3' className="hover:scale-[105%] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[26rem] 2xl:w-[19rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:duration-500 lg:ease-in-out" onClick={() => setShowModal3(true)}>
                             <div className="m-[2rem] text-[#3C1D06]">
                                 <h2 id="photo" className='text-[1.6rem] tracking-[2px] mb-[1rem] 2xl:mb-[1.5rem] leading-[2.6rem] underline decoration-[15px] decoration-[#B1CAD9] underline-offset-[-8px]  lg:no-underline 2xl:text-[2.2rem]'>Design</h2>
@@ -46,7 +55,8 @@ const Portfolio = () => {
                                 </p>
                             </div>
                         </div>
-                    </div>
+                          
+                    </motion.div>
                 </div>
             </div>
             <Modal isVisible={showModal1} onClose={()=>setShowModal1(false)}>
