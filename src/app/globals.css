@@ -2,7 +2,7 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-#fullStack, #photo, #design, #contact, #achievements {
+#fullStack, #photo, #design, #contact, #achievements, #cohere {
   text-decoration-skip-ink: none;
 }
 
@@ -30,5 +30,13 @@
 
   #box1:hover, #box2:hover, #box3:hover {
     box-shadow: none;
+  }
+
+  #cohereBox:hover {
+    box-shadow: 18px 18px #3C1D06;
+  }
+
+  #cohereBox {
+    transition: 0.5s ease-in-out;
   }
 }

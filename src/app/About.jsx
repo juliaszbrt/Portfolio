@@ -12,7 +12,7 @@ const About = () => {
             viewport={{
                 once: true,
             }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 3 }}
             className="lg:flex lg:flex-row lg:justify-center">
             <div className="lg:flex lg:gap-[5rem] lg:my-[4rem] lg:items-center lg:basis-3/4 lg:mx-[4rem] lg:justify-center 2xl:gap-[9rem]">
                 <div

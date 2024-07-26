@@ -10,157 +10,156 @@ const Portfolio = () => {
     const [showModal2,setShowModal2] = useState(false);
     const [showModal3,setShowModal3] = useState(false);
   return (
-    <div className="mb-[2rem]">
-        <Fragment>
-            <div className="h-auto bg-[#FFECDD]">
-                <div className="flex flex-col justify-center items-center gap-[2rem] pt-[4rem] lg:pt-[7rem] lg:gap-[4rem]">
-                    <div >
-                        <h1 className="text-[3rem] tracking-[6px] text-[#3C1D06] lg:text-[4rem]">Portfolio.</h1>
-                    </div>
-                    <motion.div
-                        initial={{ opacity: 0 }}
-                        whileInView={{ opacity: 1 }}
-                        viewport={{
-                            once: true,
-                        }}
-                        transition={{ duration: 1 }} 
-                        className="flex flex-col gap-[3rem] mb-[4rem] lg:mb-[8rem] lg:flex-row lg:gap-[5rem]">
-                        
-                        <div id='box1' className="hover:scale-[105%] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[26rem] 2xl:w-[19rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:duration-500 lg:ease-in-out " onClick={() => setShowModal1(true)}>
-                            <div className="m-[2rem] text-[#3C1D06]">
-                                <h2 id="fullStack" className='text-[1.6rem] tracking-[2px] mb-[1rem] 2xl:mb-[1.5rem] leading-[2.6rem] underline decoration-[15px] decoration-[#b9d193] underline-offset-[-8px] lg:no-underline 2xl:text-[2.2rem]'>Development</h2>
-                                <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem] 2xl:text-[1.2rem] 2xl:leading-[2.7rem]">
-                                    Interactive programs written from start 
-                                    to finish with flawlessly functioning 
-                                    front & backends.
-                                </p>
-                            </div>
-                        </div>
 
-                        <div id='box2' className="hover:scale-[105%] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[26rem] 2xl:w-[19rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:duration-500 lg:ease-in-out" onClick={() => setShowModal2(true)}>
-                            <div className="m-[2rem] text-[#3C1D06]">
-                                <h2 id="design" className='text-[1.6rem] tracking-[2px] mb-[1rem] 2xl:mb-[1.5rem] leading-[2.6rem] underline decoration-[15px] decoration-[#FACE5D] underline-offset-[-8px]  lg:no-underline 2xl:text-[2.2rem]'>UX & UI</h2>
-                                <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem] 2xl:text-[1.2rem] 2xl:leading-[2.7rem]">
-                                    Intuitive interfaces with a keen focus on seamless user interaction and stunning visuals.
-                                </p>
-                            </div>
-                        </div>
-                          
-                        <div id='box3' className="hover:scale-[105%] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[26rem] 2xl:w-[19rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:duration-500 lg:ease-in-out" onClick={() => setShowModal3(true)}>
-                            <div className="m-[2rem] text-[#3C1D06]">
-                                <h2 id="photo" className='text-[1.6rem] tracking-[2px] mb-[1rem] 2xl:mb-[1.5rem] leading-[2.6rem] underline decoration-[15px] decoration-[#B1CAD9] underline-offset-[-8px]  lg:no-underline 2xl:text-[2.2rem]'>Design</h2>
-                                <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem] 2xl:text-[1.2rem] 2xl:leading-[2.7rem]">
-                                    Beautiful, diverse designs created 
-                                    through thoughtful planning and detailed execution.  
-                                </p>
-                            </div>
-                        </div>
-                          
-                    </motion.div>
+    <Fragment>
+        <div className="h-auto bg-[#FFDDC2]">
+            <div className="flex flex-col justify-center items-center gap-[2rem] pt-[4rem] lg:pt-[7rem] lg:gap-[4rem]">
+                <div >
+                    <h1 className="text-[3rem] tracking-[6px] text-[#3C1D06] lg:text-[4rem]">Projects &lt;3</h1>
                 </div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    viewport={{
+                        once: true,
+                    }}
+                    transition={{ duration: 1 }} 
+                    className="flex flex-col gap-[3rem] mb-[4rem] lg:mb-[8rem] lg:flex-row lg:gap-[5rem]">
+                    
+                    <div id='box1' className="hover:scale-[105%] bg-[#FFECDD] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[26rem] 2xl:w-[19rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:ease-in-out " onClick={() => setShowModal1(true)}>
+                        <div className="m-[2rem] text-[#3C1D06]">
+                            <h2 id="fullStack" className='text-[1.6rem] tracking-[2px] mb-[1rem] 2xl:mb-[1.5rem] leading-[2.6rem] underline decoration-[15px] decoration-[#b9d193] underline-offset-[-8px] lg:no-underline 2xl:text-[2.2rem]'>Development</h2>
+                            <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem] 2xl:text-[1.2rem] 2xl:leading-[2.7rem]">
+                                Interactive programs written from start 
+                                to finish with flawlessly functioning 
+                                front & backends.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id='box2' className="hover:scale-[105%] bg-[#FFECDD] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[26rem] 2xl:w-[19rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:ease-in-out" onClick={() => setShowModal2(true)}>
+                        <div className="m-[2rem] text-[#3C1D06]">
+                            <h2 id="design" className='text-[1.6rem] tracking-[2px] mb-[1rem] 2xl:mb-[1.5rem] leading-[2.6rem] underline decoration-[15px] decoration-[#FACE5D] underline-offset-[-8px]  lg:no-underline 2xl:text-[2.2rem]'>UX & UI</h2>
+                            <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem] 2xl:text-[1.2rem] 2xl:leading-[2.7rem]">
+                                Intuitive interfaces with a keen focus on seamless user interaction and stunning visuals.
+                            </p>
+                        </div>
+                    </div>
+                        
+                    <div id='box3' className="hover:scale-[105%] bg-[#FFECDD] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[26rem] 2xl:w-[19rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:ease-in-out" onClick={() => setShowModal3(true)}>
+                        <div className="m-[2rem] text-[#3C1D06]">
+                            <h2 id="photo" className='text-[1.6rem] tracking-[2px] mb-[1rem] 2xl:mb-[1.5rem] leading-[2.6rem] underline decoration-[15px] decoration-[#B1CAD9] underline-offset-[-8px]  lg:no-underline 2xl:text-[2.2rem]'>Design</h2>
+                            <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem] 2xl:text-[1.2rem] 2xl:leading-[2.7rem]">
+                                Beautiful, diverse designs created 
+                                through thoughtful planning and detailed execution.  
+                            </p>
+                        </div>
+                    </div>
+                        
+                </motion.div>
             </div>
-            <Modal isVisible={showModal1} onClose={()=>setShowModal1(false)}>
-                    <div className="flex flex-col items-center">
-                        <a target="_blank" href="https://sillygoose.vercel.app">
-                            <div className='relative w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem] hover:scale-[105%] transition-all duration-500'>
-                                <Image fill src="/goose.png" className="object-cover border-[2.5px] border-[#634B39]"></Image>
-                            </div>
-                        </a>
-                        <h2 className="font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] tracking-[4px] text-[#3C1D06]">GOOSE</h2>
-                        <p className="text-[15px] md:text-[20px] tracking-[2px]">
-                            September 2023
-                        </p>
-                    </div> 
-                    <div className="hidden md:flex flex-col items-center">
-                        <a target="_blank" href="https://happy-houseplant.vercel.app">
-                            <div className='relative border-[2.5px] border-[#634B39] border-dashed w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem]'>
-                            </div>
-                        </a>
-                        <h2 className="invisible font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] tracking-[4px] text-[#3C1D06]">Lorem Ipsum</h2>
-                        <p className="invisible text-[15px] md:text-[20px] tracking-[2px]">
-                            Lorem ipsum
-                        </p>
-                    </div>
-                    <div className="hidden 2xl:flex flex-col items-center">
-                        <a target="_blank" href="https://happy-houseplant.vercel.app">
-                            <div className='relative border-[2.5px] border-[#634B39] border-dashed w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem]'>
-                            </div>
-                        </a>
-                        <h2 className="invisible font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] tracking-[4px] text-[#3C1D06]">Lorem Ipsum</h2>
-                        <p className="invisible text-[15px] md:text-[20px] tracking-[2px]">
-                            Lorem ipsum
-                        </p>
-                    </div> 
-            </Modal>
-            <Modal isVisible={showModal2} onClose={() => setShowModal2(false)}>
-                  
-                    <div className="flex flex-col items-center">
-                        <a target="_blank" href="https://happy-houseplant.vercel.app">
-                            <div className='relative w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem] hover:scale-[105%] transition-all duration-500'>
-                                <Image fill src="/happy.png" className="object-cover border-[2.5px] border-[#634B39]"></Image>
-                            </div>
-                        </a>
-                        <h2 className="font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] tracking-[4px] text-[#3C1D06]">Happy Houseplant</h2>
-                        <p className="text-[15px] md:text-[20px] tracking-[2px]">
-                            August 2023
-                        </p>
-                    </div>
-                    <div className="hidden md:flex flex-col items-center">
-                        <a target="_blank" href="https://happy-houseplant.vercel.app">
-                            <div className='relative border-[2.5px] border-[#634B39] border-dashed w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem]'>
-                            </div>
-                        </a>
-                        <h2 className="invisible font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] tracking-[4px] text-[#3C1D06]">Lorem Ipsum</h2>
-                        <p className="invisible text-[15px] md:text-[20px] tracking-[2px]">
-                            Lorem ipsum
-                        </p>
-                    </div> 
-                    <div className="hidden 2xl:flex flex-col items-center">
-                        <a target="_blank" href="https://happy-houseplant.vercel.app">
-                            <div className='relative border-[2.5px] border-[#634B39] border-dashed w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem]'>
-                            </div>
-                        </a>
-                        <h2 className="invisible font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] tracking-[4px] text-[#3C1D06]">Lorem Ipsum</h2>
-                        <p className="invisible text-[15px] md:text-[20px] tracking-[2px]">
-                            Lorem ipsum
-                        </p>
-                    </div> 
-            </Modal>
-            <Modal isVisible={showModal3} onClose={()=>setShowModal3(false)}>
-                    <div className="flex flex-col items-center">
-                        <a target="_blank" href="https://www.instagram.com/gdsc.tmu/">
-                            <div className='relative w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem] hover:scale-[105%] transition-all duration-500'>
-                                <Image fill src="/gdsc.png" className="object-cover border-[2.5px] border-[#634B39]"></Image>
-                            </div>
-                        </a>
-                        <h2 className="font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] tracking-[4px] text-[#3C1D06]">Instagram Graphics</h2>
-                        <p className="text-[15px] md:text-[20px] tracking-[2px]">
-                            September 2023 - Present
-                        </p>  
-                    </div>
-                    <div className="hidden md:flex flex-col items-center">
-                        <a target="_blank" href="https://happy-houseplant.vercel.app">
-                            <div className='relative border-[2.5px] border-[#634B39] border-dashed w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem]'>
-                            </div>
-                        </a>
-                        <h2 className="invisible font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] tracking-[4px] text-[#3C1D06]">Lorem Ipsum</h2>
-                        <p className="invisible text-[15px] md:text-[20px] tracking-[2px]">
-                            Lorem ipsum
-                        </p>
-                    </div> 
-                    <div className="hidden 2xl:flex flex-col items-center">
-                        <a target="_blank" href="https://happy-houseplant.vercel.app">
-                            <div className='relative border-[2.5px] border-[#634B39] border-dashed w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem]'>
-                            </div>
-                        </a>
-                        <h2 className="invisible font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] tracking-[4px] text-[#3C1D06]">Lorem Ipsum</h2>
-                        <p className="invisible text-[15px] md:text-[20px] tracking-[2px]">
-                            Lorem ipsum
-                        </p>
-                    </div> 
-            </Modal>
-        </Fragment>
-    </div>
+        </div>
+        <Modal isVisible={showModal1} onClose={()=>setShowModal1(false)}>
+                <div className="flex flex-col items-center">
+                    <a target="_blank" href="https://sillygoose.vercel.app">
+                        <div className='relative w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem] hover:scale-[105%] transition-all duration-500'>
+                            <Image fill src="/goose.png" className="object-cover border-[2.5px] border-[#634B39]"></Image>
+                        </div>
+                    </a>
+                    <h2 className="font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] tracking-[4px] text-[#3C1D06]">GOOSE</h2>
+                    <p className="text-[15px] md:text-[20px] tracking-[2px]">
+                        September 2023
+                    </p>
+                </div> 
+                <div className="hidden md:flex flex-col items-center">
+                    <a target="_blank" href="https://happy-houseplant.vercel.app">
+                        <div className='relative border-[2.5px] border-[#634B39] border-dashed w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem]'>
+                        </div>
+                    </a>
+                    <h2 className="invisible font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] tracking-[4px] text-[#3C1D06]">Lorem Ipsum</h2>
+                    <p className="invisible text-[15px] md:text-[20px] tracking-[2px]">
+                        Lorem ipsum
+                    </p>
+                </div>
+                <div className="hidden 2xl:flex flex-col items-center">
+                    <a target="_blank" href="https://happy-houseplant.vercel.app">
+                        <div className='relative border-[2.5px] border-[#634B39] border-dashed w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem]'>
+                        </div>
+                    </a>
+                    <h2 className="invisible font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] tracking-[4px] text-[#3C1D06]">Lorem Ipsum</h2>
+                    <p className="invisible text-[15px] md:text-[20px] tracking-[2px]">
+                        Lorem ipsum
+                    </p>
+                </div> 
+        </Modal>
+        <Modal isVisible={showModal2} onClose={() => setShowModal2(false)}>
+                
+                <div className="flex flex-col items-center">
+                    <a target="_blank" href="https://happy-houseplant.vercel.app">
+                        <div className='relative w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem] hover:scale-[105%] transition-all duration-500'>
+                            <Image fill src="/happy.png" className="object-cover border-[2.5px] border-[#634B39]"></Image>
+                        </div>
+                    </a>
+                    <h2 className="font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] tracking-[4px] text-[#3C1D06]">Happy Houseplant</h2>
+                    <p className="text-[15px] md:text-[20px] tracking-[2px]">
+                        August 2023
+                    </p>
+                </div>
+                <div className="hidden md:flex flex-col items-center">
+                    <a target="_blank" href="https://happy-houseplant.vercel.app">
+                        <div className='relative border-[2.5px] border-[#634B39] border-dashed w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem]'>
+                        </div>
+                    </a>
+                    <h2 className="invisible font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] tracking-[4px] text-[#3C1D06]">Lorem Ipsum</h2>
+                    <p className="invisible text-[15px] md:text-[20px] tracking-[2px]">
+                        Lorem ipsum
+                    </p>
+                </div> 
+                <div className="hidden 2xl:flex flex-col items-center">
+                    <a target="_blank" href="https://happy-houseplant.vercel.app">
+                        <div className='relative border-[2.5px] border-[#634B39] border-dashed w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem]'>
+                        </div>
+                    </a>
+                    <h2 className="invisible font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] tracking-[4px] text-[#3C1D06]">Lorem Ipsum</h2>
+                    <p className="invisible text-[15px] md:text-[20px] tracking-[2px]">
+                        Lorem ipsum
+                    </p>
+                </div> 
+        </Modal>
+        <Modal isVisible={showModal3} onClose={()=>setShowModal3(false)}>
+                <div className="flex flex-col items-center">
+                    <a target="_blank" href="https://www.instagram.com/gdsc.tmu/">
+                        <div className='relative w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem] hover:scale-[105%] transition-all duration-500'>
+                            <Image fill src="/gdsc.png" className="object-cover border-[2.5px] border-[#634B39]"></Image>
+                        </div>
+                    </a>
+                    <h2 className="font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] tracking-[4px] text-[#3C1D06]">Instagram Graphics</h2>
+                    <p className="text-[15px] md:text-[20px] tracking-[2px]">
+                        September 2023 - Present
+                    </p>  
+                </div>
+                <div className="hidden md:flex flex-col items-center">
+                    <a target="_blank" href="https://happy-houseplant.vercel.app">
+                        <div className='relative border-[2.5px] border-[#634B39] border-dashed w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem]'>
+                        </div>
+                    </a>
+                    <h2 className="invisible font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] tracking-[4px] text-[#3C1D06]">Lorem Ipsum</h2>
+                    <p className="invisible text-[15px] md:text-[20px] tracking-[2px]">
+                        Lorem ipsum
+                    </p>
+                </div> 
+                <div className="hidden 2xl:flex flex-col items-center">
+                    <a target="_blank" href="https://happy-houseplant.vercel.app">
+                        <div className='relative border-[2.5px] border-[#634B39] border-dashed w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem]'>
+                        </div>
+                    </a>
+                    <h2 className="invisible font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] tracking-[4px] text-[#3C1D06]">Lorem Ipsum</h2>
+                    <p className="invisible text-[15px] md:text-[20px] tracking-[2px]">
+                        Lorem ipsum
+                    </p>
+                </div> 
+        </Modal>
+    </Fragment>
   )
 }
 

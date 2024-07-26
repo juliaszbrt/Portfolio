@@ -3,6 +3,7 @@ import Home from "./Home"
 import About from "./About"
 import Portfolio from "./Portfolio"
 import Contact from "./Contact"
+import Experience from "./Experience"
 
 export default function Main() {
 
@@ -10,6 +11,7 @@ export default function Main() {
       <main className="bg-[#FFECDD]">
         <Home />
         <About />
+        <Experience />
         <Portfolio />
         <Contact />
       </main>

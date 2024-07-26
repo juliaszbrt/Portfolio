@@ -23,7 +23,7 @@ const Home = () => {
             </Link>
             <Link href="./contact">
                 <button className="tracking-[3px]">
-                  Portfolio
+                  Projects
                 </button>
             </Link>
             <Link href="./contact">
