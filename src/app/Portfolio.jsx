@@ -13,9 +13,9 @@ const Portfolio = () => {
 
     <Fragment>
         <div className="h-auto bg-[#FFDDC2]">
-            <div className="flex flex-col justify-center items-center gap-[2rem] pt-[4rem] lg:pt-[7rem] lg:gap-[4rem]">
+            <div className="flex flex-col justify-center items-center gap-[2rem] pt-[4rem] lg:pt-[7rem] lg:gap-[4rem] 2xl:gap-[6rem]">
                 <div >
-                    <h1 className="text-[3rem] tracking-[6px] text-[#3C1D06] lg:text-[4rem]">Projects &lt;3</h1>
+                    <h1 className="text-[3rem] tracking-[6px] text-[#3C1D06] lg:text-[4rem] 2xl:text-[5rem]">Projects &lt;3</h1>
                 </div>
                 <motion.div
                     initial={{ opacity: 0 }}
@@ -24,12 +24,12 @@ const Portfolio = () => {
                         once: true,
                     }}
                     transition={{ duration: 1 }} 
-                    className="flex flex-col gap-[3rem] mb-[4rem] lg:mb-[8rem] lg:flex-row lg:gap-[5rem]">
+                    className="flex flex-col gap-[3rem] mb-[4rem] lg:mb-[8rem] lg:flex-row lg:gap-[5rem] 2xl:gap-[7rem]">
                     
-                    <div id='box1' className="hover:scale-[105%] bg-[#FFECDD] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[26rem] 2xl:w-[19rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:ease-in-out " onClick={() => setShowModal1(true)}>
+                    <div id='box1' className="hover:scale-[105%] bg-[#FFECDD] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[35rem] 2xl:w-[27rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:ease-in-out " onClick={() => setShowModal1(true)}>
                         <div className="m-[2rem] text-[#3C1D06]">
-                            <h2 id="fullStack" className='text-[1.6rem] tracking-[2px] mb-[1rem] 2xl:mb-[1.5rem] leading-[2.6rem] underline decoration-[15px] decoration-[#b9d193] underline-offset-[-8px] lg:no-underline 2xl:text-[2.2rem]'>Development</h2>
-                            <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem] 2xl:text-[1.2rem] 2xl:leading-[2.7rem]">
+                            <h2 id="fullStack" className='text-[1.6rem] tracking-[2px] mb-[1rem] 2xl:mb-[3rem] leading-[2.6rem] underline decoration-[15px] decoration-[#b9d193] underline-offset-[-8px] lg:no-underline 2xl:text-[3.5rem]'>Development</h2>
+                            <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem] 2xl:text-[2em] 2xl:leading-[4rem]">
                                 Interactive programs written from start 
                                 to finish with flawlessly functioning 
                                 front & backends.
@@ -37,19 +37,19 @@ const Portfolio = () => {
                         </div>
                     </div>
 
-                    <div id='box2' className="hover:scale-[105%] bg-[#FFECDD] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[26rem] 2xl:w-[19rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:ease-in-out" onClick={() => setShowModal2(true)}>
+                    <div id='box2' className="hover:scale-[105%] bg-[#FFECDD] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[35rem] 2xl:w-[27rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:ease-in-out" onClick={() => setShowModal2(true)}>
                         <div className="m-[2rem] text-[#3C1D06]">
-                            <h2 id="design" className='text-[1.6rem] tracking-[2px] mb-[1rem] 2xl:mb-[1.5rem] leading-[2.6rem] underline decoration-[15px] decoration-[#FACE5D] underline-offset-[-8px]  lg:no-underline 2xl:text-[2.2rem]'>UX & UI</h2>
-                            <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem] 2xl:text-[1.2rem] 2xl:leading-[2.7rem]">
+                            <h2 id="design" className='text-[1.6rem] tracking-[2px] mb-[1rem] 2xl:mb-[3rem] leading-[2.6rem] underline decoration-[15px] decoration-[#FACE5D] underline-offset-[-8px]  lg:no-underline 2xl:text-[3.5rem]'>UX & UI</h2>
+                            <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem] 2xl:text-[2rem] 2xl:leading-[4rem]">
                                 Intuitive interfaces with a keen focus on seamless user interaction and stunning visuals.
                             </p>
                         </div>
                     </div>
                         
-                    <div id='box3' className="hover:scale-[105%] bg-[#FFECDD] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[26rem] 2xl:w-[19rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:ease-in-out" onClick={() => setShowModal3(true)}>
+                    <div id='box3' className="hover:scale-[105%] bg-[#FFECDD] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[35rem] 2xl:w-[27rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:ease-in-out" onClick={() => setShowModal3(true)}>
                         <div className="m-[2rem] text-[#3C1D06]">
-                            <h2 id="photo" className='text-[1.6rem] tracking-[2px] mb-[1rem] 2xl:mb-[1.5rem] leading-[2.6rem] underline decoration-[15px] decoration-[#B1CAD9] underline-offset-[-8px]  lg:no-underline 2xl:text-[2.2rem]'>Design</h2>
-                            <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem] 2xl:text-[1.2rem] 2xl:leading-[2.7rem]">
+                            <h2 id="photo" className='text-[1.6rem] tracking-[2px] mb-[1rem] 2xl:mb-[3rem] leading-[2.6rem] underline decoration-[15px] decoration-[#B1CAD9] underline-offset-[-8px]  lg:no-underline 2xl:text-[3.5rem]'>Design</h2>
+                            <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem] 2xl:text-[2rem] 2xl:leading-[4rem]">
                                 Beautiful, diverse designs created 
                                 through thoughtful planning and detailed execution.  
                             </p>

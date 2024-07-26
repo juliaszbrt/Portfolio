@@ -33,10 +33,24 @@
   }
 
   #cohereBox:hover {
-    box-shadow: 18px 18px #3C1D06;
+    box-shadow: 18px 18px #F8C39A;
   }
 
   #cohereBox {
     transition: 0.5s ease-in-out;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  #box1 {
+    box-shadow: 20px 20px #b9d193;
+  }
+
+  #box2 {
+    box-shadow: 20px 20px #FACE5D;
+  }
+
+  #box3 {
+    box-shadow: 20px 20px #B1CAD9;
   }
 }
