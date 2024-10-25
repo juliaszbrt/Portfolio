@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { Murecho } from 'next/font/google'
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const murecho = Murecho({ subsets: ['latin'] })
 

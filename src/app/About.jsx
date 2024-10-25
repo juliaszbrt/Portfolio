@@ -24,7 +24,7 @@ const About = () => {
                 </div>
 
                 <div className="flex justify-self-center">
-                    <div className="flex flex-col justify-center px-[3rem] mb-[2rem]">
+                    <div className="flex flex-col justify-center px-[3rem] mb-[3rem]">
                         <h1 className="mb-[1rem] text-[1.7rem] tracking-[5px] font-semibold text-[#3C1D06] lg:text-[2rem] 2xl:text-[3rem]">
                             ABOUT ME...
                         </h1>

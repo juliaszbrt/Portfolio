@@ -4,6 +4,8 @@ import { Fragment, useState } from "react"
 import { Modal } from "@/components/Modal"
 import Image from "next/image"
 import { motion } from "framer-motion";
+import Link from 'next/link';
+
 
 const Portfolio = () => {
     const [showModal1,setShowModal1] = useState(false);
@@ -15,7 +17,7 @@ const Portfolio = () => {
         <div className="h-auto bg-[#FFDDC2]">
             <div className="flex flex-col justify-center items-center gap-[2rem] pt-[4rem] lg:pt-[7rem] lg:gap-[4rem] 2xl:gap-[6rem]">
                 <div >
-                    <h1 className="text-[3rem] tracking-[6px] text-[#3C1D06] lg:text-[4rem] 2xl:text-[5rem]">Projects &lt;3</h1>
+                    <h1 className="text-[3rem] tracking-[6px] text-[#3C1D06] lg:text-[4rem] 2xl:text-[5rem]">Projects</h1>
                 </div>
                 <motion.div
                     initial={{ opacity: 0 }}
@@ -48,10 +50,9 @@ const Portfolio = () => {
                         
                     <div id='box3' className="hover:scale-[105%] bg-[#FFECDD] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[35rem] 2xl:w-[27rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:ease-in-out" onClick={() => setShowModal3(true)}>
                         <div className="m-[2rem] text-[#3C1D06]">
-                            <h2 id="photo" className='text-[1.6rem] tracking-[2px] mb-[1rem] 2xl:mb-[3rem] leading-[2.6rem] underline decoration-[15px] decoration-[#B1CAD9] underline-offset-[-8px]  lg:no-underline 2xl:text-[3.5rem]'>Design</h2>
+                            <h2 id="photo" className='text-[1.6rem] tracking-[2px] mb-[1rem] 2xl:mb-[3rem] leading-[2.6rem] underline decoration-[15px] decoration-[#B1CAD9] underline-offset-[-8px]  lg:no-underline 2xl:text-[3.5rem]'>Marketing</h2>
                             <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem] 2xl:text-[2rem] 2xl:leading-[4rem]">
-                                Beautiful, diverse designs created 
-                                through thoughtful planning and detailed execution.  
+                                Thoughtfully designed social media content for effectively engaging and growing an audience.  
                             </p>
                         </div>
                     </div>
@@ -72,7 +73,7 @@ const Portfolio = () => {
                     </p>
                 </div> 
                 <div className="hidden md:flex flex-col items-center">
-                    <a target="_blank" href="https://happy-houseplant.vercel.app">
+                    <a target="_blank" href="">
                         <div className='relative border-[2.5px] border-[#634B39] border-dashed w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem]'>
                         </div>
                     </a>
@@ -82,7 +83,7 @@ const Portfolio = () => {
                     </p>
                 </div>
                 <div className="hidden 2xl:flex flex-col items-center">
-                    <a target="_blank" href="https://happy-houseplant.vercel.app">
+                    <a target="_blank" href="">
                         <div className='relative border-[2.5px] border-[#634B39] border-dashed w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem]'>
                         </div>
                     </a>
@@ -106,7 +107,7 @@ const Portfolio = () => {
                     </p>
                 </div>
                 <div className="hidden md:flex flex-col items-center">
-                    <a target="_blank" href="https://happy-houseplant.vercel.app">
+                    <a target="_blank" href="">
                         <div className='relative border-[2.5px] border-[#634B39] border-dashed w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem]'>
                         </div>
                     </a>
@@ -116,7 +117,7 @@ const Portfolio = () => {
                     </p>
                 </div> 
                 <div className="hidden 2xl:flex flex-col items-center">
-                    <a target="_blank" href="https://happy-houseplant.vercel.app">
+                    <a target="_blank" href="">
                         <div className='relative border-[2.5px] border-[#634B39] border-dashed w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem]'>
                         </div>
                     </a>
@@ -128,33 +129,33 @@ const Portfolio = () => {
         </Modal>
         <Modal isVisible={showModal3} onClose={()=>setShowModal3(false)}>
                 <div className="flex flex-col items-center">
-                    <a target="_blank" href="https://www.instagram.com/gdsc.tmu/">
+                    <Link href="/GDG">
                         <div className='relative w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem] hover:scale-[105%] transition-all duration-500'>
                             <Image fill src="/gdsc.png" className="object-cover border-[2.5px] border-[#634B39]"></Image>
                         </div>
-                    </a>
-                    <h2 className="font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] tracking-[4px] text-[#3C1D06]">Instagram Graphics</h2>
-                    <p className="text-[15px] md:text-[20px] tracking-[2px]">
+                    </Link>
+                    <h2 className="font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] text-center tracking-[4px] text-[#3C1D06] lg:text-[25px] lg:tracking-[3px]">Google Developer Groups</h2>
+                    <p className="text-[15px] md:text-[20px] tracking-[2px] mt-[1rem]">
                         September 2023 - Present
                     </p>  
                 </div>
                 <div className="hidden md:flex flex-col items-center">
-                    <a target="_blank" href="https://happy-houseplant.vercel.app">
+                    <a target="_blank" href="/">
                         <div className='relative border-[2.5px] border-[#634B39] border-dashed w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem]'>
                         </div>
                     </a>
                     <h2 className="invisible font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] tracking-[4px] text-[#3C1D06]">Lorem Ipsum</h2>
-                    <p className="invisible text-[15px] md:text-[20px] tracking-[2px]">
+                    <p className="invisible text-[15px] md:text-[20px] tracking-[2px] mt-[1rem]">
                         Lorem ipsum
                     </p>
                 </div> 
                 <div className="hidden 2xl:flex flex-col items-center">
-                    <a target="_blank" href="https://happy-houseplant.vercel.app">
+                    <a target="_blank" href="/">
                         <div className='relative border-[2.5px] border-[#634B39] border-dashed w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem]'>
                         </div>
                     </a>
                     <h2 className="invisible font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] tracking-[4px] text-[#3C1D06]">Lorem Ipsum</h2>
-                    <p className="invisible text-[15px] md:text-[20px] tracking-[2px]">
+                    <p className="invisible text-[15px] md:text-[20px] tracking-[2px] mt-[1rem]">
                         Lorem ipsum
                     </p>
                 </div> 
