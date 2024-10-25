@@ -72,8 +72,8 @@ const Portfolio = () => {
                         September 2023
                     </p>
                 </div> 
-                <div className="hidden md:flex flex-col items-center">
-                    <a target="_blank" href="">
+                <div className="hidden lg:flex flex-col items-center">
+                    <a>
                         <div className='relative border-[2.5px] border-[#634B39] border-dashed w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem]'>
                         </div>
                     </a>
@@ -83,7 +83,7 @@ const Portfolio = () => {
                     </p>
                 </div>
                 <div className="hidden 2xl:flex flex-col items-center">
-                    <a target="_blank" href="">
+                    <a>
                         <div className='relative border-[2.5px] border-[#634B39] border-dashed w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem]'>
                         </div>
                     </a>
@@ -106,8 +106,8 @@ const Portfolio = () => {
                         August 2023
                     </p>
                 </div>
-                <div className="hidden md:flex flex-col items-center">
-                    <a target="_blank" href="">
+                <div className="hidden lg:flex flex-col items-center">
+                    <a>
                         <div className='relative border-[2.5px] border-[#634B39] border-dashed w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem]'>
                         </div>
                     </a>
@@ -117,7 +117,7 @@ const Portfolio = () => {
                     </p>
                 </div> 
                 <div className="hidden 2xl:flex flex-col items-center">
-                    <a target="_blank" href="">
+                    <a>
                         <div className='relative border-[2.5px] border-[#634B39] border-dashed w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem]'>
                         </div>
                     </a>
@@ -131,16 +131,16 @@ const Portfolio = () => {
                 <div className="flex flex-col items-center">
                     <Link href="/GDG">
                         <div className='relative w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem] hover:scale-[105%] transition-all duration-500'>
-                            <Image fill src="/gdsc.png" className="object-cover border-[2.5px] border-[#634B39]"></Image>
+                            <Image fill src="/gdg.png" className="object-cover border-[2.5px] border-[#634B39]"></Image>
                         </div>
                     </Link>
-                    <h2 className="font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] text-center tracking-[4px] text-[#3C1D06] lg:text-[25px] lg:tracking-[3px]">Google Developer Groups</h2>
-                    <p className="text-[15px] md:text-[20px] tracking-[2px] mt-[1rem]">
+                    <h2 className="font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] text-center tracking-[4px] text-[#3C1D06] lg:text-[20px] lg:tracking-[2px]">Google Developer Groups</h2>
+                    <p className="text-[15px] md:text-[18px] tracking-[2px] mt-[1rem]">
                         September 2023 - Present
                     </p>  
                 </div>
-                <div className="hidden md:flex flex-col items-center">
-                    <a target="_blank" href="/">
+                <div className="hidden lg:flex flex-col items-center">
+                    <a>
                         <div className='relative border-[2.5px] border-[#634B39] border-dashed w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem]'>
                         </div>
                     </a>
@@ -150,7 +150,7 @@ const Portfolio = () => {
                     </p>
                 </div> 
                 <div className="hidden 2xl:flex flex-col items-center">
-                    <a target="_blank" href="/">
+                    <a>
                         <div className='relative border-[2.5px] border-[#634B39] border-dashed w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem]'>
                         </div>
                     </a>
