@@ -144,7 +144,7 @@ const Portfolio = () => {
                         <div className='relative border-[2.5px] border-[#634B39] border-dashed w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem]'>
                         </div>
                     </a>
-                    <h2 className="invisible font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] tracking-[4px] text-[#3C1D06]">Lorem Ipsum</h2>
+                    <h2 className="invisible font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] tracking-[4px] text-[#3C1D06] lg:text-[20px] lg:tracking-[2px]">Lorem Ipsum</h2>
                     <p className="invisible text-[15px] md:text-[20px] tracking-[2px] mt-[1rem]">
                         Lorem ipsum
                     </p>

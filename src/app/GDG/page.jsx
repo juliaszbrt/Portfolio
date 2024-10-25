@@ -12,7 +12,7 @@ const GDG = () => {
           <div className='pt-[3rem] flex flex-col items-center gap-[1rem] text-center lg:text-left lg:items-start lg:ml-[5rem]'>
             <h1 className="text-[25px] font-bold mx-[1rem] tracking-[1px] text-[#42571f] md:text-[35px] lg:text-[45px] lg:mx-0">Google Developer Groups</h1>
             <h2 className="text-[20px] font-bold mt-[-15px] tracking-[1px] text-[#627b3b] md:text-[25px] lg:text-[35px]">on Campus TMU</h2>
-            <p className="text-[13px] mx-[2rem] tracking-[1px] text-[#708450] md:text-[15px] lg:text-[20px] lg:ml-0">Scaled the community to the largest in Canada, growing from <b>0 to 5,000+</b> in only 1 year across multiple platforms (Instagram, LinkedIn, Discord, Bevy) by creating and managing content, designing graphics, and hosting events.</p>
+            <p className="text-[13px] mx-[2rem] tracking-[1px] text-[#708450] md:text-[15px] lg:text-[20px] lg:ml-0 lg:mt-[1rem]">Scaled the community to the largest in Canada, growing from <b>0 to 5,000+</b> in only 1 year across multiple platforms (Instagram, LinkedIn, Discord, Bevy) by creating and managing content, designing graphics, and hosting events.</p>
           </div>
         </div>
         <div className='lg:w-1/2 lg:ml-auto'>
