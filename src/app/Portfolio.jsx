@@ -30,14 +30,19 @@ const Portfolio = () => {
                     
                     <div id='box1' className="hover:scale-[105%] bg-[#FFECDD] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[35rem] 2xl:w-[27rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:ease-in-out " onClick={() => setShowModal1(true)}>
                         <div className="m-[2rem] text-[#3C1D06]">
-                            <h2 id="fullStack" className='text-[1.6rem] tracking-[2px] mb-[1rem] 2xl:mb-[3rem] leading-[2.6rem] underline decoration-[15px] decoration-[#b9d193] underline-offset-[-8px] lg:no-underline 2xl:text-[3.5rem]'>Development</h2>
+                            <h2 id="fullStack" className='text-[1.6rem] tracking-[2px] mb-[1rem] 2xl:mb-[3rem] leading-[2.6rem] underline decoration-[15px] decoration-[#B1CAD9] underline-offset-[-8px] lg:no-underline 2xl:text-[3.5rem]'>Development</h2>
                             <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem] 2xl:text-[2em] 2xl:leading-[4rem]">
                                 Interactive programs written from start 
                                 to finish with flawlessly functioning 
                                 front & backends.
                             </p>
+                            <div className="hidden xl:flex justify-end">
+                                <button className="text-[#4d8eb6] justify-end font-heavy text-[25px]">
+                                    &#10132;
+                                </button>
+                            </div>
                         </div>
-                    </div>
+                      </div>
 
                     <div id='box2' className="hover:scale-[105%] bg-[#FFECDD] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[35rem] 2xl:w-[27rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:ease-in-out" onClick={() => setShowModal2(true)}>
                         <div className="m-[2rem] text-[#3C1D06]">
@@ -45,15 +50,25 @@ const Portfolio = () => {
                             <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem] 2xl:text-[2rem] 2xl:leading-[4rem]">
                                 Intuitive interfaces with a keen focus on seamless user interaction and stunning visuals.
                             </p>
+                            <div className="hidden xl:flex justify-end">
+                                <button className="text-[#cf9500] justify-end font-heavy text-[25px]">
+                                    &#10132;
+                                </button>
+                            </div>
                         </div>
                     </div>
                         
                     <div id='box3' className="hover:scale-[105%] bg-[#FFECDD] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[35rem] 2xl:w-[27rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:ease-in-out" onClick={() => setShowModal3(true)}>
                         <div className="m-[2rem] text-[#3C1D06]">
-                            <h2 id="photo" className='text-[1.6rem] tracking-[2px] mb-[1rem] 2xl:mb-[3rem] leading-[2.6rem] underline decoration-[15px] decoration-[#B1CAD9] underline-offset-[-8px]  lg:no-underline 2xl:text-[3.5rem]'>Marketing</h2>
+                            <h2 id="photo" className='text-[1.6rem] tracking-[2px] mb-[1rem] 2xl:mb-[3rem] leading-[2.6rem] underline decoration-[15px] decoration-[#b9d193] underline-offset-[-8px]  lg:no-underline 2xl:text-[3.5rem]'>Marketing</h2>
                             <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem] 2xl:text-[2rem] 2xl:leading-[4rem]">
-                                Thoughtfully designed social media content for effectively engaging and growing an audience.  
+                                Thoughtfully designed content for effectively engaging and growing an audience.  
                             </p>
+                            <div className="hidden xl:flex justify-end">
+                                <button className="text-[#6b7f4c] justify-end font-heavy text-[25px]">
+                                    &#10132;
+                                </button>
+                            </div>  
                         </div>
                     </div>
                         
@@ -71,6 +86,11 @@ const Portfolio = () => {
                     <p className="text-[15px] md:text-[20px] tracking-[2px]">
                         September 2023
                     </p>
+                    <a target="_blank" href="https://sillygoose.vercel.app">
+                        <button className="mt-[2rem] bg-[#B1CAD9] px-[15px] py-[6px] rounded-[20px] text-[#0c3752] font-medium text-[20px] tracking-[2px] hover:scale-[105%] transition-all duration-500">
+                            View
+                        </button>
+                    </a>
                 </div> 
                 <div className="hidden lg:flex flex-col items-center">
                     <a>
@@ -81,6 +101,11 @@ const Portfolio = () => {
                     <p className="invisible text-[15px] md:text-[20px] tracking-[2px]">
                         Lorem ipsum
                     </p>
+                    <a className="invisible" target="_blank">
+                        <button className="mt-[2rem] bg-[#B1CAD9] px-[15px] py-[6px] rounded-[20px] text-[#0c3752] font-medium text-[20px] tracking-[2px] hover:scale-[105%] transition-all duration-500">
+                            View
+                        </button>
+                    </a>
                 </div>
                 <div className="hidden 2xl:flex flex-col items-center">
                     <a>
@@ -91,6 +116,11 @@ const Portfolio = () => {
                     <p className="invisible text-[15px] md:text-[20px] tracking-[2px]">
                         Lorem ipsum
                     </p>
+                    <a className="invisible" target="_blank">
+                        <button className="mt-[2rem] bg-[#B1CAD9] px-[15px] py-[6px] rounded-[20px] text-[#0c3752] font-medium text-[20px] tracking-[2px] hover:scale-[105%] transition-all duration-500">
+                            View
+                        </button>
+                    </a>
                 </div> 
         </Modal>
         <Modal isVisible={showModal2} onClose={() => setShowModal2(false)}>
@@ -105,6 +135,11 @@ const Portfolio = () => {
                     <p className="text-[15px] md:text-[20px] tracking-[2px]">
                         August 2023
                     </p>
+                    <a target="_blank" href="https://happy-houseplant.vercel.app">
+                        <button className="mt-[2rem] bg-[#FACE5D] px-[15px] py-[6px] rounded-[20px] text-[#755a16] font-medium text-[20px] tracking-[2px] hover:scale-[105%] transition-all duration-500">
+                            View
+                        </button>
+                    </a>
                 </div>
                 <div className="hidden lg:flex flex-col items-center">
                     <a>
@@ -115,6 +150,11 @@ const Portfolio = () => {
                     <p className="invisible text-[15px] md:text-[20px] tracking-[2px]">
                         Lorem ipsum
                     </p>
+                    <a className="invisible" target="_blank">
+                        <button className="mt-[2rem] bg-[#FACE5D] px-[15px] py-[6px] rounded-[20px] text-[#755a16] font-medium text-[20px] tracking-[2px] hover:scale-[105%] transition-all duration-500">
+                            View
+                        </button>
+                    </a>
                 </div> 
                 <div className="hidden 2xl:flex flex-col items-center">
                     <a>
@@ -125,6 +165,11 @@ const Portfolio = () => {
                     <p className="invisible text-[15px] md:text-[20px] tracking-[2px]">
                         Lorem ipsum
                     </p>
+                    <a className="invisible" target="_blank">
+                        <button className="mt-[2rem] bg-[#FACE5D] px-[15px] py-[6px] rounded-[20px] text-[#755a16] font-medium text-[20px] tracking-[2px] hover:scale-[105%] transition-all duration-500">
+                            View
+                        </button>
+                    </a>
                 </div> 
         </Modal>
         <Modal isVisible={showModal3} onClose={()=>setShowModal3(false)}>
@@ -137,7 +182,12 @@ const Portfolio = () => {
                     <h2 className="font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] text-center tracking-[4px] text-[#3C1D06] lg:text-[20px] lg:tracking-[2px]">Google Developer Groups</h2>
                     <p className="text-[15px] md:text-[18px] tracking-[2px] mt-[1rem]">
                         September 2023 - Present
-                    </p>  
+                    </p> 
+                    <a href="/GDG">
+                        <button className="mt-[2rem] bg-[#b9d193] px-[15px] py-[6px] rounded-[20px] text-[#576e32] font-medium text-[20px] tracking-[2px] hover:scale-[105%] transition-all duration-500">
+                            View
+                        </button>
+                    </a>    
                 </div>
                 <div className="hidden lg:flex flex-col items-center">
                     <a>
@@ -148,6 +198,11 @@ const Portfolio = () => {
                     <p className="invisible text-[15px] md:text-[20px] tracking-[2px] mt-[1rem]">
                         Lorem ipsum
                     </p>
+                    <a className="invisible" target="_blank">
+                        <button className="mt-[2rem] bg-[#b9d193] px-[15px] py-[6px] rounded-[20px] text-[#576e32] font-medium text-[20px] tracking-[2px] hover:scale-[105%] transition-all duration-500">
+                            View
+                        </button>
+                    </a>                      
                 </div> 
                 <div className="hidden 2xl:flex flex-col items-center">
                     <a>
@@ -158,6 +213,11 @@ const Portfolio = () => {
                     <p className="invisible text-[15px] md:text-[20px] tracking-[2px] mt-[1rem]">
                         Lorem ipsum
                     </p>
+                    <a className="invisible" target="_blank">
+                        <button className="mt-[2rem] bg-[#b9d193] px-[15px] py-[6px] rounded-[20px] text-[#576e32] font-medium text-[20px] tracking-[2px] hover:scale-[105%] transition-all duration-500">
+                            View
+                        </button>
+                    </a>
                 </div> 
         </Modal>
     </Fragment>

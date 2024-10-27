@@ -29,7 +29,7 @@ const About = () => {
                             ABOUT ME...
                         </h1>
                         <p className="text-justify text-[0.8rem] tracking-[1.8px] leading-6 text-[#3C1D06] lg:text-[1rem] lg:leading-8 2xl:w-[40rem] 2xl:text-[1.3rem] 2xl:leading-10">
-                            I am <b>ambitious</b>; I put myself in situations where I can learn vital skills and gain new experiences.
+                            I am an <b>ambitious leader</b>; I put myself in situations where I can learn vital skills and gain new experiences.
                             I love to express my <b>passion</b> for the work that I do through unique designs and creative projects. 
                             <br/><br/>
                             Currently pursuing a Bachelor of Science for <b>Computer Science</b> (CO-OP) at Toronto Metropolitan University.

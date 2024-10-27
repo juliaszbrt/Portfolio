@@ -21,7 +21,7 @@
 
 @media only screen and (min-width: 1024px) {
   #box1 {
-    box-shadow: 12px 12px #b9d193;
+    box-shadow: 12px 12px #B1CAD9;
   }
 
   #box2 {
@@ -29,7 +29,7 @@
   }
 
   #box3 {
-    box-shadow: 12px 12px #B1CAD9;
+    box-shadow: 12px 12px #b9d193;
   }
 
   #box1:hover, #box2:hover, #box3:hover {

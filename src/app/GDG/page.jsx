@@ -13,6 +13,23 @@ const GDG = () => {
             <h1 className="text-[25px] font-bold mx-[1rem] tracking-[1px] text-[#42571f] md:text-[35px] lg:text-[45px] lg:mx-0">Google Developer Groups</h1>
             <h2 className="text-[20px] font-bold mt-[-15px] tracking-[1px] text-[#627b3b] md:text-[25px] lg:text-[35px]">on Campus TMU</h2>
             <p className="text-[13px] mx-[2rem] tracking-[1px] text-[#708450] md:text-[15px] lg:text-[20px] lg:ml-0 lg:mt-[1rem]">Scaled the community to the largest in Canada, growing from <b>0 to 5,000+</b> in only 1 year across multiple platforms (Instagram, LinkedIn, Discord, Bevy) by creating and managing content, designing graphics, and hosting events.</p>
+            <div className="flex gap-[1.5rem] mt-[1.5rem]">
+              <a target="_blank" href="https://www.instagram.com/gdgtmu/">
+                <div className="w-[47px] hover:scale-[105%] transition-all duration-500">
+                  <Image src="/gdg/ig.png" width={2048} height={2048}></Image>
+                </div>
+              </a>
+              <a target="_blank" href="https://gdgtmu.org">
+                <div className="w-[47px] hover:scale-[105%] transition-all duration-500">
+                  <Image src="/gdg/web.png" width={2048} height={2048}></Image>
+                </div>
+              </a>
+              <a target="_blank" href="https://www.linkedin.com/company/gdgtmu/">
+                <div className="w-[45px] hover:scale-[105%] transition-all duration-500">
+                  <Image src="/gdg/linkedin.png" width={2048} height={2048}></Image>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
         <div className='lg:w-1/2 lg:ml-auto'>
