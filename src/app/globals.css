@@ -36,11 +36,11 @@
     box-shadow: none;
   }
 
-  #cohereBox:hover {
-    box-shadow: 18px 18px #F8C39A;
+  #cohereBox:hover, #cohereBox2:hover {
+    box-shadow: 12px 12px #F8C39A;
   }
 
-  #cohereBox {
+  #cohereBox, #cohereBox2:hover {
     transition: 0.5s ease-in-out;
   }
 }
