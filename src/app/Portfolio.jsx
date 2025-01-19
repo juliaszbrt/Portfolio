@@ -36,7 +36,7 @@ const Portfolio = () => {
                                 to finish with flawlessly functioning 
                                 front & backends.
                             </p>
-                            <div className="hidden md:flex justify-end">
+                            <div className="flex justify-end">
                                 <button className="text-[#4d8eb6] justify-end font-heavy text-[25px]">
                                     &#10132;
                                 </button>
@@ -50,7 +50,7 @@ const Portfolio = () => {
                             <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem] 2xl:text-[2rem] 2xl:leading-[4rem]">
                                 Intuitive interfaces with a keen focus on seamless user interaction and stunning visuals.
                             </p>
-                            <div className="hidden md:flex justify-end">
+                            <div className="flex justify-end">
                                 <button className="text-[#cf9500] justify-end font-heavy text-[25px]">
                                     &#10132;
                                 </button>
@@ -64,7 +64,7 @@ const Portfolio = () => {
                             <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem] 2xl:text-[2rem] 2xl:leading-[4rem]">
                                 Thoughtfully designed content for effectively engaging and growing an audience.  
                             </p>
-                            <div className="hidden md:flex justify-end">
+                            <div className="flex justify-end">
                                 <button className="text-[#6b7f4c] justify-end font-heavy text-[25px]">
                                     &#10132;
                                 </button>
