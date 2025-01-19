@@ -2,6 +2,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+html {
+  scroll-behavior: smooth;
+}
+
 #fullStack, #photo, #design, #contact, #achievements, #cohere, #growth {
   text-decoration-skip-ink: none;
 }
