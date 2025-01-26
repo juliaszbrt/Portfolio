@@ -78,7 +78,7 @@ const Portfolio = () => {
             <Modal isVisible={showModal1} onClose={() => setShowModal1(false)}>
                 <div className="flex flex-col items-center">
                     <a target="_blank" href="https://sillygoose.vercel.app">
-                        <div className='relative w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] lg:w-[20rem] lg:h-[20rem] 2xl:w-[23rem] 2xl:h-[23rem] hover:scale-[105%] transition-all duration-500'>
+                        <div className='relative w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem] hover:scale-[105%] transition-all duration-500'>
                             <Image fill src="/goose.png" className="object-cover border-[2.5px] border-[#634B39]"></Image>
                         </div>
                     </a>
