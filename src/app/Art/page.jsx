@@ -34,7 +34,7 @@ const Art = () => {
 							transition={{ duration: 3 }}>
 							<div className='my-[2rem] grid grid-cols-2 md:grid-cols-4 gap-[20px] items-center lg:grid-cols-2 lg:ml-0 lg:my-[7rem] lg:gap-[50px]'>
 								<div className='relative w-[150px] h-[190px] border-[3px] border-[#ae8827] hover:scale-[105%] transition-all duration-500 lg:w-[280px] lg:h-[360px]'>
-									<Image src="/design/hoyeon.jpg" fill className="object-cover"></Image>
+									<Image src="/design/hoyeon.JPG" fill className="object-cover"></Image>
 								</div>
 
 								<div className='relative w-[150px] h-[190px] border-[3px] border-[#ae8827] hover:scale-[105%] transition-all duration-500 lg:w-[280px] lg:h-[360px]'>

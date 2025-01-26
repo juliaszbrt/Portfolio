@@ -43,13 +43,13 @@ const WTM = () => {
 								<div className='grid grid-cols-2 md:grid-cols-2 gap-[20px] items-center lg:gap-[25px] xl:gap-[50px]'>
 									<a target="_blank" href="https://www.instagram.com/reel/DBbWT7ZJTB-/">
 										<div className='w-[150px] border-[3px] border-[#708450] hover:scale-[105%] transition-all duration-500 lg:w-[230px] xl:w-[280px]'>
-											<Image src="/gdg/ghc.png" width={1446} height={1446}></Image>
+											<Image src="/community/ghc.png" width={1446} height={1446}></Image>
 										</div>
 										<p className='mt-[10px] text-[15px] text-center text-[#708450] tracking-[1px]'>7k+ views</p>
 									</a>
 									<a target="_blank" href="https://www.instagram.com/reel/C-praOvu7gU/">
 										<div className='w-[150px] border-[3px] border-[#708450] hover:scale-[105%] transition-all duration-500 lg:w-[230px] xl:w-[280px]'>
-											<Image src="/gdg/interview.png" width={1125} height={2000}></Image>
+											<Image src="/community/interview.png" width={1125} height={2000}></Image>
 										</div>
 										<p className='mt-[10px] text-[15px] text-center text-[#708450] tracking-[1px]'>10.5k+ views</p>
 									</a>

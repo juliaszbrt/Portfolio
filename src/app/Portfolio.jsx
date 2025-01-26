@@ -138,7 +138,7 @@ const Portfolio = () => {
                     </p>
                     <Link href="/Digital">
                         <button className="mt-[2rem] bg-[#FACE5D] px-[15px] py-[6px] rounded-[20px] text-[#755a16] font-medium text-[20px] tracking-[2px] hover:scale-[105%] transition-all duration-500">
-                            View
+                            See More
                         </button>
                     </Link>
                 </div>
@@ -154,7 +154,7 @@ const Portfolio = () => {
                     </p>
                     <Link href="/Art">
                         <button className="mt-[2rem] bg-[#FACE5D] px-[15px] py-[6px] rounded-[20px] text-[#755a16] font-medium text-[20px] tracking-[2px] hover:scale-[105%] transition-all duration-500">
-                            View
+                            See More
                         </button>
                     </Link>
                 </div>
@@ -187,7 +187,7 @@ const Portfolio = () => {
                     </p>
                     <a href="/GDG">
                         <button className="mt-[2rem] bg-[#b9d193] px-[15px] py-[6px] rounded-[20px] text-[#576e32] font-medium text-[20px] tracking-[2px] hover:scale-[105%] transition-all duration-500">
-                            View
+                            Learn More
                         </button>
                     </a>
                 </div>
@@ -201,11 +201,11 @@ const Portfolio = () => {
                     <p className="text-[15px] md:text-[18px] tracking-[2px] mt-[1rem]">
                         August 2024 - Present
                     </p>
-                    <a className="" target="_blank">
+                    <Link href="/WTM">
                         <button className="mt-[2rem] bg-[#b9d193] px-[15px] py-[6px] rounded-[20px] text-[#576e32] font-medium text-[20px] tracking-[2px] hover:scale-[105%] transition-all duration-500">
-                            View
+                            Learn More
                         </button>
-                    </a>
+                    </Link>
                 </div>
                 <div className="hidden 2xl:flex flex-col items-center">
                     <a>
