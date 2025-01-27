@@ -41,42 +41,42 @@ const Digital = () => {
 							<div className='my-[2rem] grid grid-cols-2 md:grid-cols-4 gap-[20px] items-center lg:grid-cols-2 lg:ml-0 lg:my-[7rem] lg:gap-[50px]'>
 								<a target="_blank" href="https://www.instagram.com/p/C9KuZ1GOAEw/?img_index=1">
 									<div className='w-[150px] h-[150px] border-[3px] border-[#ae8827] hover:scale-[105%] transition-all duration-500 lg:w-[230px] lg:h-[230px] xl:w-[280px] xl:h-[280px]'>
-										<Image src="/gdg/giveaway1.png" width={1446} height={1446}></Image>
+										<Image src="/design/giveaway1.png" width={1446} height={1446}></Image>
 									</div>
 								</a>
 								<a target="_blank" href="https://www.instagram.com/p/C9KuZ1GOAEw/?img_index=1">
 									<div className='w-[150px] h-[150px] border-[3px] border-[#ae8827] hover:scale-[105%] transition-all duration-500 lg:w-[230px] lg:h-[230px] xl:w-[280px] xl:h-[280px]'>
-										<Image src="/gdg/giveaway2.png" width={1446} height={1446}></Image>
+										<Image src="/design/giveaway2.png" width={1446} height={1446}></Image>
 									</div>
 								</a>
 								<a target="_blank" href="https://www.instagram.com/p/C5OEHj2Orof/?img_index=2">
 									<div className='w-[150px] h-[150px] border-[3px] border-[#ae8827] hover:scale-[105%] transition-all duration-500 lg:w-[230px] lg:h-[230px] xl:w-[280px] xl:h-[280px]'>
-										<Image src="/gdg/sandwich.png" width={1446} height={1446}></Image>
+										<Image src="/design/sandwich.png" width={1446} height={1446}></Image>
 									</div>
 								</a>
 								<a target="_blank" href="https://www.instagram.com/p/C2c7SOjO4ir/">
 									<div className='w-[150px] h-[150px] border-[3px] border-[#ae8827] hover:scale-[105%] transition-all duration-500 lg:w-[230px] lg:h-[230px] xl:w-[280px] xl:h-[280px]'>
-										<Image src="/gdg/kickoff.png" width={1446} height={1446}></Image>
+										<Image src="/design/kickoff.png" width={1446} height={1446}></Image>
 									</div>
 								</a>
 								<a target="_blank" href="https://www.instagram.com/p/C2XfJOVukmT/?img_index=1">
 									<div className='w-[150px] h-[150px] border-[3px] border-[#ae8827] hover:scale-[105%] transition-all duration-500 lg:w-[230px] lg:h-[230px] xl:w-[280px] xl:h-[280px]'>
-										<Image src="/gdg/nintendo1.png" width={1446} height={1446}></Image>
+										<Image src="/design/nintendo1.png" width={1446} height={1446}></Image>
 									</div>
 								</a>
 								<a target="_blank" href="https://www.instagram.com/p/C2XfJOVukmT/?img_index=2">
 									<div className='w-[150px] h-[150px] border-[3px] border-[#ae8827] hover:scale-[105%] transition-all duration-500 lg:w-[230px] lg:h-[230px] xl:w-[280px] xl:h-[280px]'>
-										<Image src="/gdg/nintendo2.png" width={1446} height={1446}></Image>
+										<Image src="/design/nintendo2.png" width={1446} height={1446}></Image>
 									</div>
 								</a>
 								<a target="_blank" href="https://www.instagram.com/p/C9m59rvuuLd/?img_index=1">
 									<div className='w-[150px] h-[150px] border-[3px] border-[#ae8827] hover:scale-[105%] transition-all duration-500 lg:w-[230px] lg:h-[230px] xl:w-[280px] xl:h-[280px]'>
-										<Image src="/gdg/wrap1.png" width={1446} height={1446}></Image>
+										<Image src="/design/wrap1.png" width={1446} height={1446}></Image>
 									</div>
 								</a>
 								<a target="_blank" href="https://www.instagram.com/p/C9m59rvuuLd/?img_index=2">
 									<div className='w-[150px] h-[150px] border-[3px] border-[#ae8827] hover:scale-[105%] transition-all duration-500 lg:w-[230px] lg:h-[230px] xl:w-[280px] xl:h-[280px]'>
-										<Image src="/gdg/wrap2.png" width={1446} height={1446}></Image>
+										<Image src="/design/wrap2.png" width={1446} height={1446}></Image>
 									</div>
 								</a>
 							</div>
