@@ -74,7 +74,7 @@ const GDG = () => {
 								</div>
 								<div>
 									<div className='w-[20rem] border-[3px] border-[#708450] hover:scale-[105%] transition-all duration-500 md:w-[32rem]'>
-										<Image src="/community/crowd.jpg" width={5330} height={3553}></Image>
+										<Image src="/community/crowd.JPG" width={5330} height={3553}></Image>
 									</div>
 									<p className="pt-[10px] text-[#708450] font-bold text-[18px] tracking-[1px]">
 										Landing a Job in Big Tech, 200 attendees

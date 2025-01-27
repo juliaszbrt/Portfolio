@@ -17,8 +17,8 @@ const Traditional = () => {
 							</div>
 						</Link>
 						<h1 className="text-[28px] font-bold mx-[1rem] tracking-[1px] text-[#ae8827] md:text-[35px] lg:text-[45px] lg:mx-0">Traditional Art</h1>
-						<h2 className="text-[19px] font-bold mt-[-15px] tracking-[1px] text-[#dfb752] md:text-[25px] lg:text-[35px]">The art of balanced detail.</h2>
-						{/* <p className="text-[13px] mx-[2rem] tracking-[1px] text-[#c4a558] md:text-[15px] lg:text-[20px] lg:ml-0 lg:mt-[1rem]">Scaled the community to the largest in Canada, growing from <b>0 to 5,000+</b> in only 1 year across multiple platforms (Instagram, LinkedIn, Discord, Bevy) as President of a team 40+ and hosting engaging networking events, technical workshops, and developer community initiatives.</p> */}
+						<h2 className="text-[19px] font-bold mt-[-15px] tracking-[1px] text-[#dfb752] md:text-[25px] lg:text-[35px]">The simplicity of pencil on paper.</h2>
+						<p className="text-[13px] mx-[2rem] tracking-[1px] text-[#c4a558] md:text-[15px] lg:text-[20px] lg:ml-0 lg:mt-[1rem]">A quiet hobby of mine; for slow, rainy days. </p>
 						<motion.div
 							initial={{ opacity: 0 }}
 							whileInView={{ opacity: 1 }}
