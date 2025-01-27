@@ -44,7 +44,7 @@ html {
     box-shadow: 12px 12px #F8C39A;
   }
 
-  #cohereBox, #cohereBox2:hover {
+  #cohereBox, #cohereBox2 {
     transition: 0.5s ease-in-out;
   }
 }
