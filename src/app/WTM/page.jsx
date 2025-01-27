@@ -16,9 +16,9 @@ const WTM = () => {
 								&#x2190; Previous
 							</div>
 						</Link>
-						<h1 className="text-[30px] font-bold mx-[1rem] tracking-[1px] text-[#42571f] md:text-[35px] lg:text-[45px] lg:mx-0">Google Women Techmakers</h1>
+						<h1 className="text-[30px] font-bold mx-[1rem] tracking-[1px] text-[#42571f] md:text-[35px] lg:text-[45px] lg:mx-0 leading-[3.8rem]">Google Women Techmakers</h1>
 						<h2 className="text-[20px] font-bold mt-[-15px] tracking-[1px] text-[#627b3b] md:text-[25px] lg:text-[35px]">Ambassador</h2>
-						{/* <p className="text-[13px] mx-[2rem] tracking-[1px] text-[#708450] md:text-[20px] lg:ml-0 lg:mt-[1rem]">Scaled the community to the largest in Canada, growing from <b>0 to 5,000+</b> in only 1 year across multiple platforms (Instagram, LinkedIn, Discord, Bevy) as <b>President</b> of a <b>team of 40+</b> and hosting engaging networking events, technical workshops, and developer community initiatives.</p> */}
+						<p className="text-[13px] mx-[2rem] tracking-[1px] text-[#708450] md:text-[20px] lg:ml-0 lg:mt-[1rem]">By creating educational content, curating helpful resources, and hosting inclusive initiatives aimed at empowering women, I serve as a role model and leader in my community. My goal is to ensure all women in tech can feel supported and represented in this male-dominated field.</p>
 						<motion.div
 							initial={{ opacity: 0 }}
 							whileInView={{ opacity: 1 }}
@@ -51,13 +51,13 @@ const WTM = () => {
 										<div className='w-[150px] border-[3px] border-[#708450] hover:scale-[105%] transition-all duration-500 lg:w-[230px] xl:w-[280px]'>
 											<Image src="/community/ghc.png" width={1446} height={1446}></Image>
 										</div>
-										<p className='mt-[10px] text-[15px] text-center text-[#708450] tracking-[1px]'>7k+ views</p>
+										<p className='mt-[10px] text-[15px] text-center text-[#708450] tracking-[1px]'>7.5k+ views</p>
 									</a>
 									<a target="_blank" href="https://www.instagram.com/reel/C-praOvu7gU/">
 										<div className='w-[150px] border-[3px] border-[#708450] hover:scale-[105%] transition-all duration-500 lg:w-[230px] xl:w-[280px]'>
 											<Image src="/community/interview.png" width={1125} height={2000}></Image>
 										</div>
-										<p className='mt-[10px] text-[15px] text-center text-[#708450] tracking-[1px]'>10.5k+ views</p>
+										<p className='mt-[10px] text-[15px] text-center text-[#708450] tracking-[1px]'>11.5k+ views</p>
 									</a>
 								</div>
 							</div>
