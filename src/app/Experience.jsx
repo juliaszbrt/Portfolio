@@ -14,10 +14,10 @@ const Experience = () => {
                   <h3 className="text-[16px] lg:text-[18px] xl:text-[24px] xl:tracking-[1.5px] font-semibold">Cohere</h3>
                   <h4 className="text-[13px] lg:text-[14px] xl:text-[18px] xl:tracking-[1.5px] mb-[1rem]">Jan 2024 - Present</h4>
                   <div className="flex gap-[10px] gap-y-[15px] flex-wrap mt-[2rem] text-[#3C1D06] tracking-[1px]">
-                    <div className="bg-[#FACE5D] text-[22px] text-center rounded-full px-[15px] py-[3px]">Python</div>
-                    <div className="bg-[#b9d193] text-[22px] text-center rounded-full px-[15px] py-[3px]">SQL</div>
-                    <div className="bg-[#F8C39A] text-[22px] text-center rounded-full px-[15px] py-[3px]">Java</div>
-                    <div className="bg-[#B1CAD9] text-[22px] text-center rounded-full px-[15px] py-[3px]">JavaScript</div>
+                    <div className="bg-[#FACE5D] text-[15px] lg:text-[22px] text-center rounded-full px-[10px] py-[2px] lg:px-[15px] lg:py-[3px]">Python</div>
+                    <div className="bg-[#b9d193] text-[15px] lg:text-[22px] text-center rounded-full px-[10px] py-[2px] lg:px-[15px] lg:py-[3px]">SQL</div>
+                    <div className="bg-[#F8C39A] text-[15px] lg:text-[22px] text-center rounded-full px-[10px] py-[2px] lg:px-[15px] lg:py-[3px]">Java</div>
+                    <div className="bg-[#B1CAD9] text-[15px] lg:text-[22px] text-center rounded-full px-[10px] py-[2px] lg:px-[15px] lg:py-[3px]">JavaScript</div>
                   </div>
                 </div>
               </div>
@@ -27,8 +27,8 @@ const Experience = () => {
                   <h3 className="text-[16px] lg:text-[18px] xl:text-[24px] xl:tracking-[1.5px] font-semibold">Cohere</h3>
                   <h4 className="text-[13px] lg:text-[14px] xl:text-[18px] xl:tracking-[1.5px] mb-[1rem]">Sep 2023 - Jan 2024</h4>
                   <div className="flex gap-[10px] gap-y-[15px] flex-wrap mt-[2rem] text-[#3C1D06] tracking-[1px]">
-                    <div className="bg-[#FACE5D] text-[22px] text-center rounded-full px-[15px] py-[3px]">Prompt Engineering</div>
-                    <div className="bg-[#b9d193] text-[22px] text-center rounded-full px-[15px] py-[3px]">Quality Analysis</div>
+                    <div className="bg-[#FACE5D] text-[15px] lg:text-[22px] text-center rounded-full px-[10px] py-[2px] lg:px-[15px] lg:py-[3px]">Prompt Engineering</div>
+                    <div className="bg-[#b9d193] text-[15px] lg:text-[22px] text-center rounded-full px-[10px] py-[2px] lg:px-[15px] lg:py-[3px]">Quality Analysis</div>
                   </div>
                 </div>
               </div>
