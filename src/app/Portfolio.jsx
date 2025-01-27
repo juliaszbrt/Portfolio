@@ -178,7 +178,7 @@ const Portfolio = () => {
                 <div className="flex flex-col items-center">
                     <Link href="/GDG">
                         <div className='relative w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem] hover:scale-[105%] transition-all duration-500'>
-                            <Image fill src="/gdg.png" className="object-cover border-[2.5px] border-[#634B39]"></Image>
+                            <Image fill src="/gdg.jpg" className="object-cover border-[2.5px] border-[#634B39]"></Image>
                         </div>
                     </Link>
                     <h2 className="font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] text-center tracking-[4px] text-[#3C1D06] lg:text-[20px] lg:tracking-[2px]">Google Developer Groups<br />President</h2>
