@@ -3,6 +3,7 @@ import React from 'react'
 import '../globals.css'
 import Image from 'next/image'
 import { motion } from "framer-motion";
+import Link from 'next/link';
 
 const Digital = () => {
 	return (
@@ -10,6 +11,11 @@ const Digital = () => {
 			<div className='lg:flex'>
 				<div className="lg:fixed lg:w-1/2 lg:mt-[3rem]">
 					<div className='pt-[3rem] flex flex-col items-center gap-[1rem] text-center lg:text-left lg:items-start lg:ml-[5rem]'>
+						<Link href="/#portfolio">
+							<div className="mt-[-1rem] ml-[1.5rem] absolute left-0 lg:static lg:ml-0 text-[#e2c16c] tracking-[1px] font-bold hover:scale-[105%] transition-all duration-500">
+								&#x2190; Previous
+							</div>
+						</Link>
 						<h1 className="text-[28px] font-bold mx-[1rem] tracking-[1px] text-[#ae8827] md:text-[35px] lg:text-[45px] lg:mx-0">Digital Design</h1>
 						<h2 className="text-[19px] font-bold mt-[-15px] tracking-[1px] text-[#dfb752] md:text-[25px] lg:text-[35px]">The art of balanced detail.</h2>
 						{/* <p className="text-[13px] mx-[2rem] tracking-[1px] text-[#c4a558] md:text-[15px] lg:text-[20px] lg:ml-0 lg:mt-[1rem]">Scaled the community to the largest in Canada, growing from <b>0 to 5,000+</b> in only 1 year across multiple platforms (Instagram, LinkedIn, Discord, Bevy) as President of a team 40+ and hosting engaging networking events, technical workshops, and developer community initiatives.</p> */}

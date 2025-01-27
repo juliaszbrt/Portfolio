@@ -143,16 +143,16 @@ const Portfolio = () => {
                     </Link>
                 </div>
                 <div className="flex flex-col items-center">
-                    <Link href="/Art">
+                    <Link href="/Traditional">
                         <div className='relative w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem] hover:scale-[105%] transition-all duration-500'>
-                            <Image fill src="/design/hoyeon.jpg" className="object-cover border-[2.5px] border-[#634B39]"></Image>
+                            <Image fill src="/design/hoyeon.JPG" className="object-cover border-[2.5px] border-[#634B39]"></Image>
                         </div>
                     </Link>
                     <h2 className="font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] tracking-[4px] text-[#3C1D06]">Traditional</h2>
                     <p className="text-[15px] md:text-[20px] tracking-[2px]">
-                        Graphite & Coloured
+                        Primarily Graphite
                     </p>
-                    <Link href="/Art">
+                    <Link href="/Traditional">
                         <button className="mt-[2rem] bg-[#FACE5D] px-[15px] py-[6px] rounded-[20px] text-[#755a16] font-medium text-[20px] tracking-[2px] hover:scale-[105%] transition-all duration-500">
                             See More
                         </button>
