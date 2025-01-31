@@ -57,13 +57,7 @@ const WiCS = () => {
 							transition={{ duration: 3 }}>
 							<div className='mt-[2rem] md:mt-[3rem] flex flex-col justify-center gap-[2rem]'>
 									<div className='w-[20rem] border-[3px] border-[#708450] hover:scale-[105%] transition-all duration-500 md:w-[32rem]'>
-										<Image src="/community/team.jpg" width={5330} height={3553}></Image>
-									</div>
-									<div className='w-[20rem] border-[3px] border-[#708450] hover:scale-[105%] transition-all duration-500 md:w-[32rem]'>
-										<Image src="/community/datasci.jpg" width={5330} height={3553}></Image>
-									</div>
-									<div className='w-[20rem] border-[3px] border-[#708450] hover:scale-[105%] transition-all duration-500 md:w-[32rem]'>
-										<Image src="/community/crowd.JPG" width={5330} height={3553}></Image>
+										<Image src="/community/wics.jpg" width={5330} height={3553}></Image>
 									</div>
 							</div>
 						</motion.div>

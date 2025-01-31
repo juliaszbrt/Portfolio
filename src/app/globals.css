@@ -39,14 +39,6 @@ html {
   #box1:hover, #box2:hover, #box3:hover {
     box-shadow: none;
   }
-
-  #cohereBox:hover, #cohereBox2:hover {
-    box-shadow: 12px 12px #F8C39A;
-  }
-
-  #cohereBox, #cohereBox2 {
-    transition: 0.5s ease-in-out;
-  }
 }
 
 @media only screen and (min-width: 1600px) {

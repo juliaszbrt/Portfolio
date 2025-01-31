@@ -58,9 +58,17 @@ const GDG = () => {
 							<div className='mt-[2rem] md:mt-[3rem] flex flex-col justify-center gap-[2rem]'>
 								<div>
 									<div className='w-[20rem] border-[3px] border-[#708450] hover:scale-[105%] transition-all duration-500 md:w-[32rem]'>
+										<Image src="/community/presidents.jpg" width={5330} height={3553}></Image>
+									</div>
+									<p className="pt-[10px] text-[#708450] font-bold text-[12px] lg:text-[18px] tracking-[1px]">
+										Presidents pose for a photo
+									</p>
+								</div>
+								<div>
+									<div className='w-[20rem] border-[3px] border-[#708450] hover:scale-[105%] transition-all duration-500 md:w-[32rem]'>
 										<Image src="/community/team.jpg" width={5330} height={3553}></Image>
 									</div>
-									<p className="pt-[10px] text-[#708450] font-bold text-[18px] tracking-[1px]">
+									<p className="pt-[10px] text-[#708450] font-bold text-[12px] lg:text-[18px] tracking-[1px]">
 										Networking Conference, 250 attendees 
 									</p>
 								</div>
@@ -68,7 +76,7 @@ const GDG = () => {
 									<div className='w-[20rem] border-[3px] border-[#708450] hover:scale-[105%] transition-all duration-500 md:w-[32rem]'>
 										<Image src="/community/datasci.jpg" width={5330} height={3553}></Image>
 									</div>
-									<p className="pt-[10px] text-[#708450] font-bold text-[18px] tracking-[1px]">
+									<p className="pt-[10px] text-[#708450] font-bold text-[12px] lg:text-[18px] tracking-[1px]">
 										Pathways to Data Science, 280 attendees
 									</p>
 								</div>
@@ -76,7 +84,7 @@ const GDG = () => {
 									<div className='w-[20rem] border-[3px] border-[#708450] hover:scale-[105%] transition-all duration-500 md:w-[32rem]'>
 										<Image src="/community/crowd.JPG" width={5330} height={3553}></Image>
 									</div>
-									<p className="pt-[10px] text-[#708450] font-bold text-[18px] tracking-[1px]">
+									<p className="pt-[10px] text-[#708450] font-bold text-[12px] lg:text-[18px] tracking-[1px]">
 										Landing a Job in Big Tech, 200 attendees
 									</p>
 								</div>
