@@ -208,13 +208,29 @@ const Portfolio = () => {
                     </Link>
                 </div>
                 <div className="flex flex-col items-center">
+                    <Link href="/CSCU">
+                        <div className='relative w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem] hover:scale-[105%] transition-all duration-500'>
+                            <Image fill src="/community/cscu.jpg" className="object-cover border-[2.5px] border-[#634B39]"></Image>
+                        </div>
+                    </Link>
+                    <h2 className="font-semibold text-[1.4rem] mt-[2rem] md:text-[2rem] text-center tracking-[4px] text-[#3C1D06] lg:text-[20px] lg:tracking-[2px]">Computer Sci. Course Union<br />Various</h2>
+                    <p className="text-[15px] md:text-[18px] tracking-[2px] mt-[1rem]">
+                        September 2023 - April 2025
+                    </p>
+                    <a href="/CSCU">
+                        <button className="mt-[2rem] bg-[#b9d193] px-[15px] py-[6px] rounded-[20px] text-[#576e32] font-medium text-[20px] tracking-[2px] hover:scale-[105%] transition-all duration-500">
+                            Learn More
+                        </button>
+                    </a>
+                </div>
+                <div className="flex flex-col items-center">
                     <Link href="/WiCS">
                         <div className='relative w-[12rem] h-[12rem] md:w-[15rem] md:h-[15rem] 2xl:w-[23rem] 2xl:h-[23rem] hover:scale-[105%] transition-all duration-500'>
                             <Image fill src="/community/wics.jpg" className="object-cover border-[2.5px] border-[#634B39]"></Image>
                         </div>
                     </Link>
                     <h2 className="font-semibold text-[1.4rem] mt-[2rem] text-center md:text-[2rem] tracking-[4px] text-[#3C1D06] lg:text-[20px] lg:tracking-[2px]">Women in Computer Science <br/> Photographer</h2>
-                    <p className="text-[15px] md:text-[20px] tracking-[2px] mt-[1rem]">
+                    <p className="text-[15px] md:text-[18px] tracking-[2px] mt-[1rem]">
                         May 2023 - May 2024
                     </p>
                     <Link href="/WiCS">
