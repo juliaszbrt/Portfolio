@@ -14,10 +14,29 @@ const Portfolio = () => {
     return (
 
         <Fragment>
-            <div className="h-auto bg-[#FFDDC2]">
-                <div className="flex flex-col justify-center items-center gap-[2rem] pt-[4rem] lg:pt-[7rem] lg:gap-[4rem] 2xl:gap-[6rem]">
+            <div className="h-auto bg-[#FFECDD]">
+                <div id="circles" className="translate-y-1/2 w-full">
+                    <div className="flex items-center justify-center w-full overflow-x-auto whitespace-nowrap">
+                        <div className="h-[80px] w-[80px] md:h-[100px] md:w-[100px] lg:h-[150px] lg:w-[150px] bg-[#EEB07E] rounded-full flex-shrink-0"></div>
+                        <div className="h-[80px] w-[80px] md:h-[100px] md:w-[100px] lg:h-[150px] lg:w-[150px] bg-[#EEB07E] rounded-full flex-shrink-0"></div>
+                        <div className="h-[80px] w-[80px] md:h-[100px] md:w-[100px] lg:h-[150px] lg:w-[150px] bg-[#EEB07E] rounded-full flex-shrink-0"></div>
+                        <div className="h-[80px] w-[80px] md:h-[100px] md:w-[100px] lg:h-[150px] lg:w-[150px] bg-[#EEB07E] rounded-full flex-shrink-0"></div>
+                        <div className="h-[80px] w-[80px] md:h-[100px] md:w-[100px] lg:h-[150px] lg:w-[150px] bg-[#EEB07E] rounded-full flex-shrink-0"></div>
+                        <div className="h-[80px] w-[80px] md:h-[100px] md:w-[100px] lg:h-[150px] lg:w-[150px] bg-[#EEB07E] rounded-full flex-shrink-0"></div>
+                        <div className="h-[80px] w-[80px] md:h-[100px] md:w-[100px] lg:h-[150px] lg:w-[150px] bg-[#EEB07E] rounded-full flex-shrink-0"></div>
+                        <div className="h-[80px] w-[80px] md:h-[100px] md:w-[100px] lg:h-[150px] lg:w-[150px] bg-[#EEB07E] rounded-full flex-shrink-0"></div>
+                        <div className="h-[80px] w-[80px] md:h-[100px] md:w-[100px] lg:h-[150px] lg:w-[150px] bg-[#EEB07E] rounded-full flex-shrink-0"></div>
+                        <div className="h-[80px] w-[80px] md:h-[100px] md:w-[100px] lg:h-[150px] lg:w-[150px] bg-[#EEB07E] rounded-full flex-shrink-0"></div>
+                        <div className="h-[80px] w-[80px] md:h-[100px] md:w-[100px] lg:h-[150px] lg:w-[150px] bg-[#EEB07E] rounded-full flex-shrink-0"></div>
+                        <div className="h-[80px] w-[80px] md:h-[100px] md:w-[100px] lg:h-[150px] lg:w-[150px] bg-[#EEB07E] rounded-full flex-shrink-0"></div>
+                        <div className="h-[80px] w-[80px] md:h-[100px] md:w-[100px] lg:h-[150px] lg:w-[150px] bg-[#EEB07E] rounded-full flex-shrink-0"></div>
+                        <div className="h-[80px] w-[80px] md:h-[100px] md:w-[100px] lg:h-[150px] lg:w-[150px] bg-[#EEB07E] rounded-full flex-shrink-0"></div>
+                        <div className="h-[80px] w-[80px] md:h-[100px] md:w-[100px] lg:h-[150px] lg:w-[150px] bg-[#EEB07E] rounded-full flex-shrink-0"></div>
+                    </div>
+                </div>
+                <div className="flex flex-col justify-center items-center gap-[2rem] pt-[4rem] lg:pt-[4rem] lg:gap-[3rem] 2xl:gap-[6rem]">
                     <div >
-                        <h1 className="text-[3rem] tracking-[6px] text-[#3C1D06] lg:text-[4rem] 2xl:text-[5rem]">Portfolio</h1>
+                        <h1 className="text-[3rem] tracking-[6px] text-[#ffd5b4] font-black lg:text-[7rem] 2xl:text-[7rem]">PROJECTS</h1>
                     </div>
                     <motion.div
                         initial={{ opacity: 0 }}
@@ -229,7 +248,7 @@ const Portfolio = () => {
                             <Image fill src="/community/wics.jpg" className="object-cover border-[2.5px] border-[#634B39]"></Image>
                         </div>
                     </Link>
-                    <h2 className="font-semibold text-[1.4rem] mt-[2rem] text-center md:text-[2rem] tracking-[4px] text-[#3C1D06] lg:text-[20px] lg:tracking-[2px]">Women in Computer Science <br/> Photographer</h2>
+                    <h2 className="font-semibold text-[1.4rem] mt-[2rem] text-center md:text-[2rem] tracking-[4px] text-[#3C1D06] lg:text-[20px] lg:tracking-[2px]">Women in Computer Science <br /> Photographer</h2>
                     <p className="text-[15px] md:text-[18px] tracking-[2px] mt-[1rem]">
                         May 2023 - May 2024
                     </p>
