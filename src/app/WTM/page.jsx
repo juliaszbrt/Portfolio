@@ -45,8 +45,17 @@ const WTM = () => {
 								once: true,
 							}}
 							transition={{ duration: 3 }}>
-							<div className='my-[2rem] flex justify-center'>
+							<div className='my-[2rem] flex flex-col justify-center gap-[4rem]'>
+								<div className='mt-[2rem] md:mt-[3rem] flex flex-col justify-center items-center gap-[2rem]'>
+									<div className='w-[20rem] border-[3px] border-[#708450] hover:scale-[105%] transition-all duration-500 md:w-[32rem]'>
+										<Image src="/wtm.jpg" width={5330} height={3553}></Image>
+									</div>
+									<div className='w-[20rem] border-[3px] border-[#708450] hover:scale-[105%] transition-all duration-500 md:w-[32rem]'>
+										<Image src="/community/iwd.jpg" width={5330} height={3553}></Image>
+									</div>
+								</div>
 								<div className='grid grid-cols-2 md:grid-cols-2 gap-[20px] items-center lg:gap-[25px] xl:gap-[50px]'>
+									
 									<a target="_blank" href="https://www.instagram.com/reel/DBbWT7ZJTB-/">
 										<div className='w-[150px] border-[3px] border-[#708450] hover:scale-[105%] transition-all duration-500 lg:w-[230px] xl:w-[280px]'>
 											<Image src="/community/ghc.png" width={1446} height={1446}></Image>
