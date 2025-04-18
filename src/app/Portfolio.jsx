@@ -11,6 +11,8 @@ const Portfolio = () => {
     const [showModal1, setShowModal1] = useState(false);
     const [showModal2, setShowModal2] = useState(false);
     const [showModal3, setShowModal3] = useState(false);
+
+    
     return (
 
         <Fragment>
@@ -35,19 +37,34 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <div className="flex flex-col justify-center items-center gap-[2rem] pt-[4rem] lg:pt-[4rem] lg:gap-[3rem] 2xl:gap-[6rem]">
-                    <div >
-                        <h1 className="text-[3rem] tracking-[6px] text-[#ffd5b4] font-black lg:text-[7rem]">PROJECTS</h1>
-                    </div>
                     <motion.div
-                        initial={{ opacity: 0 }}
-                        whileInView={{ opacity: 1 }}
-                        viewport={{
-                            once: true,
+                        initial={{ opacity: 0, y: 10 }}
+                        whileInView={{
+                            opacity: 1, y: 0
                         }}
-                        transition={{ duration: 1 }}
+                        transition={{
+                            type: "spring",
+                            duration: 2,
+                            bounce: 0,
+                        }}
+                        viewport={{ once: true }}>
+                        <h1 className="text-[3rem] tracking-[6px] text-[#ffd5b4] font-black lg:text-[6rem] [font-family:var(--font-oshigo)]">projects</h1>
+                    </motion.div>
+                    <div
                         className="flex flex-col gap-[3rem] mb-[4rem] lg:mb-[8rem] lg:flex-row lg:gap-[5rem] 2xl:gap-[7rem]">
 
-                        <div id='box1' className="hover:scale-[105%] bg-[#FFECDD] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[35rem] 2xl:w-[27rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:ease-in-out " onClick={() => setShowModal1(true)}>
+                        <motion.div
+                            initial={{ opacity: 0, scale: 0.9 }}
+                            whileInView={{
+                                opacity: 1, scale: 1
+                            }}
+                            transition={{
+                                type: "spring",
+                                duration: 2,
+                                bounce: 0,
+                            }}
+                            viewport={{ once: true }} 
+                            id='box1' className="hover:scale-[105%] bg-[#FFECDD] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[35rem] 2xl:w-[27rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:ease-in-out " onClick={() => setShowModal1(true)}>
                             <div className="m-[2rem] text-[#3C1D06]">
                                 <h2 id="fullStack" className='text-[1.6rem] tracking-[2px] mb-[1rem] 2xl:mb-[3rem] leading-[2.6rem] underline decoration-[15px] decoration-[#B1CAD9] underline-offset-[-8px] lg:no-underline 2xl:text-[3.5rem]'>Development</h2>
                                 <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem] 2xl:text-[2em] 2xl:leading-[4rem]">
@@ -61,9 +78,20 @@ const Portfolio = () => {
                                     </button>
                                 </div>
                             </div>
-                        </div>
+                        </motion.div>
 
-                        <div id='box2' className="hover:scale-[105%] bg-[#FFECDD] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[35rem] 2xl:w-[27rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:ease-in-out" onClick={() => setShowModal2(true)}>
+                        <motion.div
+                            initial={{ opacity: 0, scale: 0.9 }}
+                            whileInView={{
+                                opacity: 1, scale: 1
+                            }}
+                            transition={{
+                                type: "spring",
+                                duration: 2,
+                                bounce: 0,
+                            }}
+                            viewport={{ once: true }}  
+                            id='box2' className="hover:scale-[105%] bg-[#FFECDD] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[35rem] 2xl:w-[27rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:ease-in-out" onClick={() => setShowModal2(true)}>
                             <div className="m-[2rem] text-[#3C1D06]">
                                 <h2 id="design" className='text-[1.6rem] tracking-[2px] mb-[1rem] 2xl:mb-[3rem] leading-[2.6rem] underline decoration-[15px] decoration-[#FACE5D] underline-offset-[-8px]  lg:no-underline 2xl:text-[3.5rem]'>Design</h2>
                                 <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem] 2xl:text-[2rem] 2xl:leading-[4rem]">
@@ -75,9 +103,20 @@ const Portfolio = () => {
                                     </button>
                                 </div>
                             </div>
-                        </div>
+                        </motion.div>
 
-                        <div id='box3' className="hover:scale-[105%] bg-[#FFECDD] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[35rem] 2xl:w-[27rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:ease-in-out" onClick={() => setShowModal3(true)}>
+                        <motion.div
+                            initial={{ opacity: 0, scale: 0.9 }}
+                            whileInView={{
+                                opacity: 1, scale: 1
+                            }}
+                            transition={{
+                                type: "spring",
+                                duration: 2,
+                                bounce: 0,
+                            }}
+                            viewport={{ once: true }}
+                            id='box3' className="hover:scale-[105%] bg-[#FFECDD] transition-all duration-500 lg:hover:transform-none cursor-pointer h-[23rem] w-[16rem] lg:h-[22rem] lg:w-[16rem] 2xl:h-[35rem] 2xl:w-[27rem] border-[2.5px] border-[#3C1D06] rounded-[30px] flex items-center lg:ease-in-out" onClick={() => setShowModal3(true)}>
                             <div className="m-[2rem] text-[#3C1D06]">
                                 <h2 id="photo" className='text-[1.6rem] tracking-[2px] mb-[1rem] 2xl:mb-[3rem] leading-[2.6rem] underline decoration-[15px] decoration-[#b9d193] underline-offset-[-8px]  lg:no-underline 2xl:text-[3.5rem]'>Community</h2>
                                 <p className="text-[1rem] tracking-[1.5px] leading-[2.4rem] lg:leading-[2rem] 2xl:text-[2rem] 2xl:leading-[4rem]">
@@ -89,9 +128,9 @@ const Portfolio = () => {
                                     </button>
                                 </div>
                             </div>
-                        </div>
+                        </motion.div>
 
-                    </motion.div>
+                    </div>
                 </div>
             </div>
             <Modal isVisible={showModal1} onClose={() => setShowModal1(false)}>

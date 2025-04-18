@@ -290,6 +290,15 @@ framer-motion@^11.3.8:
   dependencies:
     tslib "^2.4.0"
 
+framer-motion@^12.7.4:
+  version "12.7.4"
+  resolved "https://registry.npmjs.org/framer-motion/-/framer-motion-12.7.4.tgz"
+  integrity sha512-jX0bPsTmU0oPZTYz/dVyD0dmOyEOEJvdn0TaZBE5I8g2GvVnnQnW9f65cJnoVfUkY3WZWNXGXnPbVA9YnaIfVA==
+  dependencies:
+    motion-dom "^12.7.4"
+    motion-utils "^12.7.2"
+    tslib "^2.4.0"
+
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
@@ -462,6 +471,52 @@ minimatch@^3.0.4:
   integrity sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==
   dependencies:
     brace-expansion "^1.1.7"
+
+motion-dom@^12.0.0, motion-dom@^12.7.4:
+  version "12.7.4"
+  resolved "https://registry.npmjs.org/motion-dom/-/motion-dom-12.7.4.tgz"
+  integrity sha512-1ZUHAoSUMMxP6jPqyxlk9XUfb6NxMsnWPnH2YGhrOhTURLcXWbETi6eemoKb60Pe32NVJYduL4B62VQSO5Jq8Q==
+  dependencies:
+    motion-utils "^12.7.2"
+
+motion-plus-dom@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.npmjs.org/motion-plus-dom/-/motion-plus-dom-0.1.5.tgz"
+  integrity sha512-/XIAij0nud4sMFq1wrDQGhLJ/+Dfc/or0IyrbjwFgp+kprDRVpGqqJ+NSx9cwqS/QVJUoLzfTJ+yr88lC/soLQ==
+  dependencies:
+    motion "^12.0.6"
+    motion-dom "^12.0.0"
+    motion-utils "^12.0.0"
+
+motion-plus-react@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.npmjs.org/motion-plus-react/-/motion-plus-react-0.1.5.tgz"
+  integrity sha512-RyH4iuvUpC8VphhMp7taLgb8siYMaVv9F3ELkDI5YdsOSsLQ8h9FqDAmFscIye/v+C6qwFjpcuOFmoLPy1UFOQ==
+  dependencies:
+    motion "^12.0.6"
+    motion-plus-dom "^0.1.5"
+    motion-utils "^12.0.0"
+
+motion-plus@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.npmjs.org/motion-plus/-/motion-plus-0.1.6.tgz"
+  integrity sha512-xw5wzmmNX2Z8K6KndsiJe4oRndjBM5zOJ4pPOEhxcOpN5nieuw4EXztG2yOKDZ8DGZJWq8HyC9LCf0IkGYy7tg==
+  dependencies:
+    motion-plus-dom "^0.1.5"
+    motion-plus-react "^0.1.5"
+
+motion-utils@^12.0.0, motion-utils@^12.7.2:
+  version "12.7.2"
+  resolved "https://registry.npmjs.org/motion-utils/-/motion-utils-12.7.2.tgz"
+  integrity sha512-XhZwqctxyJs89oX00zn3OGCuIIpVevbTa+u82usWBC6pSHUd2AoNWiYa7Du8tJxJy9TFbZ82pcn5t7NOm1PHAw==
+
+motion@^12.0.6, motion@^12.7.4:
+  version "12.7.4"
+  resolved "https://registry.npmjs.org/motion/-/motion-12.7.4.tgz"
+  integrity sha512-MBGrMbYageHw4iZJn+pGTr7abq5n53jCxYkhFC1It3vYukQPRWg5zij46MnwYGpLR8KG465MLHSASXot9edYOw==
+  dependencies:
+    framer-motion "^12.7.4"
+    tslib "^2.4.0"
 
 mz@^2.7.0:
   version "2.7.0"
@@ -638,7 +693,7 @@ queue-microtask@^1.2.2:
   resolved "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
-"react-dom@^0.14.0 || ^15.0.0 || ^16 || ^17 || ^18", react-dom@^18.0.0, react-dom@^18.2.0, "react-dom@>= 16.8.0 || 18.0.0", react-dom@18.2.0:
+"react-dom@^0.14.0 || ^15.0.0 || ^16 || ^17 || ^18", react-dom@^18.0.0, "react-dom@^18.0.0 || ^19.0.0", react-dom@^18.2.0, "react-dom@>= 16.8.0 || 18.0.0", react-dom@18.2.0:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   integrity sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==
@@ -697,7 +752,7 @@ react-responsive@^10.0.0:
     prop-types "^15.6.1"
     shallow-equal "^3.1.0"
 
-"react@^0.14.0 || ^15.0.0 || ^16 || ^17 || ^18", "react@^16.8.0 || ^17.0.1 || ^18.0.0", react@^18.0.0, react@^18.2.0, "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>= 16.8.0 || 18.0.0", react@>=16.6.0, react@>=16.8.0, react@18.2.0:
+"react@^0.14.0 || ^15.0.0 || ^16 || ^17 || ^18", "react@^16.8.0 || ^17.0.1 || ^18.0.0", react@^18.0.0, "react@^18.0.0 || ^19.0.0", react@^18.2.0, "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>= 16.8.0 || 18.0.0", react@>=16.6.0, react@>=16.8.0, react@18.2.0:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==

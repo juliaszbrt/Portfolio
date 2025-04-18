@@ -1,11 +1,7 @@
 'use client'
-import Link from "next/link";
-import { Murecho } from 'next/font/google'
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { useState, useEffect } from "react";
-
-const murecho = Murecho({ subsets: ['latin'] })
 
 const Home = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -33,16 +29,16 @@ const Home = () => {
 			<div className="h-screen flex flex-col justify-center items-center lg:flex-row px-[8rem] py-0 lg:py-[2rem]">
 				<div className="lg:w-1/4 flex items-center justify-center">
 					<motion.div
-						initial={{
-							opacity:0,
-						}}
-						animate={{
-							opacity: 1,
-							
-						}}
-						transition={{
-							duration:2
-						}}						
+                        initial={{ opacity: 0, y: 10 }}
+                        whileInView={{
+                            opacity: 1, y: 0
+                        }}
+                        transition={{
+                            type: "spring",
+                            duration: 2,
+                            bounce: 0,
+                        }}
+                        viewport={{ once: true }}					
 						className="flex lg:flex-col lg:leading-[7rem] xl:leading-[9rem]">
 						<p className="text-[#FFDBBF] text-center text-[4rem] md:text-[9rem] lg:text-[9rem] xl:text-[12rem] font-black [font-family:var(--font-oshigo)] lg:rotate-[-22deg] relative lg:left-[-40px] lg:bottom-[-75px] xl:left-[-50px]">ジ</p>
 						<p className="text-[#FFDBBF] text-center text-[4rem] md:text-[9rem] lg:text-[7rem] xl:text-[10rem] font-black [font-family:var(--font-oshigo)] lg:rotate-[13deg] relative lg:left-[60px] lg:bottom-[-40px] xl:left-[80px]">ュ</p>
@@ -53,16 +49,16 @@ const Home = () => {
 				</div>
 				<div className="lg:w-3/4 flex items-center justify-center">
 					<motion.div
-						initial={{
-							opacity:0,
-						}}
-						animate={{
-							opacity: 1,
-							
-						}}
-						transition={{
-							duration:2
-						}}
+                        initial={{ opacity: 0, y: 10 }}
+                        whileInView={{
+                            opacity: 1, y: 0
+                        }}
+                        transition={{
+                            type: "spring",
+                            duration: 2,
+                            bounce: 0,
+                        }}
+                        viewport={{ once: true }}
 						className="flex flex-col items-center justify-center w-full lg:pl-[5rem]">
 						<h1 className="text-[#F4B280] text-center text-[4.5rem] md:text-[10rem] lg:text-[9rem] xl:text-[11rem] tracking-[5px] lg:tracking-[11px] font-bold [font-family:var(--font-oshigo)] lg:leading-[8rem] xl:leading-[15rem]">JULIA</h1>
 						<h1 className="text-[#FFC699] text-center text-[2.8rem] md:text-[6.5rem] lg:text-[5.5rem] xl:text-[7rem] tracking-[5px] lg:tracking-[11px] font-bold [font-family:var(--font-oshigo)]">SZUBERT</h1>
