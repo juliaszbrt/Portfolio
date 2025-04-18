@@ -54,9 +54,9 @@ const Portfolio = () => {
                         className="flex flex-col gap-[3rem] mb-[4rem] lg:mb-[8rem] lg:flex-row lg:gap-[5rem] 2xl:gap-[7rem]">
 
                         <motion.div
-                            initial={{ opacity: 0, scale: 0.9 }}
+                            initial={{ opacity: 0, y: 10 }}
                             whileInView={{
-                                opacity: 1, scale: 1
+                                opacity: 1, y: 0
                             }}
                             transition={{
                                 type: "spring",
@@ -81,9 +81,9 @@ const Portfolio = () => {
                         </motion.div>
 
                         <motion.div
-                            initial={{ opacity: 0, scale: 0.9 }}
+                            initial={{ opacity: 0, y: 10 }}
                             whileInView={{
-                                opacity: 1, scale: 1
+                                opacity: 1, y: 0
                             }}
                             transition={{
                                 type: "spring",
@@ -106,9 +106,9 @@ const Portfolio = () => {
                         </motion.div>
 
                         <motion.div
-                            initial={{ opacity: 0, scale: 0.9 }}
+                            initial={{ opacity: 0, y: 10 }}
                             whileInView={{
-                                opacity: 1, scale: 1
+                                opacity: 1, y: 0
                             }}
                             transition={{
                                 type: "spring",
