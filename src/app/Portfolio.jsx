@@ -36,7 +36,7 @@ const Portfolio = () => {
                 </div>
                 <div className="flex flex-col justify-center items-center gap-[2rem] pt-[4rem] lg:pt-[4rem] lg:gap-[3rem] 2xl:gap-[6rem]">
                     <div >
-                        <h1 className="text-[3rem] tracking-[6px] text-[#ffd5b4] font-black lg:text-[7rem] 2xl:text-[7rem]">PROJECTS</h1>
+                        <h1 className="text-[3rem] tracking-[6px] text-[#ffd5b4] font-black lg:text-[7rem]">PROJECTS</h1>
                     </div>
                     <motion.div
                         initial={{ opacity: 0 }}

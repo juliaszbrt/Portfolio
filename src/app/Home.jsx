@@ -30,8 +30,8 @@ const Home = () => {
 
 	return (
 		<div className="h-screen bg-[#FFECDD] relative overflow-hidden">
-			<div className="h-screen flex flex-col justify-center items-center narrow:flex-row px-[8rem] py-0 macbook:py-[2rem]">
-				<div className="narrow:w-1/4 flex items-center justify-center">
+			<div className="h-screen flex flex-col justify-center items-center lg:flex-row px-[8rem] py-0 lg:py-[2rem]">
+				<div className="lg:w-1/4 flex items-center justify-center">
 					<motion.div
 						initial={{
 							opacity:0,
@@ -43,15 +43,15 @@ const Home = () => {
 						transition={{
 							duration:2
 						}}						
-						className="flex narrow:flex-col narrow:leading-[7rem] regular:leading-[9rem]">
-						<p className="text-[#FFDBBF] text-center text-[4rem] md:text-[9rem] narrow:text-[9rem] regular:text-[11rem] macbook:text-[12rem] font-black [font-family:var(--font-oshigo)] narrow:rotate-[-22deg] relative narrow:left-[-40px] narrow:bottom-[-70px]">ジ</p>
-						<p className="text-[#FFDBBF] text-center text-[4rem] md:text-[9rem] narrow:text-[7rem] regular:text-[8rem] macbook:text-[8rem] font-black [font-family:var(--font-oshigo)] narrow:rotate-[13deg] relative narrow:left-[60px] narrow:bottom-[-40px]">ュ</p>
-						<p className="text-[#FFDBBF] text-center text-[4rem] md:text-[9rem] narrow:text-[9rem] regular:text-[9rem] macbook:text-[10rem] font-black [font-family:var(--font-oshigo)] relative narrow:left-[-75px] narrow:bottom-[-10px]">リ</p>
-						<p className="text-[#FFDBBF] text-center text-[4rem] md:text-[9rem] narrow:text-[8rem] regular:text-[9rem] macbook:text-[9rem] font-black [font-family:var(--font-oshigo)] narrow:rotate-[13deg] relative narrow:left-[40px] narrow:bottom-[-10px]">ア</p>
-						<p className="text-[#FFDBBF] text-center text-[4rem] md:text-[9rem] narrow:text-[8rem] regular:text-[9rem] macbook:text-[10rem] font-black [font-family:var(--font-oshigo)] narrow:rotate-[-35deg] relative narrow:left-[-65px] narrow:top-[-40px]">!</p>
+						className="flex lg:flex-col lg:leading-[7rem] xl:leading-[9rem]">
+						<p className="text-[#FFDBBF] text-center text-[4rem] md:text-[9rem] lg:text-[9rem] xl:text-[12rem] font-black [font-family:var(--font-oshigo)] lg:rotate-[-22deg] relative lg:left-[-40px] lg:bottom-[-75px] xl:left-[-50px]">ジ</p>
+						<p className="text-[#FFDBBF] text-center text-[4rem] md:text-[9rem] lg:text-[7rem] xl:text-[10rem] font-black [font-family:var(--font-oshigo)] lg:rotate-[13deg] relative lg:left-[60px] lg:bottom-[-40px] xl:left-[80px]">ュ</p>
+						<p className="text-[#FFDBBF] text-center text-[4rem] md:text-[9rem] lg:text-[9rem] xl:text-[12rem] font-black [font-family:var(--font-oshigo)] relative lg:left-[-75px] lg:bottom-[-10px] xl:left-[-80px] xl:bottom-[-30px]">リ</p>
+						<p className="text-[#FFDBBF] text-center text-[4rem] md:text-[9rem] lg:text-[8rem] xl:text-[10rem] font-black [font-family:var(--font-oshigo)] lg:rotate-[13deg] relative lg:left-[40px] lg:bottom-[-10px] xl:left-[60px] xl:bottom-[-30px]">ア</p>
+						<p className="text-[#FFDBBF] text-center text-[4rem] md:text-[9rem] lg:text-[8rem] xl:text-[12rem] font-black [font-family:var(--font-oshigo)] lg:rotate-[-35deg] relative lg:left-[-65px] lg:top-[-35px] xl:left-[-70px]">!</p>
 					</motion.div>
 				</div>
-				<div className="narrow:w-3/4 flex items-center justify-center">
+				<div className="lg:w-3/4 flex items-center justify-center">
 					<motion.div
 						initial={{
 							opacity:0,
@@ -63,10 +63,10 @@ const Home = () => {
 						transition={{
 							duration:2
 						}}
-						className="flex flex-col items-center justify-center w-full narrow:pl-[5rem]">
-						<h1 className="text-[#F4B280] text-center text-[4.5rem] md:text-[10rem] narrow:text-[9rem] regular:text-[12rem] macbook:text-[14rem] tracking-[5px] lg:tracking-[11px] font-bold [font-family:var(--font-oshigo)] narrow:leading-[8rem] regular:leading-[11rem] macbook:leading-[15rem]">JULIA</h1>
-						<h1 className="text-[#FFC699] text-center text-[2.8rem] md:text-[6.5rem] narrow:text-[5.5rem] regular:text-[7.5rem] macbook:text-[8.5rem] tracking-[5px] lg:tracking-[11px] font-bold [font-family:var(--font-oshigo)]">SZUBERT</h1>
-						<div className="text-[#F0BD37] hidden narrow:flex narrow:justify-center narrow:gap-[3rem] narrow:pt-[30px] regular:gap-[5rem] macbook:gap-[6.5rem] font-bold tracking-[5px] narrow:text-[1.5rem] regular:text-[2.2rem] macbook:text-[2.5rem]">
+						className="flex flex-col items-center justify-center w-full lg:pl-[5rem]">
+						<h1 className="text-[#F4B280] text-center text-[4.5rem] md:text-[10rem] lg:text-[9rem] xl:text-[11rem] tracking-[5px] lg:tracking-[11px] font-bold [font-family:var(--font-oshigo)] lg:leading-[8rem] xl:leading-[15rem]">JULIA</h1>
+						<h1 className="text-[#FFC699] text-center text-[2.8rem] md:text-[6.5rem] lg:text-[5.5rem] xl:text-[7rem] tracking-[5px] lg:tracking-[11px] font-bold [font-family:var(--font-oshigo)]">SZUBERT</h1>
+						<div className="text-[#F0BD37] hidden lg:flex lg:justify-center lg:gap-[4.5rem] lg:pt-[30px] xl:gap-[5rem] font-bold tracking-[5px] lg:text-[1.5rem] xl:tracking-[7px] xl:text-[1.7rem]">
 							<a href='#portfolio' className='hover:scale-[110%] transition-all duration-500'><h3>Projects</h3></a>
 							<a href='#about' className='hover:scale-[110%] transition-all duration-500'><h3>About</h3></a>
 							<a href='#experience' className='hover:scale-[110%] transition-all duration-500'><h3>Experience</h3></a>
@@ -77,13 +77,13 @@ const Home = () => {
 			{/* Hamburger menu */}
 			<div
 				onClick={toggleMenu}
-				className="narrow:hidden absolute top-0 w-full flex justify-end p-[2rem] pr-[2.3rem] text-[40px] md:text-[60px] md:pr-[3rem] text-[#f8c137]">
+				className="lg:hidden absolute top-0 w-full flex justify-end p-[2rem] pr-[2.3rem] text-[40px] md:text-[60px] md:pr-[3rem] text-[#f8c137]">
 				&#x2630;
 			</div>
 			{/* Slide out menu */}
 			<div
 				className={`absolute top-0 ${menuOpen ? "left-0" : "left-full"
-					} narrow:hidden w-full h-full z-20 bg-[#486c34] transition-all duration-500`}>
+					} lg:hidden w-full h-full z-20 bg-[#486c34] transition-all duration-500`}>
 				<div className="flex flex-col justify-center items-center text-center h-full gap-[2rem] text-[25px] tracking-[3px] text-[#FFECDD]">
 					<a href="#portfolio" onClick={handleMenuItemClick}>
 						<div className="hover:scale-110 transition-all duration-500">Projects</div>

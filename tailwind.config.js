@@ -7,13 +7,11 @@ module.exports = {
   ],
   theme: {
     screens: {
-      'sm': {'min': '640px'},
-      'md': {'min': '768px'},
-      'lg': {'min': '1025px'},
-      'xl': {'min': '1280px'},
-      'narrow': {'raw': '(min-width: 1024px) and (min-height: 600px)'},
-      'regular': {'raw': '(min-width: 1280px) and (min-height: 800px)'},
-      'macbook': {'raw': '(min-width: 1440px) and (min-height: 900px)'}
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px', // Nest hub
+      'xl': '1280px', // Nest hub max + macbook
+      '2xl': '1536px' // 
     },
     extend: {
       backgroundImage: {
