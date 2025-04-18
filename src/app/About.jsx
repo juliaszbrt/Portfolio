@@ -3,6 +3,7 @@ import Image from "next/image"
 import "./globals.css"
 import { motion } from "framer-motion";
 
+
 const About = () => {
     return (
         <div className="h-auto bg-[#F8C39A]">
@@ -25,26 +26,24 @@ const About = () => {
                             className="relative mt-[1.5rem] h-[17rem] w-[17rem] lg:mt-0 lg:h-[20rem] lg:w-[20rem] 2xl:h-[27rem] 2xl:w-[27rem] overflow-hidden">
                             <Image alt="profile photo" loading="lazy" width={1242} height={1242} src="/julia.png" ></Image>
                         </div>
-                        <p className="text-[#3C1D06] text-[0.8rem] mx-[1.5rem] text-center leading-7 tracking-[1.8px]">
+                        <h3 className="text-[#3C1D06] text-[0.8rem] mx-[1.5rem] text-center leading-7 tracking-[1.8px]">
                             Bachelor of Science (BS) in Computer Science, CO-OP <br />
                             <b>Toronto Metropolitan University</b>
-                        </p>
+                        </h3>
                     </motion.div>
 
                     <motion.div
                         initial={{ opacity: 0, y: 10 }}
-                        whileInView={{
-                            opacity: 1, y: 0
-                        }}
+                        whileInView={{ opacity: 1, y: 0 }}
                         transition={{
                             type: "spring",
                             duration: 2,
                             bounce: 0,
                         }}
                         viewport={{ once: true }}
-
                         className="flex justify-self-center">
-                        <div className="flex flex-col justify-center mb-[3rem] mx-[1.5rem]">
+                        <div
+                            className="flex flex-col justify-center mb-[3rem] mx-[1.5rem]">
                             <h1 className="mb-[1rem] text-[1.7rem] tracking-[3px] font-semibold text-[#3C1D06] lg:text-[1.5rem] xl:text-[2.5rem]">
                                 Nice to meet you!
                             </h1>

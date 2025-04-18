@@ -61,7 +61,7 @@ const Home = () => {
                         viewport={{ once: true }}
 						className="flex flex-col items-center justify-center w-full lg:pl-[5rem]">
 						<h1 className="text-[#F4B280] text-center text-[4.5rem] md:text-[10rem] lg:text-[9rem] xl:text-[11rem] tracking-[5px] lg:tracking-[11px] font-bold [font-family:var(--font-oshigo)] lg:leading-[8rem] xl:leading-[15rem]">JULIA</h1>
-						<h1 className="text-[#FFC699] text-center text-[2.8rem] md:text-[6.5rem] lg:text-[5.5rem] xl:text-[7rem] tracking-[5px] lg:tracking-[11px] font-bold [font-family:var(--font-oshigo)]">SZUBERT</h1>
+						<h1 className="text-[#FFC699] text-center text-[2.8rem] md:text-[6.5rem] lg:text-[5.5rem] xl:text-[7rem] tracking-[5px] lg:tracking-[11px] font-bold ">SZUBERT</h1>
 						<div className="text-[#F0BD37] hidden lg:flex lg:justify-center lg:gap-[4.5rem] lg:pt-[30px] xl:gap-[5rem] font-bold tracking-[5px] lg:text-[1.5rem] xl:tracking-[7px] xl:text-[1.7rem]">
 							<a href='#portfolio' className='hover:scale-[110%] transition-all duration-500'><h3>Projects</h3></a>
 							<a href='#about' className='hover:scale-[110%] transition-all duration-500'><h3>About</h3></a>
