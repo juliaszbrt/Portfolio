@@ -8,8 +8,11 @@ const oshigo = localFont({
 })
 
 export const metadata = {
-  title: '',
-  description: '',
+  title: 'Julia Szubert',
+  description: 'Portfolio website',
+  icons: [
+    { url: '../../public/favicon.svg', type: 'image/svg+xml' }
+  ]
 }
 
 export default function RootLayout({ children }) {
