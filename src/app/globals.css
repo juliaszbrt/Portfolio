@@ -6,6 +6,28 @@ html, body, a, button, input, textarea, select{
   cursor: none !important;
   scroll-behavior: smooth;
 }
+.cursor-default {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-image: url('/cursor.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.cursor-hover {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: transparent;
+  background-image: none;
+  border: 3px solid #88B1CA;
+  transition: all 0.2s ease;
+}
+
 
 #fullStack, #photo, #design, #contact, #achievements, #cohere, #growth {
   text-decoration-skip-ink: none;
