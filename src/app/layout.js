@@ -7,6 +7,16 @@ const oshigo = localFont({
   variable: '--font-oshigo',
 })
 
+const sacramento = localFont({
+  src: '../../public/fonts/sacramento.otf',
+  variable: '--font-sacramento',
+})
+
+const playwrite = localFont({
+  src: '../../public/fonts/playwrite.otf',
+  variable: '--font-playwrite',
+})
+
 export const metadata = {
   title: 'Julia Szubert',
   description: 'Portfolio website',
@@ -18,7 +28,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${oshigo.variable} bg-[#F8C39A]`}>
+      <body className={`${oshigo.variable} ${playwrite.variable} bg-[#F8C39A]`}>
         <CustomCursor />  
         {children}
       </body>
