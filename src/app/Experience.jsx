@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Experience = () => {
   return (
     <div>
-      <div className="h-auto px-[5rem] py-[5rem]">
+      <div className="bg-[#fff8f3] h-auto px-[5rem] py-[5rem]">
         <div className="flex justify-center">
           <div className="flex flex-col">
             <motion.div

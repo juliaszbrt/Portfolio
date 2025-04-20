@@ -8,7 +8,7 @@ import Experience from "./Experience"
 export default function Main() {
 
 	return (
-		<main className="bg-[#FFECDD]">
+		<main className="bg-[#fff8f3]">
 			<section id="home">
 				<Home />
 			</section>

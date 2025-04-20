@@ -25,7 +25,8 @@ const Home = () => {
 	};
 
 	return (
-		<div className="h-screen bg-[#FFECDD] relative overflow-hidden">
+		<div
+			className="h-screen bg-[#fff8f3] relative overflow-hidden">
 			<div className="h-screen flex flex-col justify-center items-center lg:flex-row px-[8rem] py-0 lg:py-[2rem]">
 				<div className="lg:w-1/4 flex items-center justify-center">
 					<motion.div
@@ -60,12 +61,14 @@ const Home = () => {
                         }}
                         viewport={{ once: true }}
 						className="flex flex-col items-center justify-center w-full lg:pl-[5rem]">
-						<h1 className="text-[#F4B280] text-center text-[4.5rem] md:text-[10rem] lg:text-[9rem] xl:text-[11rem] tracking-[5px] lg:tracking-[11px] font-bold [font-family:var(--font-oshigo)] lg:leading-[8rem] xl:leading-[15rem]">JULIA</h1>
-						<h1 className="text-[#FFC699] text-center text-[2.8rem] md:text-[6.5rem] lg:text-[5.5rem] xl:text-[7rem] tracking-[5px] lg:tracking-[11px] font-bold ">SZUBERT</h1>
-						<div className="text-[#F0BD37] hidden lg:flex lg:justify-center lg:gap-[4.5rem] lg:pt-[30px] xl:gap-[5rem] font-bold tracking-[5px] lg:text-[1.5rem] xl:tracking-[7px] xl:text-[1.7rem]">
+						<h1 className="text-[#F4B280] text-center text-[4.5rem] md:text-[10rem] lg:text-[9rem] xl:text-[12rem] tracking-[5px] lg:tracking-[11px] font-bold [font-family:var(--font-oshigo)] lg:leading-[8rem] xl:leading-[11rem]">Julia</h1>
+						<h1 className="text-[#FFC699] text-center text-[2.8rem] md:text-[6.5rem] lg:text-[5.5rem] xl:text-[7rem] tracking-[5px] lg:tracking-[11px] font-bold [font-family:var(--font-oshigo)]">Szubert</h1>
+						<div className="text-[#F0BD37] hidden lg:flex items-center justify-center lg:gap-[0.5rem] lg:pt-[16px] xl:gap-[1rem] font-bold tracking-[5px] lg:text-[1.3rem] xl:tracking-[7px] xl:text-[1.7rem]">
 							<a href='#portfolio' className='hover:scale-[110%] transition-all duration-500'><h3>Projects</h3></a>
+							<span className="w-[3rem] h-[3rem] flex justify-center items-center text-center lg:text-[2rem] xl:text-[3rem] text-[#889d66]">&#x2738;</span>
 							<a href='#about' className='hover:scale-[110%] transition-all duration-500'><h3>About</h3></a>
-							<a href='#experience' className='hover:scale-[110%] transition-all duration-500'><h3>Experience</h3></a>
+							<span className="w-[3rem] h-[3rem] flex justify-center items-center text-center lg:text-[2rem] xl:text-[3rem] text-[#889d66]">&#x2738;</span>
+							<a href='#experience' className='text-center hover:scale-[110%] transition-all duration-500'><h3>Experience</h3></a>
 						</div>
 					</motion.div>
 				</div>
