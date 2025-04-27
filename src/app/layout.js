@@ -17,6 +17,11 @@ const playwrite = localFont({
   variable: '--font-playwrite',
 })
 
+const domine = localFont({
+  src: '../../public/fonts/domine.otf',
+  variable: '--font-domine',
+})
+
 export const metadata = {
   title: 'Julia Szubert',
   description: 'Portfolio website'
@@ -26,9 +31,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="./favicon.ico" type="image/x-icon" />
       </head>
-      <body className={`${oshigo.variable} ${playwrite.variable} bg-[#F8C39A]`}>
+      <body className={`${oshigo.variable} ${playwrite.variable} ${domine.variable} ${sacramento.variable} bg-[#F8C39A]`}>
         <CustomCursor />  
         {children}
       </body>

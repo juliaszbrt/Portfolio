@@ -23,11 +23,13 @@ const About = () => {
                         viewport={{ once: true }}
                         className="py-[2rem] flex flex-col justify-center gap-[2rem] items-center">
                         <div
-                            className="relative mt-[1.5rem] h-[17rem] w-[17rem] lg:mt-0 lg:h-[20rem] lg:w-[20rem] 2xl:h-[27rem] 2xl:w-[27rem] overflow-hidden">
+                            className="relative mt-[1.5rem] h-[17rem] w-[17rem] lg:mt-0 lg:h-[15rem] lg:w-[15rem] xl:h-[18rem] xl:w-[18rem] overflow-hidden">
                             <Image alt="profile photo" loading="lazy" width={1242} height={1242} src="/julia.png" ></Image>
                         </div>
-                        <h3 className="text-[#3C1D06] text-[0.8rem] mx-[1.5rem] text-center leading-7 tracking-[1.8px]">
+                        <h3 className="text-[#3C1D06] text-[0.8rem] xl:text-[1.2rem] mx-[1.5rem] text-center leading-7 tracking-[1.8px]">
                             Bachelor of Science (BS) in Computer Science, CO-OP <br />
+                        </h3>
+                        <h3 className="text-[#3C1D06] text-[0.8rem] xl:text-[1.2rem] mx-[1.5rem] text-center leading-7 tracking-[1.8px]">
                             <b>Toronto Metropolitan University</b>
                         </h3>
                     </motion.div>
@@ -41,14 +43,14 @@ const About = () => {
                             bounce: 0,
                         }}
                         viewport={{ once: true }}
-                        className="flex justify-self-center">
+                        className="flex ">
                         <div
-                            className="flex flex-col justify-center mb-[3rem] mx-[1.5rem]">
-                            <h1 className="mb-[1rem] text-[1.7rem] tracking-[3px] font-semibold text-[#3C1D06] lg:text-[1.5rem] xl:text-[2.5rem]">
+                            className="flex flex-col mx-[1.5rem]">
+                            <h1 className="mb-[1rem] text-[1.7rem] tracking-[3px] font-semibold text-[#3C1D06] lg:text-[1.5rem] xl:text-[2.2rem]">
                                 Toronto-Based Developer, Designer, and Community Leader
                             </h1>
-                            <p className="text-justify text-[0.8rem] tracking-[1.8px] leading-6 text-[#3C1D06] lg:text-[1rem] lg:leading-8 2xl:w-[40rem] 2xl:text-[1.3rem] 2xl:leading-10">
-                                I thrive in creative & playful environments. Through my artistic touch and passion for building, I breathe life into the ordinary.
+                            <p className="text-justify text-[0.8rem] tracking-[1.8px] leading-6 text-[#3C1D06] lg:text-[0.9rem] lg:leading-8 xl:text-[1.2rem]">
+                                I thrive in creative & playful environments. With an artistic eye and a passion for building, I breathe life into the ordinary.
                                 Feel free to message me; let's be friends!
                             </p>
                         </div>

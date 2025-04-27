@@ -2,6 +2,8 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import ClickSpark from '@/components/ClickSpark';
+import CircularText from '@/components/CircularText';
 
 const Home = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -25,10 +27,15 @@ const Home = () => {
 	};
 
 	return (
-		<div
-			className="h-screen bg-[#fff8f3] relative overflow-hidden">
-			<div className="h-screen flex flex-col justify-center items-center lg:flex-row px-[8rem] py-0 lg:py-[2rem]">
-				<div className="lg:w-1/4 flex items-center justify-center">
+		<ClickSpark
+		sparkColor='#88B1CA'
+		sparkSize={25}
+		sparkRadius={15}
+		sparkCount={8}
+		duration={400}
+		className="h-screen bg-[#fff8f3] relative overflow-hidden">
+			<div className="h-screen flex flex-col justify-center items-center lg:flex-row lg:px-[8rem] py-0 lg:py-[2rem]">
+				<div className="lg:w-1/3 flex items-center justify-center">
 					<motion.div
                         initial={{ opacity: 0, y: 10 }}
                         whileInView={{
@@ -41,14 +48,14 @@ const Home = () => {
                         }}
                         viewport={{ once: true }}					
 						className="flex lg:flex-col lg:leading-[7rem] xl:leading-[9rem]">
-						<p className="text-[#FFDBBF] text-center text-[4rem] md:text-[9rem] lg:text-[9rem] xl:text-[12rem] font-black [font-family:var(--font-oshigo)] lg:rotate-[-22deg] relative lg:left-[-40px] lg:bottom-[-75px] xl:left-[-50px]">ジ</p>
-						<p className="text-[#FFDBBF] text-center text-[4rem] md:text-[9rem] lg:text-[7rem] xl:text-[10rem] font-black [font-family:var(--font-oshigo)] lg:rotate-[13deg] relative lg:left-[60px] lg:bottom-[-40px] xl:left-[80px]">ュ</p>
-						<p className="text-[#FFDBBF] text-center text-[4rem] md:text-[9rem] lg:text-[9rem] xl:text-[12rem] font-black [font-family:var(--font-oshigo)] relative lg:left-[-75px] lg:bottom-[-10px] xl:left-[-80px] xl:bottom-[-30px]">リ</p>
-						<p className="text-[#FFDBBF] text-center text-[4rem] md:text-[9rem] lg:text-[8rem] xl:text-[10rem] font-black [font-family:var(--font-oshigo)] lg:rotate-[13deg] relative lg:left-[40px] lg:bottom-[-10px] xl:left-[60px] xl:bottom-[-30px]">ア</p>
-						<p className="text-[#FFDBBF] text-center text-[4rem] md:text-[9rem] lg:text-[8rem] xl:text-[12rem] font-black [font-family:var(--font-oshigo)] lg:rotate-[-35deg] relative lg:left-[-65px] lg:top-[-35px] xl:left-[-70px]">!</p>
+						<p className="text-[#b0be98] text-center text-[4rem] md:text-[9rem] lg:text-[9rem] xl:text-[12rem] font-black [font-family:var(--font-oshigo)] lg:rotate-[-22deg] relative lg:left-[-40px] lg:bottom-[-75px] xl:left-[-50px]">ジ</p>
+						<p className="text-[#f9b57d] text-center text-[4rem] md:text-[9rem] lg:text-[7rem] xl:text-[10rem] font-black [font-family:var(--font-oshigo)] lg:rotate-[13deg] relative lg:left-[60px] lg:bottom-[-40px] xl:left-[80px]">ュ</p>
+						<p className="text-[#f7c956] text-center text-[4rem] md:text-[9rem] lg:text-[9rem] xl:text-[12rem] font-black [font-family:var(--font-oshigo)] relative lg:left-[-75px] lg:bottom-[-10px] xl:left-[-80px] xl:bottom-[-30px]">リ</p>
+						<p className="text-[#a7cae0] text-center text-[4rem] md:text-[9rem] lg:text-[8rem] xl:text-[10rem] font-black [font-family:var(--font-oshigo)] lg:rotate-[13deg] relative lg:left-[40px] lg:bottom-[-10px] xl:left-[60px] xl:bottom-[-30px]">ア</p>
+						<p className="text-[#ffcda7] text-center text-[4rem] md:text-[9rem] lg:text-[8rem] xl:text-[12rem] font-black [font-family:var(--font-oshigo)] lg:rotate-[-35deg] relative lg:left-[-65px] lg:top-[-35px] xl:left-[-70px]">!</p>
 					</motion.div>
 				</div>
-				<div className="lg:w-3/4 flex items-center justify-center">
+				<div className="lg:w-2/3 flex items-center justify-center">
 					<motion.div
                         initial={{ opacity: 0, y: 10 }}
                         whileInView={{
@@ -60,15 +67,37 @@ const Home = () => {
                             bounce: 0,
                         }}
                         viewport={{ once: true }}
-						className="flex flex-col items-center justify-center w-full lg:pl-[5rem]">
-						<h1 className="text-[#F4B280] text-center text-[4.5rem] md:text-[10rem] lg:text-[9.5rem] xl:text-[13rem] tracking-[5px] lg:tracking-[-6px] font-bold [font-family:var(--font-oshigo)] lg:leading-[3rem] xl:leading-[1.2rem] lg:pt-[5rem] xl:pt-[6rem]">JULIA</h1>
-						<h1 className="text-[#8e9d76] text-center text-[2.8rem] md:text-[6.5rem] lg:text-[5.5rem] xl:text-[8rem] tracking-[5px] lg:tracking-[0px] font-extralight [font-family:var(--font-playwrite)]">Szubert</h1>
-						<div className="text-[#f8c137] hidden lg:flex items-center justify-center lg:gap-[0.5rem] lg:pt-[3rem] xl:pt-[5rem] xl:gap-[1.5rem] font-bold lg:text-[1.3rem] xl:text-[2rem]">
-							<a href='#portfolio' className='font-bold tracking-[3px] hover:scale-[110%] transition-all duration-500'><h3>Projects</h3></a>
-							<span className="w-[3rem] h-[3rem] flex justify-center items-center text-center lg:text-[2rem] xl:text-[3rem] text-[#889d66]">&#x2738;</span>
-							<a href='#about' className='font-bold tracking-[3px] hover:scale-[110%] transition-all duration-500'><h3>About</h3></a>
-							<span className="w-[3rem] h-[3rem] flex justify-center items-center text-center lg:text-[2rem] xl:text-[3rem] text-[#889d66]">&#x2738;</span>
-							<a href='#experience' className='font-bond tracking-[3px] text-center hover:scale-[110%] transition-all duration-500'><h3>Experience</h3></a>
+						className="flex flex-col items-center justify-center w-full lg:pl-[5rem] lg:gap-[1rem]">
+						<h1 className="text-[#4a5e2a] text-center text-[4.5rem] md:text-[7.5rem] lg:text-[10rem] xl:text-[14rem] tracking-[5px] lg:tracking-[5px] md:leading-[12rem] lg:leading-[10rem] xl:leading-[15rem] font-bold [font-family:var(--font-domine)]">Julia</h1>
+						<h1 className="text-[#bdc6af] text-center text-[1.2rem] md:text-[2.5rem] lg:text-[1.5rem] xl:text-[2.5rem] tracking-[3px] leading-[2rem] md:leading-[4rem] lg:leading-[3rem] font-light [font-family:var(--font-domine)]"><em>Designer & Developer, <br /> based in Toronto.</em></h1>
+						<div className="hidden justify-center items-center mt-[1rem] xl:mt-[2.5rem] lg:flex gap-[3rem] xl:gap-[5rem] font-bold">
+							<a href='#portfolio' className='text-[#f8c137] font-medium hover:scale-[110%] transition-all duration-500'>
+								<CircularText
+									text="PORTFOLIO&#x2605;"
+									xlFontSize="18px"
+									xlHeight="130px"
+									spinDuration={20}
+									className="custom-class">
+								</CircularText>
+							</a>
+							<a href='#about' className='text-[#f8c137] font-medium tracking-[0px] hover:scale-[110%] transition-all duration-500'>
+								<CircularText
+									text="BIOGRAPHY&#x2605;"
+									xlFontSize="18px"
+									xlHeight="130px"
+									spinDuration={20}
+									className="custom-class">
+								</CircularText>
+							</a>
+							<a href='#experience' className='text-[#f8c137] font-medium tracking-[0px] hover:scale-[110%] transition-all duration-500'>
+								<CircularText
+									text="EXPERIENCE&#x2605;"
+									xlFontSize="18px"
+									xlHeight="130px"
+									spinDuration={20}
+									className="custom-class">
+								</CircularText>
+							</a>
 						</div>
 					</motion.div>
 				</div>
@@ -85,10 +114,10 @@ const Home = () => {
 					} lg:hidden w-full h-full z-20 bg-[#486c34] transition-all duration-500`}>
 				<div className="flex flex-col justify-center items-center text-center h-full gap-[2rem] text-[25px] tracking-[3px] text-[#FFECDD]">
 					<a href="#portfolio" onClick={handleMenuItemClick}>
-						<div className="hover:scale-110 transition-all duration-500">Projects</div>
+						<div className="hover:scale-110 transition-all duration-500">Portfolio</div>
 					</a>
 					<a href="#about" onClick={handleMenuItemClick}>
-						<div className="hover:scale-110 transition-all duration-500">About</div>
+						<div className="hover:scale-110 transition-all duration-500">Biography</div>
 					</a>
 					<a href="#experience" onClick={handleMenuItemClick}>
 						<div className="hover:scale-110 transition-all duration-500">Experience</div>
@@ -106,7 +135,7 @@ const Home = () => {
 				</div>
 			</div>
 
-		</div >
+		</ClickSpark>
 	)
 }
 

@@ -5,18 +5,11 @@ import { useEffect, useState } from 'react';
 export default function CustomCursor() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
-  const [hoveringClickable, setHoveringClickable] = useState(false);
+  const [isTouchDevice, setIsTouchDevice] = useState(false);
 
   useEffect(() => {
     const handleMouseMove = (e) => {
       setMousePosition({ x: e.clientX, y: e.clientY });
-
-      const target = e.target;
-      if (target.closest('a, button, input, textarea, select, Modal, [data-clickable="true"]')) {
-        setHoveringClickable(true);
-      } else {
-        setHoveringClickable(false);
-      }
     };
 
     window.addEventListener('mousemove', handleMouseMove);
@@ -26,7 +19,21 @@ export default function CustomCursor() {
   useEffect(() => {
     setCursorPosition({ x: mousePosition.x, y: mousePosition.y });
   }, [mousePosition]);
-  
+
+  useEffect(() => {
+    const checkIfTouchDevice = () => {
+      if (('ontouchstart' in window) || (navigator.maxTouchPoints > 0)) {
+        setIsTouchDevice(true);
+      }
+    };
+
+    checkIfTouchDevice();
+  }, []);
+
+  if (isTouchDevice) {
+    return null; 
+  }
+
 
   return (
     <div
@@ -35,7 +42,7 @@ export default function CustomCursor() {
         transform: `translate(${cursorPosition.x}px, ${cursorPosition.y}px) translate(-50%, -50%)`,
       }}
     >
-      <div className={`transition-all duration-200 ease-out ${hoveringClickable ? 'cursor-hover' : 'cursor-default'}`} />
+      <div className={`transition-all duration-200 ease-out`} />
     </div>
   );
 }
