@@ -45,11 +45,11 @@ const About = () => {
                         <div
                             className="flex flex-col justify-center mb-[3rem] mx-[1.5rem]">
                             <h1 className="mb-[1rem] text-[1.7rem] tracking-[3px] font-semibold text-[#3C1D06] lg:text-[1.5rem] xl:text-[2.5rem]">
-                                Nice to meet you!
+                                Toronto-Based Developer, Designer, and Community Leader
                             </h1>
                             <p className="text-justify text-[0.8rem] tracking-[1.8px] leading-6 text-[#3C1D06] lg:text-[1rem] lg:leading-8 2xl:w-[40rem] 2xl:text-[1.3rem] 2xl:leading-10">
-                                I am a <b>developer</b>, <b>designer</b>, and <b>community leader</b> based in Toronto. I enjoy meeting people through Toronto's vibrant tech community
-                                and love to express my passion for the work that I do through unique designs & creative projects. Feel free to message me; let's be friends!
+                                I thrive in creative & playful environments. Through my artistic touch and passion for building, I breathe life into the ordinary.
+                                Feel free to message me; let's be friends!
                             </p>
                         </div>
                     </motion.div>

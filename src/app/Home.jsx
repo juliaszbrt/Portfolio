@@ -61,14 +61,14 @@ const Home = () => {
                         }}
                         viewport={{ once: true }}
 						className="flex flex-col items-center justify-center w-full lg:pl-[5rem]">
-						<h1 className="text-[#F4B280] text-center text-[4.5rem] md:text-[10rem] lg:text-[9rem] xl:text-[12rem] tracking-[5px] lg:tracking-[11px] font-bold [font-family:var(--font-oshigo)] lg:leading-[8rem] xl:leading-[11rem]">Julia</h1>
-						<h1 className="text-[#FFC699] text-center text-[2.8rem] md:text-[6.5rem] lg:text-[5.5rem] xl:text-[7rem] tracking-[5px] lg:tracking-[11px] font-bold [font-family:var(--font-oshigo)]">Szubert</h1>
-						<div className="text-[#F0BD37] hidden lg:flex items-center justify-center lg:gap-[0.5rem] lg:pt-[16px] xl:gap-[1.5rem] font-bold lg:text-[1.3rem] xl:text-[2rem]">
-							<a href='#portfolio' className='[font-family:var(--font-playwrite)] font-light hover:scale-[110%] transition-all duration-500'><h3>Projects</h3></a>
+						<h1 className="text-[#F4B280] text-center text-[4.5rem] md:text-[10rem] lg:text-[9.5rem] xl:text-[13rem] tracking-[5px] lg:tracking-[-6px] font-bold [font-family:var(--font-oshigo)] lg:leading-[3rem] xl:leading-[1.2rem] lg:pt-[5rem] xl:pt-[6rem]">JULIA</h1>
+						<h1 className="text-[#8e9d76] text-center text-[2.8rem] md:text-[6.5rem] lg:text-[5.5rem] xl:text-[8rem] tracking-[5px] lg:tracking-[0px] font-extralight [font-family:var(--font-playwrite)]">Szubert</h1>
+						<div className="text-[#f8c137] hidden lg:flex items-center justify-center lg:gap-[0.5rem] lg:pt-[3rem] xl:pt-[5rem] xl:gap-[1.5rem] font-bold lg:text-[1.3rem] xl:text-[2rem]">
+							<a href='#portfolio' className='font-bold tracking-[3px] hover:scale-[110%] transition-all duration-500'><h3>Projects</h3></a>
 							<span className="w-[3rem] h-[3rem] flex justify-center items-center text-center lg:text-[2rem] xl:text-[3rem] text-[#889d66]">&#x2738;</span>
-							<a href='#about' className='[font-family:var(--font-playwrite)] font-light  hover:scale-[110%] transition-all duration-500'><h3>About</h3></a>
+							<a href='#about' className='font-bold tracking-[3px] hover:scale-[110%] transition-all duration-500'><h3>About</h3></a>
 							<span className="w-[3rem] h-[3rem] flex justify-center items-center text-center lg:text-[2rem] xl:text-[3rem] text-[#889d66]">&#x2738;</span>
-							<a href='#experience' className='[font-family:var(--font-playwrite)] font-light text-center hover:scale-[110%] transition-all duration-500'><h3>Experience</h3></a>
+							<a href='#experience' className='font-bond tracking-[3px] text-center hover:scale-[110%] transition-all duration-500'><h3>Experience</h3></a>
 						</div>
 					</motion.div>
 				</div>

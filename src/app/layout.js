@@ -19,15 +19,15 @@ const playwrite = localFont({
 
 export const metadata = {
   title: 'Julia Szubert',
-  description: 'Portfolio website',
-  icons: [
-    { url: '/favicon.svg', type: 'image/svg+xml' }
-  ]
+  description: 'Portfolio website'
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+      </head>
       <body className={`${oshigo.variable} ${playwrite.variable} bg-[#F8C39A]`}>
         <CustomCursor />  
         {children}
