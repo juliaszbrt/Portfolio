@@ -1,11 +1,18 @@
 import Image from "next/image"
 import { motion } from "framer-motion";
+import ClickSpark from '@/components/ClickSpark';
 
 const Contact = () => {
   return (
-    <div className="h-auto">
+		<ClickSpark
+		sparkColor='#fff8f3'
+		sparkSize={25}
+		sparkRadius={15}
+		sparkCount={8}
+		duration={400}
+    className="h-auto">
       <div className="bg-[#486c34] flex justify-center items-center">
-          <div className="flex flex-col gap-[1rem] my-[3rem]">
+          <div className="flex flex-col justify-center items-center gap-[1rem] my-[3rem]">
               <motion.div
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
@@ -24,14 +31,18 @@ const Contact = () => {
                       bounce: 0,
                   }}
                   viewport={{ once: true }}
-                  className="flex gap-[1.7rem] lg:gap-[2rem] justify-center mt-[1rem]">
-                  <a target="_blank" href="https://www.linkedin.com/in/juliaszubert/"><Image width={2048} height={2048} src='/linkedin.png' className="w-[3.5rem] h-[3.5rem] lg:w-[5rem] lg:h-[5rem] hover:scale-[110%] transition-all duration-500 2xl:w-[6rem] 2xl:h-[6rem]" /></a>
-                  <a target="_blank" href="https://github.com/juliaszbrt"><Image width={2048} height={2048} src='/github.png' className="w-[3.5rem] h-[3.5rem] lg:w-[5rem] lg:h-[5rem] hover:scale-[110%] transition-all duration-500 2xl:w-[6rem] 2xl:h-[6rem]"/></a>
-                  <a target="_blank" href="https://www.instagram.com/juliaszbrt/"><Image width={2048} height={2048} src='/instagram.png' className="w-[3.5rem] h-[3.5rem] lg:w-[5rem] lg:h-[5rem] hover:scale-[110%] transition-all duration-500 2xl:w-[6rem] 2xl:h-[6rem]" /></a>
+                  className="flex gap-[1.7rem] lg:gap-[2rem] items-center text-center justify-center mt-[1rem]">
+                  <a target="_blank" href="https://www.linkedin.com/in/juliaszubert/" className="xl:text-[1.2rem] xl:tracking-[3px] text-[#fff8f3] [font-family:var(--font-murecho)]">LinkedIn</a>
+                  <span className="text-[#fff8f3]">&#x2605;</span>
+                  <a target="_blank" href="https://github.com/juliaszbrt" className="xl:text-[1.2rem] xl:tracking-[3px] text-[#fff8f3] [font-family:var(--font-murecho)]">GitHub</a>
+                  <span className="text-[#fff8f3]">&#x2605;</span>
+                  <a target="_blank" href="https://www.instagram.com/juliaszbrt/" className="xl:text-[1.2rem] xl:tracking-[3px] text-[#fff8f3] [font-family:var(--font-murecho)]">Instagram</a>
+                  <span className="text-[#fff8f3]">&#x2605;</span>
+                  <a target="_blank" href="https://x.com/juliaszbrt?s=21" className="xl:text-[1.2rem] xl:tracking-[3px] text-[#fff8f3] [font-family:var(--font-murecho)]">Twitter</a>
               </motion.div>
           </div>
       </div>
-    </div>
+    </ClickSpark>
   )
 }
 

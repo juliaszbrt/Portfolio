@@ -48,7 +48,7 @@ const Portfolio = () => {
                             bounce: 0,
                         }}
                         viewport={{ once: true }}>
-                        <h1 className="text-[3rem] tracking-[6px] text-[#ffd5b4] font-black lg:text-[6rem] [font-family:var(--font-oshigo)]">projects</h1>
+                        <h1 className="text-[3rem] tracking-[6px] text-[#ffd5b4] font-black lg:text-[6rem] [font-family:var(--font-domine)]">Portfolio:</h1>
                     </motion.div>
                     <div
                         className="flex flex-col gap-[3rem] mb-[4rem] lg:mb-[8rem] lg:flex-row lg:gap-[5rem] 2xl:gap-[7rem]">

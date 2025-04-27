@@ -12,9 +12,9 @@ const sacramento = localFont({
   variable: '--font-sacramento',
 })
 
-const playwrite = localFont({
-  src: '../../public/fonts/playwrite.otf',
-  variable: '--font-playwrite',
+const murecho = localFont({
+  src: '../../public/fonts/murecho.otf',
+  variable: '--font-murecho',
 })
 
 const domine = localFont({
@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" href="./favicon.ico" type="image/x-icon" />
       </head>
-      <body className={`${oshigo.variable} ${playwrite.variable} ${domine.variable} ${sacramento.variable} bg-[#F8C39A]`}>
+      <body className={`${oshigo.variable} ${murecho.variable} ${domine.variable} ${sacramento.variable} bg-[#F8C39A]`}>
         <CustomCursor />  
         {children}
       </body>
