@@ -6,13 +6,11 @@ import Image from "next/image"
 import { motion } from "framer-motion";
 import Link from 'next/link';
 
-
 const Portfolio = () => {
     const [showModal1, setShowModal1] = useState(false);
     const [showModal2, setShowModal2] = useState(false);
     const [showModal3, setShowModal3] = useState(false);
 
-    
     return (
 
         <Fragment>

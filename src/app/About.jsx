@@ -53,7 +53,7 @@ const About = () => {
                                 I thrive in creative & playful environments. With an artistic eye and a passion for building, I breathe life into the ordinary.
                                 Feel free to message me; let's be friends!
                             </p>
-                            <div ></div>
+                            <div></div>
                         </div>
                     </motion.div>
                 </div>

@@ -68,7 +68,7 @@ const Home = () => {
                         }}
                         viewport={{ once: true }}
 						className="flex flex-col items-center justify-center w-full lg:pl-[5rem] lg:gap-[1rem]">
-						<h1 className="text-[#4a5e2a] text-center text-[4.5rem] md:text-[7.5rem] lg:text-[10rem] xl:text-[14rem] tracking-[5px] lg:tracking-[5px] md:leading-[12rem] lg:leading-[10rem] xl:leading-[13rem] font-bold [font-family:var(--font-domine)]">Julia</h1>
+						<h1 className="text-[#4a5e2a] text-center text-[4.5rem] md:text-[8rem] lg:text-[10rem] xl:text-[14rem] tracking-[5px] lg:tracking-[5px] md:leading-[12rem] lg:leading-[10rem] xl:leading-[13rem] font-bold [font-family:var(--font-domine)]">Julia</h1>
 						<h1 className="text-[#bdc6af] text-center text-[1.2rem] md:text-[2.5rem] lg:text-[1.5rem] xl:text-[2.5rem] tracking-[3px] leading-[2rem] md:leading-[4rem] lg:leading-[3.5rem] font-normal [font-family:var(--font-murecho)]"><em>Designer & Developer, <br /> based in Toronto.</em></h1>
 						<div className="hidden justify-center items-center mt-[1rem] xl:mt-[3rem] lg:flex gap-[3rem] xl:gap-[5rem]">
 							<a href='#portfolio' className='text-[#f8c137] font-medium hover:scale-[110%] transition-all duration-500 [font-family:var(--font-murecho)]'>
@@ -110,23 +110,18 @@ const Home = () => {
 			</div>
 			{/* Slide out menu */}
 			<div
-				className={`absolute top-0 ${menuOpen ? "left-0" : "left-full"
-					} lg:hidden w-full h-full z-20 bg-[#486c34] transition-all duration-500`}>
+				className={`fixed top-0 ${menuOpen ? "left-0" : "left-full"
+					} lg:hidden w-full h-full z-50 bg-[#486c34] transition-all duration-500`}>
 				<div className="flex flex-col justify-center items-center text-center h-full gap-[2rem] text-[25px] tracking-[3px] text-[#FFECDD]">
 					<a href="#portfolio" onClick={handleMenuItemClick}>
-						<div className="hover:scale-110 transition-all duration-500">Portfolio</div>
+						<div className="hover:scale-110 transition-all duration-500 [font-family:var(--font-murecho)]">Portfolio</div>
 					</a>
 					<a href="#about" onClick={handleMenuItemClick}>
-						<div className="hover:scale-110 transition-all duration-500">Biography</div>
+						<div className="hover:scale-110 transition-all duration-500 [font-family:var(--font-murecho)]">Biography</div>
 					</a>
 					<a href="#experience" onClick={handleMenuItemClick}>
-						<div className="hover:scale-110 transition-all duration-500">Experience</div>
+						<div className="hover:scale-110 transition-all duration-500 [font-family:var(--font-murecho)]">Experience</div>
 					</a>
-				</div>
-				<div className="absolute bottom-0 left-0 w-full flex justify-center gap-[2rem] pb-[2.5rem]">
-					<a target="_blank" href="https://www.linkedin.com/in/juliaszubert/"><Image width={2048} height={2048} src='/linkedin.png' className="w-[3rem] h-[3rem] lg:w-[5rem] lg:h-[5rem] hover:scale-[110%] transition-all duration-500 2xl:w-[6rem] 2xl:h-[6rem]" /></a>
-					<a target="_blank" href="https://github.com/juliaszbrt"><Image width={2048} height={2048} src='/github.png' className="w-[3rem] h-[3rem] lg:w-[5rem] lg:h-[5rem] hover:scale-[110%] transition-all duration-500 2xl:w-[6rem] 2xl:h-[6rem]" /></a>
-					<a target="_blank" href="https://www.instagram.com/juliaszbrt/"><Image width={2048} height={2048} src='/instagram.png' className="w-[3rem] h-[3rem] lg:w-[5rem] lg:h-[5rem] hover:scale-[110%] transition-all duration-500 2xl:w-[6rem] 2xl:h-[6rem]" /></a>
 				</div>
 				<div
 					onClick={toggleMenu}
