@@ -29,7 +29,7 @@ const About = () => {
                         <h3 className="text-[#3C1D06] text-[0.8rem] xl:text-[1.2rem] mx-[1.5rem] text-center leading-7 tracking-[1.8px] [font-family:var(--font-murecho)]">
                             <em>Bachelor of Science (BS) in Computer Science, CO-OP </em>
                         </h3>
-                        <h3 className="text-[#3C1D06] text-[0.8rem] xl:text-[1.2rem] mx-[1.5rem] text-center leading-7 tracking-[1.8px] [font-family:var(--font-murecho)]">
+                        <h3 className="font-thin text-[#3C1D06] text-[0.8rem] xl:text-[1.2rem] mx-[1.5rem] text-center leading-7 tracking-[1.8px] [font-family:var(--font-murecho)]">
                             <b>Toronto Metropolitan University</b>
                         </h3>
                     </motion.div>
@@ -49,7 +49,7 @@ const About = () => {
                             <h1 className="mb-[1rem] text-[1.7rem] tracking-[3px] font-medium text-[#3C1D06] lg:text-[1.5rem] xl:text-[2.2rem] [font-family:var(--font-domine)]">
                                 I'm a Developer, Designer, and Community Leader.
                             </h1>
-                            <p className="text-justify text-[0.8rem] tracking-[1.8px] leading-6 text-[#3C1D06] lg:text-[0.9rem] lg:leading-8 xl:text-[1.2rem] [font-family:var(--font-murecho)]">
+                            <p className="text-justify text-[0.8rem] mb-[2rem] lg:mb-0 tracking-[1.8px] leading-6 text-[#3C1D06] lg:text-[0.9rem] lg:leading-8 xl:text-[1.2rem] [font-family:var(--font-murecho)]">
                                 I thrive in creative & playful environments. With an artistic eye and a passion for building, I breathe life into the ordinary.
                                 Feel free to message me; let's be friends!
                             </p>
