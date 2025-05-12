@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Portfolio Site",
+        "link": "/Portfolio",
+        "tags": ["Design", "Development", "UI/UX"]
+    },
+
+    {
+        "title": "Algorithm Visualizer",
+        "link": "/AlgoVis",
+        "tags": ["Design", "Development", "Case Study", "UI/UX"]
+    },
+
+    {
+        "title": "Happy Houseplant",
+        "link": "/HappyHouseplant",
+        "tags": ["Design", "Development", "UI/UX"]
+    },
+
+    {
+        "title": "GOOSE",
+        "link": "/GOOSE",
+        "tags": ["Development"]
+    },
+
+    {
+        "title": "Google Developers",
+        "link": "/GDG",
+        "tags": ["Design", "Community"]
+    },
+
+    {
+        "title": "Sketchbook",
+        "link": "/Sketchbook",
+        "tags": ["Hobby"]
+    }
+]

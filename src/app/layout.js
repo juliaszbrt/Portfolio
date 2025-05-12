@@ -27,13 +27,18 @@ export const metadata = {
   description: 'Portfolio website'
 }
 
+const rammetto = localFont({
+  src: '../../public/fonts/rammetto.otf',
+  variable: '--font-rammetto',
+})
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
         <link rel="icon" href="./favicon.ico" type="image/x-icon" />
       </head>
-      <body className={`${oshigo.variable} ${murecho.variable} ${domine.variable} ${sacramento.variable} bg-[#F8C39A]`}>
+      <body className={`${oshigo.variable} ${murecho.variable} ${domine.variable} ${sacramento.variable} ${rammetto.variable} bg-[#F8C39A]`}>
         <CustomCursor />  
         {children}
       </body>
