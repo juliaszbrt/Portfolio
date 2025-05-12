@@ -9,17 +9,17 @@ const GDG = () => {
 	return (
 		<div className="bg-[#fff8f3] h-auto min-h-screen py-[3rem] [font-family:var(--font-murecho)]">
 			<div className='lg:flex'>
-				<motion.div
-					initial={{ opacity: 0, y: 10 }}
-					whileInView={{
-						opacity: 1, y: 0
-					}}
-					transition={{
-						type: "spring",
-						duration: 2,
-						bounce: 0,
-					}}
-					viewport={{ once: true }}
+			<motion.div
+				initial={{ opacity: 0, y: 10 }}
+				whileInView={{
+					opacity: 1, y: 0
+				}}
+				transition={{
+					type: "spring",
+					duration: 2,
+					bounce: 0,
+				}}
+				viewport={{ once: true }}
 					className="lg:fixed lg:w-1/2 lg:mt-[3rem]">
 					<div className='flex flex-col items-center gap-[0.5rem] xl:gap-[1rem] text-center lg:text-left lg:items-start lg:ml-[5rem]'>
 						<Link href="/#portfolio">
@@ -69,7 +69,7 @@ const GDG = () => {
 									bounce: 0,
 								}}
 								viewport={{ once: true }}>
-									<div className='flex justify-center w-[20rem] border-[3px] border-[#708450] hover:scale-[105%] transition-all duration-500 lg:w-[25rem] xl:w-[32rem]'>
+									<div className='flex justify-center w-[20rem] border-[3px] border-[#4A5E2A] hover:scale-[105%] transition-all duration-500 lg:w-[25rem] xl:w-[32rem]'>
 										<Image src="/community/presidents.jpg" width={5330} height={3553}></Image>
 									</div>
 									<p className="pt-[10px] text-[#708450] font-light text-[12px] lg:text-[16px] xl:text-[18px] tracking-[1px]">
@@ -89,22 +89,22 @@ const GDG = () => {
 								viewport={{ once: true }}>
 									<div className='mt-[2rem] grid grid-cols-2 md:grid-cols-4 gap-[20px] justify-center items-center lg:grid-cols-2 lg:gap-[1rem] xl:gap-[1.8rem] lg:max-w-[25rem] xl:max-w-[35rem]'>
 										<a target="_blank" href="https://www.instagram.com/p/C9KuZ1GOAEw/?img_index=1">
-											<div className='w-[150px] h-[150px] border-[3px] border-[#ae8827] hover:scale-[105%] transition-all duration-500 lg:w-[12rem] lg:h-[12rem] xl:w-[15rem] xl:h-[15rem] justify-self-center'>
+											<div className='w-[150px] h-[150px] border-[3px] border-[#4A5E2A] hover:scale-[105%] transition-all duration-500 lg:w-[12rem] lg:h-[12rem] xl:w-[15rem] xl:h-[15rem] justify-self-center'>
 												<Image src="/design/giveaway1.png" width={1446} height={1446}></Image>
 											</div>
 										</a>
 										<a target="_blank" href="https://www.instagram.com/p/C9KuZ1GOAEw/?img_index=1">
-											<div className='w-[150px] h-[150px] border-[3px] border-[#ae8827] hover:scale-[105%] transition-all duration-500 lg:w-[12rem] lg:h-[12rem] xl:w-[15rem] xl:h-[15rem] justify-self-center'>
+											<div className='w-[150px] h-[150px] border-[3px] border-[#4A5E2A] hover:scale-[105%] transition-all duration-500 lg:w-[12rem] lg:h-[12rem] xl:w-[15rem] xl:h-[15rem] justify-self-center'>
 												<Image src="/design/giveaway2.png" width={1446} height={1446}></Image>
 											</div>
 										</a>
 										<a target="_blank" href="https://www.instagram.com/p/C5OEHj2Orof/?img_index=2">
-											<div className='w-[150px] h-[150px] border-[3px] border-[#ae8827] hover:scale-[105%] transition-all duration-500 lg:w-[12rem] lg:h-[12rem] xl:w-[15rem] xl:h-[15rem] justify-self-center'>
+											<div className='w-[150px] h-[150px] border-[3px] border-[#4A5E2A] hover:scale-[105%] transition-all duration-500 lg:w-[12rem] lg:h-[12rem] xl:w-[15rem] xl:h-[15rem] justify-self-center'>
 												<Image src="/design/sandwich.png" width={1446} height={1446}></Image>
 											</div>
 										</a>
 										<a target="_blank" href="https://www.instagram.com/p/C2c7SOjO4ir/">
-											<div className='w-[150px] h-[150px] border-[3px] border-[#ae8827] hover:scale-[105%] transition-all duration-500 lg:w-[12rem] lg:h-[12rem] xl:w-[15rem] xl:h-[15rem] justify-self-center'>
+											<div className='w-[150px] h-[150px] border-[3px] border-[#4A5E2A] hover:scale-[105%] transition-all duration-500 lg:w-[12rem] lg:h-[12rem] xl:w-[15rem] xl:h-[15rem] justify-self-center'>
 												<Image src="/design/kickoff.png" width={1446} height={1446}></Image>
 											</div>
 										</a>
@@ -124,7 +124,7 @@ const GDG = () => {
 									bounce: 0,
 								}}
 								viewport={{ once: true }}>
-									<div className='mt-[2rem] w-[20rem] border-[3px] border-[#708450] hover:scale-[105%] transition-all duration-500 lg:w-[25rem] xl:w-[32rem]'>
+									<div className='mt-[2rem] w-[20rem] border-[3px] border-[#4A5E2A] hover:scale-[105%] transition-all duration-500 lg:w-[25rem] xl:w-[32rem]'>
 										<Image src="/community/team.jpg" width={5330} height={3553}></Image>
 									</div>
 									<p className="pt-[10px] text-[#708450] font-light text-[12px] lg:text-[16px] xl:text-[18px] tracking-[1px]">
@@ -144,22 +144,22 @@ const GDG = () => {
 								viewport={{ once: true }}>
 									<div className='mt-[2rem] grid grid-cols-2 md:grid-cols-4 gap-[20px] justify-center items-center lg:grid-cols-2 lg:gap-[1rem] xl:gap-[1.8rem] lg:max-w-[25rem] xl:max-w-[35rem]'>
 										<a target="_blank" href="https://www.instagram.com/p/C2XfJOVukmT/?img_index=1">
-											<div className='w-[150px] h-[150px] border-[3px] border-[#ae8827] hover:scale-[105%] transition-all duration-500 lg:w-[12rem] lg:h-[12rem] xl:w-[15rem] xl:h-[15rem] justify-self-center'>
+											<div className='w-[150px] h-[150px] border-[3px] border-[#4A5E2A] hover:scale-[105%] transition-all duration-500 lg:w-[12rem] lg:h-[12rem] xl:w-[15rem] xl:h-[15rem] justify-self-center'>
 												<Image src="/design/nintendo1.png" width={1446} height={1446}></Image>
 											</div>
 										</a>
 										<a target="_blank" href="https://www.instagram.com/p/C2XfJOVukmT/?img_index=2">
-											<div className='w-[150px] h-[150px] border-[3px] border-[#ae8827] hover:scale-[105%] transition-all duration-500 lg:w-[12rem] lg:h-[12rem] xl:w-[15rem] xl:h-[15rem] justify-self-center'>
+											<div className='w-[150px] h-[150px] border-[3px] border-[#4A5E2A] hover:scale-[105%] transition-all duration-500 lg:w-[12rem] lg:h-[12rem] xl:w-[15rem] xl:h-[15rem] justify-self-center'>
 												<Image src="/design/nintendo2.png" width={1446} height={1446}></Image>
 											</div>
 										</a>
 										<a target="_blank" href="https://www.instagram.com/p/C9m59rvuuLd/?img_index=1">
-											<div className='w-[150px] h-[150px] border-[3px] border-[#ae8827] hover:scale-[105%] transition-all duration-500 lg:w-[12rem] lg:h-[12rem] xl:w-[15rem] xl:h-[15rem] justify-self-center'>
+											<div className='w-[150px] h-[150px] border-[3px] border-[#4A5E2A] hover:scale-[105%] transition-all duration-500 lg:w-[12rem] lg:h-[12rem] xl:w-[15rem] xl:h-[15rem] justify-self-center'>
 												<Image src="/design/wrap1.png" width={1446} height={1446}></Image>
 											</div>
 										</a>
 										<a target="_blank" href="https://www.instagram.com/p/C9m59rvuuLd/?img_index=2">
-											<div className='w-[150px] h-[150px] border-[3px] border-[#ae8827] hover:scale-[105%] transition-all duration-500 lg:w-[12rem] lg:h-[12rem] xl:w-[15rem] xl:h-[15rem] justify-self-center'>
+											<div className='w-[150px] h-[150px] border-[3px] border-[#4A5E2A] hover:scale-[105%] transition-all duration-500 lg:w-[12rem] lg:h-[12rem] xl:w-[15rem] xl:h-[15rem] justify-self-center'>
 												<Image src="/design/wrap2.png" width={1446} height={1446}></Image>
 											</div>
 										</a>
@@ -179,7 +179,7 @@ const GDG = () => {
 									bounce: 0,
 								}}
 								viewport={{ once: true }}>
-									<div className='mt-[2rem] w-[20rem] border-[3px] border-[#708450] hover:scale-[105%] transition-all duration-500 lg:w-[25rem] xl:w-[32rem]'>
+									<div className='mt-[2rem] w-[20rem] border-[3px] border-[#4A5E2A] hover:scale-[105%] transition-all duration-500 lg:w-[25rem] xl:w-[32rem]'>
 										<Image src="/community/crowd.JPG" width={5330} height={3553}></Image>
 									</div>
 									<p className="pt-[10px] text-[#708450] font-light text-[12px] lg:text-[16px] xl:text-[18px] tracking-[1px]">

@@ -34,13 +34,17 @@ const Sketchbook = () => {
 				</motion.div>
 				<div className='lg:w-1/2 lg:ml-auto'>
 				<div className="flex flex-col justify-center items-center">
-						<motion.div
-							initial={{ opacity: 0 }}
-							whileInView={{ opacity: 1 }}
-							viewport={{
-								once: true,
-							}}
-							transition={{ duration: 3 }}>
+					<motion.div
+						initial={{ opacity: 0, y: 10 }}
+						whileInView={{
+							opacity: 1, y: 0
+						}}
+						transition={{
+							type: "spring",
+							duration: 2,
+							bounce: 0,
+						}}
+						viewport={{ once: true }}>
 							<div className='my-[2rem] grid grid-cols-2 md:grid-cols-4 gap-[20px] items-center lg:grid-cols-2 lg:ml-0 lg:mt-[5rem] lg:gap-[2rem] xl:gap-[3rem] xl:max-w-[35rem]'>
 								<div className='relative w-[150px] h-[190px] hover:scale-[105%] transition-all duration-500 lg:w-[12rem] lg:h-[16rem] xl:w-[15rem] xl:h-[20rem]'>
 									<Image src="/design/hoyeon.JPG" fill className="object-cover"></Image>

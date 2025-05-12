@@ -103,7 +103,7 @@ const Portfolio = () => {
 										bounce: 0,
 									}}
 									viewport={{ once: true }}
-									className="lg:max-w-[25rem] xl:w-[35rem]">
+									className="lg:max-w-[25rem] xl:max-w-[35rem]">
 									<p className="text-[#4a5e2a] text-right font-extrabold mt-[10px] lg:pl-[25px] text-[2rem] lg:text-[2.5rem] xl:text-[3rem] tracking-[1px] [font-family:var(--font-murecho)]">Here are some fonts</p>
 									<p className="text-[#708450] text-right font-light mt-[10px] lg:pl-[25px] text-[1rem] lg:text-[1.2rem] xl:text-[1.5rem] tracking-[1px] [font-family:var(--font-domine)]">that are used for this project.</p>
 								</motion.div>
@@ -127,7 +127,7 @@ const Portfolio = () => {
 											<Image src="/cursor.png" width={5330} height={3553}></Image>
 										</div>
 									</div>
-									<p className="mt-[10px] pl-[15px] lg:pl-[25px] text-[#708450] font-light lg:text-[16px] xl:text-[12px]tracking-[1px]">
+									<p className="mt-[10px] pl-[15px] lg:pl-[25px] text-[#708450] font-light lg:text-[16px] xl:text-[18px] tracking-[1px]">
 										Custom assets that can be found<br/> throughout my site :)
 									</p>
 								</motion.div>
