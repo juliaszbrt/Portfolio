@@ -51,7 +51,7 @@ const About = () => {
                             </h1>
                             <p className="text-justify text-[0.8rem] mb-[2rem] lg:mb-0 tracking-[1.8px] leading-6 text-[#3C1D06] lg:text-[0.9rem] lg:leading-8 xl:text-[1.2rem] [font-family:var(--font-murecho)]">
                                 I thrive in creative & playful environments. With an artistic eye and a passion for building, I breathe life into the ordinary.
-                                Feel free to message me; let's be friends!
+                                Feel free to <a href='#contact' className="underline underline-offset-[5px]">contact me</a>; let's be friends!
                             </p>
                             <div></div>
                         </div>
