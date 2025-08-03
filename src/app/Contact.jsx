@@ -12,8 +12,8 @@ const Contact = () => {
       sparkCount={8}
       duration={400}
       className="h-auto">
-      <div className="bg-[#486c34] flex justify-center items-center">
-        <div className="flex flex-col justify-center items-center gap-[1rem] my-[3rem]">
+      <div className="bg-[#486c34] flex flex-col justify-center items-center">
+        <div className="flex flex-row justify-center items-center gap-[1rem] lg:gap-[5rem] my-[2rem] lg:my-[3rem]">
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{
@@ -24,8 +24,9 @@ const Contact = () => {
               duration: 2,
               bounce: 0,
             }}
-            viewport={{ once: true }}>
-            <h1 className="text-[2.5rem] lg:text-[5rem] xl:text-[6rem] tracking-[2px] font-medium text-[#fff8f3] [font-family:var(--font-domine)] mb-[1.5rem]">Let's Connect:</h1>
+            viewport={{ once: true }}
+            className="w-2/5">
+            <h1 className="text-[1.5rem] lg:text-[5rem] xl:text-[3rem] tracking-[2px] font-medium text-[#fff8f3] [font-family:var(--font-domine)] text-left">Hey, thanks for stopping by!</h1>
             </motion.div>
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
@@ -38,10 +39,11 @@ const Contact = () => {
               bounce: 0,
             }}
             viewport={{ once: true }}
-            className="mt-[-1rem]">
-            <Image alt="picture of two cats" width={2835} height={2835} src="/cats.jpg" className="w-[15rem] h-[15rem] lg:w-[18rem] lg:h-[18rem] xl:w-[20rem] xl:h-[20rem] rounded-full" />
+            className="flex justify-center">
+            <Image alt="picture of two cats" width={2835} height={2835} src="/cats.jpg" className="w-[8rem] h-[8rem] lg:w-[18rem] lg:h-[18rem] xl:w-[17rem] xl:h-[17rem] rounded-full" />
           </motion.div>
-          <motion.div
+        </div>
+        <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{
               opacity: 1, scale: 1
@@ -52,16 +54,15 @@ const Contact = () => {
               bounce: 0,
             }}
             viewport={{ once: true }}
-            className="flex gap-[0.7rem] lg:gap-[2rem] items-center text-center justify-center mt-[2rem]">
-            <a target="_blank" href="https://www.linkedin.com/in/juliaszubert/" className="hover:scale-[110%] transition-all duration-500 text-[0.8rem] lg:text-[1.2rem] xl:tracking-[3px] text-[#fff8f3] [font-family:var(--font-murecho)]">LinkedIn</a>
+            className="flex gap-[0.7rem] lg:gap-[2rem] items-center text-center justify-center mb-[2rem] lg:mb-[4rem]">
+            <a target="_blank" href="https://www.linkedin.com/in/juliaszubert/" className="hover:scale-[110%] transition-all duration-500 text-[0.5rem] lg:text-[1.2rem] tracking-[2px] xl:tracking-[3px] text-[#fff8f3] [font-family:var(--font-murecho)] underline underline-offset-2">LinkedIn</a>
             <span className="text-[#fff8f3]">&#x2605;</span>
-            <a target="_blank" href="https://github.com/juliaszbrt" className="hover:scale-[110%] transition-all duration-500 text-[0.8rem] lg:text-[1.2rem] xl:tracking-[3px] text-[#fff8f3] [font-family:var(--font-murecho)]">GitHub</a>
+            <a target="_blank" href="https://github.com/juliaszbrt" className="hover:scale-[110%] transition-all duration-500 text-[0.5rem] lg:text-[1.2rem] tracking-[2px] xl:tracking-[3px] text-[#fff8f3] [font-family:var(--font-murecho)] underline underline-offset-2">GitHub</a>
             <span className="text-[#fff8f3]">&#x2605;</span>
-            <a target="_blank" href="https://www.instagram.com/juliaszbrt/" className="hover:scale-[110%] transition-all duration-500 text-[0.8rem] lg:text-[1.2rem] xl:tracking-[3px] text-[#fff8f3] [font-family:var(--font-murecho)]">Instagram</a>
+            <a target="_blank" href="https://www.instagram.com/juliaszbrt/" className="hover:scale-[110%] transition-all duration-500 text-[0.5rem] lg:text-[1.2rem] tracking-[2px] xl:tracking-[3px] text-[#fff8f3] [font-family:var(--font-murecho)] underline underline-offset-2">Instagram</a>
             <span className="text-[#fff8f3]">&#x2605;</span>
-            <a target="_blank" href="https://x.com/juliaszbrt?s=21" className="hover:scale-[110%] transition-all duration-500 text-[0.8rem] lg:text-[1.2rem] xl:tracking-[3px] text-[#fff8f3] [font-family:var(--font-murecho)]">Twitter</a>
+            <a target="_blank" href="https://x.com/juliaszbrt?s=21" className="hover:scale-[110%] transition-all duration-500 text-[0.5rem] lg:text-[1.2rem] tracking-[2px] xl:tracking-[3px] text-[#fff8f3] [font-family:var(--font-murecho)] underline underline-offset-2">Twitter</a>
           </motion.div>
-        </div>
       </div>
     </ClickSpark>
   )
