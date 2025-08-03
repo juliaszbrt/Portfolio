@@ -69,7 +69,7 @@ const Home = () => {
                         viewport={{ once: true }}
 						className="flex flex-col items-center justify-center w-full lg:pl-[5rem] lg:gap-[1rem]">
 						<h1 className="text-[#4a5e2a] text-center text-[4.5rem] md:text-[8rem] lg:text-[10rem] xl:text-[14rem] tracking-[5px] lg:tracking-[5px] md:leading-[12rem] lg:leading-[10rem] xl:leading-[13rem] font-bold [font-family:var(--font-domine)]">Julia</h1>
-						<h1 className="text-[#bdc6af] text-center text-[1.2rem] md:text-[2.5rem] lg:text-[1.5rem] xl:text-[2.5rem] tracking-[5px] leading-[2rem] md:leading-[4rem] lg:leading-[3rem] xl:leading-[4rem] font-normal [font-family:var(--font-murecho)]"><em>Designer & Developer, <br /> based in Toronto.</em></h1>
+						<h1 className="text-[#bdc6af] text-center text-[1.2rem] md:text-[2.5rem] lg:text-[1.5rem] xl:text-[2rem] tracking-[5px] leading-[2rem] md:leading-[4rem] lg:leading-[3rem] xl:leading-[4rem] font-bold [font-family:var(--font-murecho)]"><em>is a Developer, Designer, and Creator at Toronto MetU</em></h1>
 						<div className="hidden justify-center items-center mt-[1rem] xl:mt-[3rem] lg:flex gap-[3rem] xl:gap-[5rem]">
 							<a href='#portfolio' className='text-[#f8c137] font-normal hover:scale-[110%] transition-all duration-500 [font-family:var(--font-murecho)]'>
 								<CircularText
